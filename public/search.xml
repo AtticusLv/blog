@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>HEXO写作命令记录</title>
+      <link href="/2020/08/08/hexo-writing/"/>
+      <url>/2020/08/08/hexo-writing/</url>
+      
+        <content type="html"><![CDATA[<h1 id="HEXO写作命令记录"><a href="#HEXO写作命令记录" class="headerlink" title="HEXO写作命令记录"></a>HEXO写作命令记录</h1><h2 id="Create-New-Post"><a href="#Create-New-Post" class="headerlink" title="Create New Post"></a>Create New Post</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo new &#39;[post_name]&#39;</span><br><span class="line">hexo n &#39;[post_name]&#39;</span><br></pre></td></tr></table></figure><h2 id="Create-New-Page"><a href="#Create-New-Page" class="headerlink" title="Create New Page"></a>Create New Page</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n page &#39;&#39;</span><br></pre></td></tr></table></figure><h2 id="Define-Custom-Page-Post-Template"><a href="#Define-Custom-Page-Post-Template" class="headerlink" title="Define Custom Page/Post Template"></a>Define Custom Page/Post Template</h2><ol><li>Create a new markdown file in the root folder <strong>/scaffolders</strong>, such as <strong>sprint.md</strong>.</li><li>Use blow commands</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n sprint &#39;[post_name]&#39;</span><br></pre></td></tr></table></figure><h2 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure><h2 id="Generate-Static-Files"><a href="#Generate-Static-Files" class="headerlink" title="Generate Static Files"></a>Generate Static Files</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure><h2 id="Insert-a-picture"><a href="#Insert-a-picture" class="headerlink" title="Insert a picture"></a>Insert a picture</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![picture&#39;s name](picture&#39;s relative path)</span><br></pre></td></tr></table></figure><h2 id="Insert-a-Read-More"><a href="#Insert-a-Read-More" class="headerlink" title="Insert a Read More"></a>Insert a Read More</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- more --&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
