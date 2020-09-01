@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>HEXO写作命令记录</title>
-    <url>/2020/08/08/hexo-writing/</url>
+    <url>/blog/2020/08/08/hexo-writing/</url>
     <content><![CDATA[<h1 id="HEXO写作命令记录"><a href="#HEXO写作命令记录" class="headerlink" title="HEXO写作命令记录"></a>HEXO写作命令记录</h1><h2 id="Create-New-Post"><a href="#Create-New-Post" class="headerlink" title="Create New Post"></a>Create New Post</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new &#39;[post_name]&#39;</span><br><span class="line">hexo n &#39;[post_name]&#39;</span><br></pre></td></tr></table></figure>
 
 <h2 id="Create-New-Page"><a href="#Create-New-Page" class="headerlink" title="Create New Page"></a>Create New Page</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo n page &#39;&#39;</span><br></pre></td></tr></table></figure>
@@ -28,7 +28,7 @@
   </entry>
   <entry>
     <title>2020年8月知识收集</title>
-    <url>/2020/08/10/202008knowledge/</url>
+    <url>/blog/2020/08/10/202008knowledge/</url>
     <content><![CDATA[<h1 id="机架效果器"><a href="#机架效果器" class="headerlink" title="机架效果器"></a>机架效果器</h1><p><a href="https://www.zhihu.com/question/263981174" target="_blank" rel="noopener">https://www.zhihu.com/question/263981174</a></p>
 ]]></content>
   </entry>
