@@ -49,4 +49,39 @@
         <tag>docker</tag>
       </tags>
   </entry>
+  <entry>
+    <title>mysql修改root密码，修复caching_sha2_password无法连接问题</title>
+    <url>/2021/07/17/mysql%E4%BF%AE%E6%94%B9root%E5%AF%86%E7%A0%81%EF%BC%8C%E4%BF%AE%E5%A4%8Dcaching-sha2-password%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>通过Sequel连接mysql时发现无法连接，报错为：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">MySQL said: Authentication plugin &#39;caching_sha2_password&#39; cannot be loaded: dlopen(&#x2F;usr&#x2F;local&#x2F;lib&#x2F;pl.....</span><br></pre></td></tr></table></figure>
+
+<p>原因是mysql8默认为<strong>caching_sha2_password</strong>加密方式，而sequel只支持<strong>mysql_native_password</strong></p>
+<h1 id="修复方式"><a href="#修复方式" class="headerlink" title="修复方式"></a>修复方式</h1><p>可以直接使用sql server来连接，在安装时选择支持全部的加密方式</p>
+<p>本文因项目需要，手动改mysql的加密方式</p>
+<ol>
+<li><p>加入mysql</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mysql -uroot -p</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>查看当前信息</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">use mysql;</span><br><span class="line">select Host, User, plugin from user;</span><br></pre></td></tr></table></figure>
+<p>可以看到</p>
+</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">+-----------+------------------+-----------------------+</span><br><span class="line">| Host      | User             | plugin                |</span><br><span class="line">+-----------+------------------+-----------------------+</span><br><span class="line">| %         | root             | caching_sha2_password |</span><br><span class="line">| localhost | mysql.infoschema | caching_sha2_password |</span><br><span class="line">| localhost | mysql.session    | caching_sha2_password |</span><br><span class="line">| localhost | mysql.sys        | caching_sha2_password |</span><br><span class="line">| localhost | root             | mysql_native_password |</span><br><span class="line">+-----------+------------------+-----------------------+</span><br></pre></td></tr></table></figure>
+<p>只修改root@localhost是不够的，root@%也需要修改<br>3. 修改加密方式</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">alter user &#39;root&#39;@&#39;localhost&#39; identified with mysql_native_password by &#39;12345678&#39;;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">alter user &#39;root&#39;@&#39;%&#39; identified with mysql_native_password by &#39;12345678&#39;;</span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li>刷新<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">flush privileges;</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Database</category>
+      </categories>
+      <tags>
+        <tag>mysql</tag>
+      </tags>
+  </entry>
 </search>
