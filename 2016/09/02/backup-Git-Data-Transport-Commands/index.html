@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.2.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha256-DfWjNxDkM94fVBWx1H5BMMp0Zq7luBlV8QRcSES7s+0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.nuoyang.tech","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.12.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="Below picture describes the whole commands during git handling.   How to resolve conflicts when merging?eg. We want to merge both issue2 and issue3, 2 branches to master.First we merge issue2:  $ git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Git Data Transport Commands">
+<meta property="og:url" content="https://blog.nuoyang.tech/2016/09/02/backup-Git-Data-Transport-Commands/index.html">
+<meta property="og:site_name" content="Atticus&#39; Blog">
+<meta property="og:description" content="Below picture describes the whole commands during git handling.   How to resolve conflicts when merging?eg. We want to merge both issue2 and issue3, 2 branches to master.First we merge issue2:  $ git">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog.nuoyang.tech/2016/09/02/backup-Git-Data-Transport-Commands/git.png">
+<meta property="og:image" content="https://blog.nuoyang.tech/2016/09/02/backup-Git-Data-Transport-Commands/issue2.png">
+<meta property="og:image" content="https://blog.nuoyang.tech/2016/09/02/backup-Git-Data-Transport-Commands/issue3.png">
+<meta property="article:published_time" content="2016-09-02T08:25:05.000Z">
+<meta property="article:modified_time" content="2022-06-12T09:05:41.582Z">
+<meta property="article:author" content="Lv Atticus">
+<meta property="article:tag" content="git">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.nuoyang.tech/2016/09/02/backup-Git-Data-Transport-Commands/git.png">
+
+
+<link rel="canonical" href="https://blog.nuoyang.tech/2016/09/02/backup-Git-Data-Transport-Commands/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://blog.nuoyang.tech/2016/09/02/backup-Git-Data-Transport-Commands/","path":"2016/09/02/backup-Git-Data-Transport-Commands/","title":"Git Data Transport Commands"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Git Data Transport Commands | Atticus' Blog</title>
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Atticus' Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#How-to-resolve-conflicts-when-merging"><span class="nav-number">1.</span> <span class="nav-text">How to resolve conflicts when merging?</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Git-Basic-Commands"><span class="nav-number">2.</span> <span class="nav-text">Git Basic Commands</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Lv Atticus"
+      src="/images/head.jpg">
+  <p class="site-author-name" itemprop="name">Lv Atticus</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">20</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.nuoyang.tech/2016/09/02/backup-Git-Data-Transport-Commands/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/head.jpg">
+      <meta itemprop="name" content="Lv Atticus">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Atticus' Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Git Data Transport Commands | Atticus' Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Git Data Transport Commands
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2016-09-02 16:25:05" itemprop="dateCreated datePublished" datetime="2016-09-02T16:25:05+08:00">2016-09-02</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-06-12 17:05:41" itemprop="dateModified" datetime="2022-06-12T17:05:41+08:00">2022-06-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%B7%A5%E4%BD%9C%E6%80%BB%E7%BB%93/" itemprop="url" rel="index"><span itemprop="name">工作总结</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>Below picture describes the whole commands during git handling.<br></p>
+<img src="/2016/09/02/backup-Git-Data-Transport-Commands/git.png" class="" title="Git-Data-Transport-Commands">
+
+<h1 id="How-to-resolve-conflicts-when-merging"><a href="#How-to-resolve-conflicts-when-merging" class="headerlink" title="How to resolve conflicts when merging?"></a>How to resolve conflicts when merging?</h1><p>eg. We want to merge both issue2 and issue3, 2 branches to master.<br>First we merge issue2:</p>
+<blockquote>
+<p>$ git checkout master</p>
+<p>Switched to branch ‘master’<br>$ git merge issue2</p>
+<p>Updating b2b23c4..8f7aa27<br>Fast-forward<br>myfile.txt |    2 ++<br>1 files changed, 2 insertions(+), 0 deletions(-)</p>
+</blockquote>
+<img src="/2016/09/02/backup-Git-Data-Transport-Commands/issue2.png" class="" title="issue2">
+
+<p> Then we merge issue3:</p>
+<blockquote>
+<p>$ git merge issue3<br>Auto-merging myfile.txt<br>CONFLICT (content): Merge conflict in myfile.txt<br>Automatic merge failed; fix conflicts and then commit the result.</p>
+</blockquote>
+<p>We can find it shows us merge failure message, cause there is a conflict in myfile.txt<br>The conflicts part should be modified, then commit again.</p>
+<blockquote>
+<p>$ git add<br>$ git commit -m “message”<br>$ git pull origin master<br>modify the file manually</p>
+</blockquote>
+<p>In below picture, yellow process shows the modified part.</p>
+<img src="/2016/09/02/backup-Git-Data-Transport-Commands/issue3.png" class="" title="issue3">
+
+<p>Sometimes, we’ll meet belowing situation:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># Please enter a commit message to explain why this merge is necessary,</span><br><span class="line"># especially if it merges an updated upstream into a topic branch.</span><br><span class="line">#</span><br><span class="line"># Lines starting with &#x27;#&#x27; will be ignored, and an empty message aborts</span><br><span class="line"># the commit.</span><br><span class="line">~                                                                               </span><br><span class="line">~                                                                               </span><br><span class="line">~                                                                            </span><br><span class="line">~   </span><br></pre></td></tr></table></figure>
+<p>we can follow these steps to commit our changes from the master:</p>
+<ol>
+<li>Press <kbd style="border:1px solid gray;font-size:1.2em;box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:2px 3px;padding:1px 5px;">i</kbd> to enter <strong>insert</strong> mode</li>
+<li>Now you can type your message, as if you were in a normal text editor</li>
+<li>Press <kbd style="border:1px solid gray;font-size:1.2em;box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:2px 3px;padding:1px 5px;">esc</kbd> to go back to <strong>command</strong> mode</li>
+<li>Then type <code>:w</code> followed by <kbd style="border:1px solid gray;font-size:1.2em;box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:2px 3px;padding:1px 5px;">enter↵</kbd> to save</li>
+<li>Finally <code>:q</code> followed by <kbd style="border:1px solid gray;font-size:1.2em;box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:2px 3px;padding:1px 5px;">enter↵</kbd> to quit</li>
+</ol>
+<h1 id="Git-Basic-Commands"><a href="#Git-Basic-Commands" class="headerlink" title="Git Basic Commands"></a>Git Basic Commands</h1><ul>
+<li>show branch<blockquote>
+<p>git branch</p>
+</blockquote>
+</li>
+<li>create or checkout branch<blockquote>
+<p>git checkout -b <newbranch></p>
+</blockquote>
+</li>
+<li>add a remote branch<blockquote>
+<p>git push origin master:<new_branch_name></p>
+</blockquote>
+</li>
+<li>update everything<blockquote>
+<p>git pull</p>
+</blockquote>
+</li>
+<li>list existing remotes<blockquote>
+<p>git remote -v</p>
+</blockquote>
+</li>
+<li>change remote’s url<blockquote>
+<p>git remote set-url origin <git_url></p>
+</blockquote>
+</li>
+<li>show all commits<blockquote>
+<p>git log</p>
+</blockquote>
+</li>
+<li>temporarily swith to a different commits<blockquote>
+<p>git checkout <commit_code></p>
+</blockquote>
+</li>
+<li>revert to a previous commit, ignoring any changes<blockquote>
+<p>git reset –hard HEAD</p>
+</blockquote>
+</li>
+<li>revert to a commit that’s older than the most recent commit<blockquote>
+<p>git reset <commit_code><br>– Moves pointer back to previous HEAD<br>git reset –soft HEAD@{1}<br>git commit -m “Revert to <commit_code>“<br>– Updates working copy to reflect the new commit<br>git reset –hard</p>
+</blockquote>
+</li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/git/" rel="tag"># git</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2016/08/12/backup-Java-Comparable-and-Comparator/" rel="prev" title="Java中Comparable和Comparator比较">
+                  <i class="fa fa-chevron-left"></i> Java中Comparable和Comparator比较
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2016/10/10/backup-Distribute-System-Summary/" rel="next" title="Distribute System Summary">
+                  Distribute System Summary <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">蜀ICP备2021011057号-2 </a>
+      <img src="/images/beian.png" alt=""><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51019002002976" rel="noopener" target="_blank">川公网安备51019002002976号 </a>
+  </div>
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Lv Atticus</span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.0/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
