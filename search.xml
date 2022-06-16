@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2017-04-27-my-own-timezone</title>
-    <url>/2017/04/27/backup-2017-04-27-my-own-timezone/</url>
-    <content><![CDATA[<p>感谢老婆大人每天的帮助～</p>
-<img src="/2017/04/27/backup-2017-04-27-my-own-timezone/on-time-in-my-timezone.jpg" class="" title="my-own-timezone">
-
-<p>恩！给自己打个鸡血</p>
-<h1 id="I’m-very-much-ON-TIME-and-in-my-TIME-ZONE"><a href="#I’m-very-much-ON-TIME-and-in-my-TIME-ZONE" class="headerlink" title="I’m very much ON TIME, and in my TIME ZONE"></a>I’m very much ON TIME, and in my TIME ZONE</h1>]]></content>
-  </entry>
-  <entry>
     <title>看看别人怎么做前端项目的</title>
     <url>/2016/12/03/backup-20161212-Fontend-Integration-Plan/</url>
     <content><![CDATA[<p>Mark一下，慢慢来看看别人家项目都咋做滴～<br>原文地址 <a href="https://github.com/fouber/blog">https://github.com/fouber/blog</a></p>
@@ -78,6 +69,15 @@
         <tag>fontend</tag>
         <tag>project</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>2017-04-27-my-own-timezone</title>
+    <url>/2017/04/27/backup-2017-04-27-my-own-timezone/</url>
+    <content><![CDATA[<p>感谢老婆大人每天的帮助～</p>
+<img src="/2017/04/27/backup-2017-04-27-my-own-timezone/on-time-in-my-timezone.jpg" class="" title="my-own-timezone">
+
+<p>恩！给自己打个鸡血</p>
+<h1 id="I’m-very-much-ON-TIME-and-in-my-TIME-ZONE"><a href="#I’m-very-much-ON-TIME-and-in-my-TIME-ZONE" class="headerlink" title="I’m very much ON TIME, and in my TIME ZONE"></a>I’m very much ON TIME, and in my TIME ZONE</h1>]]></content>
   </entry>
   <entry>
     <title>那些关于“架构”的七七八八</title>
@@ -224,22 +224,15 @@
       </categories>
   </entry>
   <entry>
-    <title>熵</title>
-    <url>/2017/04/27/backup-2017-4-27-%E7%86%B5/</url>
-    <content><![CDATA[<p>今天拜读了阮一峰大神的新博客，<a href="http://www.ruanyifeng.com/blog/2017/04/entropy.html">熵：宇宙的终极规则</a>，很有感触。文中有提到一本书-《熵：一种新的世界观》，改日拜读一下。</p>
-<p>简单的说来，<strong>熵是那些在能量转换过程中浪费掉的、无法再利用的能量</strong>。</p>
-<p>这里引用阮大神的图和一句话</p>
-<img src="/2017/04/27/backup-2017-4-27-%E7%86%B5/bg2017042408.jpg" class="" title="entropy">
-
-<p><strong>如果不施加外力影响，事务永远向着更加混乱的状态发展</strong>，比如上图里那个由整齐到混乱的房间。</p>
-<p>由此我联系到平时工作生活，如果工作不持续的施加外力（持续不断学习新技术、新能力），最终自己掌握的会变的碎片化；如果生活中不持续的去打理（比如整理房间，比如陶冶情操），自己也会慢慢变得无趣。</p>
-<p>好可怕，谁都逃不掉 <strong>熵</strong> 这个圈圈</p>
+    <title>Distribute System Summary</title>
+    <url>/2016/10/10/backup-Distribute-System-Summary/</url>
+    <content><![CDATA[<h1 id="分布式系统的一些个人总结"><a href="#分布式系统的一些个人总结" class="headerlink" title="分布式系统的一些个人总结"></a>分布式系统的一些个人总结</h1><p><a href="https://atticuslv.gitbooks.io/distribute-system/content/">gitbook链接</a></p>
 ]]></content>
       <categories>
-        <category>读后感</category>
+        <category>业余学习</category>
       </categories>
       <tags>
-        <tag>熵</tag>
+        <tag>分布式系统</tag>
       </tags>
   </entry>
   <entry>
@@ -305,15 +298,22 @@
       </tags>
   </entry>
   <entry>
-    <title>Distribute System Summary</title>
-    <url>/2016/10/10/backup-Distribute-System-Summary/</url>
-    <content><![CDATA[<h1 id="分布式系统的一些个人总结"><a href="#分布式系统的一些个人总结" class="headerlink" title="分布式系统的一些个人总结"></a>分布式系统的一些个人总结</h1><p><a href="https://atticuslv.gitbooks.io/distribute-system/content/">gitbook链接</a></p>
+    <title>熵</title>
+    <url>/2017/04/27/backup-2017-4-27-%E7%86%B5/</url>
+    <content><![CDATA[<p>今天拜读了阮一峰大神的新博客，<a href="http://www.ruanyifeng.com/blog/2017/04/entropy.html">熵：宇宙的终极规则</a>，很有感触。文中有提到一本书-《熵：一种新的世界观》，改日拜读一下。</p>
+<p>简单的说来，<strong>熵是那些在能量转换过程中浪费掉的、无法再利用的能量</strong>。</p>
+<p>这里引用阮大神的图和一句话</p>
+<img src="/2017/04/27/backup-2017-4-27-%E7%86%B5/bg2017042408.jpg" class="" title="entropy">
+
+<p><strong>如果不施加外力影响，事务永远向着更加混乱的状态发展</strong>，比如上图里那个由整齐到混乱的房间。</p>
+<p>由此我联系到平时工作生活，如果工作不持续的施加外力（持续不断学习新技术、新能力），最终自己掌握的会变的碎片化；如果生活中不持续的去打理（比如整理房间，比如陶冶情操），自己也会慢慢变得无趣。</p>
+<p>好可怕，谁都逃不掉 <strong>熵</strong> 这个圈圈</p>
 ]]></content>
       <categories>
-        <category>业余学习</category>
+        <category>读后感</category>
       </categories>
       <tags>
-        <tag>分布式系统</tag>
+        <tag>熵</tag>
       </tags>
   </entry>
   <entry>
@@ -761,69 +761,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Nginx学习总结</title>
-    <url>/2017/01/10/backup-Nginx-Learning/</url>
-    <content><![CDATA[<h1 id="Nginx是什么"><a href="#Nginx是什么" class="headerlink" title="Nginx是什么"></a>Nginx是什么</h1><h1 id="Nginx框架"><a href="#Nginx框架" class="headerlink" title="Nginx框架"></a>Nginx框架</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
-<li><a href="http://www.runoob.com/linux/nginx-install-setup.html">Nginx 安装配置</a></li>
-<li><a href="http://wiki.jikexueyuan.com/project/nginx/nginx-framework.html">极客学院Nginx教程</a></li>
-<li><a href="http://tengine.taobao.org/book/chapter_02.html">腾讯Nginx平台初探教程</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>工作总结</category>
-      </categories>
-      <tags>
-        <tag>Nginx</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WebSocket学习</title>
-    <url>/2016/11/23/backup-WebSocket-Learning/</url>
-    <content><![CDATA[<h1 id="啥是Websocket"><a href="#啥是Websocket" class="headerlink" title="啥是Websocket"></a>啥是Websocket</h1><p>我们可以先从<strong>RealTime</strong>开始唠起，关于Real Time的实现，主要还是基于Ajax的拉取和Comet的推送</p>
-<h1 id="打开连接-握手"><a href="#打开连接-握手" class="headerlink" title="打开连接-握手"></a>打开连接-握手</h1><h1 id="如何写代码？"><a href="#如何写代码？" class="headerlink" title="如何写代码？"></a>如何写代码？</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
-<li><a href="https://github.com/abbshr/abbshr.github.io/issues/22">学习WebSocket协议—从顶层到底层的实现原理</a></li>
-<li><a href="https://www.zhihu.com/question/20215561">知乎:WebSocket 是什么原理？为什么可以实现持久连接？</a></li>
-<li><a href="https://spring.io/guides/gs/messaging-stomp-websocket/">Spring: Using WebSocket to build an interactive web application</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>工作总结</category>
-      </categories>
-      <tags>
-        <tag>WebSocket</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Roadmap to become a Web Developer</title>
-    <url>/2017/04/12/backup-Web-Learning-Roadmap-2017/</url>
-    <content><![CDATA[<p>原文地址</p>
-<blockquote>
-<p><a href="https://github.com/kamranahmedse/developer-roadmap/blob/master/README.md">Roadmap to becoming a web developer in 2017</a></p>
-</blockquote>
-<h2 id="🚀-Introduction"><a href="#🚀-Introduction" class="headerlink" title="🚀 Introduction"></a>🚀 Introduction</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/introduction.png" class="" title="introduction">
-
-<h2 id="🎨-Front-end-Roadmap"><a href="#🎨-Front-end-Roadmap" class="headerlink" title="🎨 Front-end Roadmap"></a>🎨 Front-end Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/fontend.png" class="" title="fontend">
-
-<h2 id="👽-Back-end-Roadmap"><a href="#👽-Back-end-Roadmap" class="headerlink" title="👽 Back-end Roadmap"></a>👽 Back-end Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/backend.png" class="" title="backend">
-
-<h2 id="👷-DevOps-Roadmap"><a href="#👷-DevOps-Roadmap" class="headerlink" title="👷 DevOps Roadmap"></a>👷 DevOps Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/devops.png" class="" title="devops">
-]]></content>
-      <categories>
-        <category>业余学习</category>
-      </categories>
-      <tags>
-        <tag>fontend</tag>
-        <tag>backend</tag>
-        <tag>Roadmap</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2020年8月知识收集</title>
-    <url>/2020/08/10/202008knowledge/</url>
-    <content><![CDATA[<h1 id="机架效果器"><a href="#机架效果器" class="headerlink" title="机架效果器"></a>机架效果器</h1><p><a href="https://www.zhihu.com/question/263981174">https://www.zhihu.com/question/263981174</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Restful API总结</title>
     <url>/2017/04/24/backup-Restful-API/</url>
     <content><![CDATA[<h2 id="Restful是什么"><a href="#Restful是什么" class="headerlink" title="Restful是什么"></a>Restful是什么</h2><p>**网站即软件</p>
@@ -851,20 +788,60 @@
       </tags>
   </entry>
   <entry>
-    <title>Docker容器没有vim</title>
-    <url>/2021/07/17/Docker%E5%AE%B9%E5%99%A8%E6%B2%A1%E6%9C%89vim/</url>
-    <content><![CDATA[<p>docker进入容器后，发现没有vim功能，记录解决办法如下：</p>
-<ol>
-<li>执行</li>
+    <title>Nginx学习总结</title>
+    <url>/2017/01/10/backup-Nginx-Learning/</url>
+    <content><![CDATA[<h1 id="Nginx是什么"><a href="#Nginx是什么" class="headerlink" title="Nginx是什么"></a>Nginx是什么</h1><h1 id="Nginx框架"><a href="#Nginx框架" class="headerlink" title="Nginx框架"></a>Nginx框架</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
+<li><a href="http://www.runoob.com/linux/nginx-install-setup.html">Nginx 安装配置</a></li>
+<li><a href="http://wiki.jikexueyuan.com/project/nginx/nginx-framework.html">极客学院Nginx教程</a></li>
+<li><a href="http://tengine.taobao.org/book/chapter_02.html">腾讯Nginx平台初探教程</a></li>
 </ol>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt-get update</span><br></pre></td></tr></table></figure>
-
-<ol start="2">
-<li>安装vim</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt-get install vim</span><br></pre></td></tr></table></figure>]]></content>
+]]></content>
+      <categories>
+        <category>工作总结</category>
+      </categories>
       <tags>
-        <tag>docker</tag>
+        <tag>Nginx</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Roadmap to become a Web Developer</title>
+    <url>/2017/04/12/backup-Web-Learning-Roadmap-2017/</url>
+    <content><![CDATA[<p>原文地址</p>
+<blockquote>
+<p><a href="https://github.com/kamranahmedse/developer-roadmap/blob/master/README.md">Roadmap to becoming a web developer in 2017</a></p>
+</blockquote>
+<h2 id="🚀-Introduction"><a href="#🚀-Introduction" class="headerlink" title="🚀 Introduction"></a>🚀 Introduction</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/introduction.png" class="" title="introduction">
+
+<h2 id="🎨-Front-end-Roadmap"><a href="#🎨-Front-end-Roadmap" class="headerlink" title="🎨 Front-end Roadmap"></a>🎨 Front-end Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/fontend.png" class="" title="fontend">
+
+<h2 id="👽-Back-end-Roadmap"><a href="#👽-Back-end-Roadmap" class="headerlink" title="👽 Back-end Roadmap"></a>👽 Back-end Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/backend.png" class="" title="backend">
+
+<h2 id="👷-DevOps-Roadmap"><a href="#👷-DevOps-Roadmap" class="headerlink" title="👷 DevOps Roadmap"></a>👷 DevOps Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/devops.png" class="" title="devops">
+]]></content>
+      <categories>
+        <category>业余学习</category>
+      </categories>
+      <tags>
+        <tag>fontend</tag>
+        <tag>backend</tag>
+        <tag>Roadmap</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WebSocket学习</title>
+    <url>/2016/11/23/backup-WebSocket-Learning/</url>
+    <content><![CDATA[<h1 id="啥是Websocket"><a href="#啥是Websocket" class="headerlink" title="啥是Websocket"></a>啥是Websocket</h1><p>我们可以先从<strong>RealTime</strong>开始唠起，关于Real Time的实现，主要还是基于Ajax的拉取和Comet的推送</p>
+<h1 id="打开连接-握手"><a href="#打开连接-握手" class="headerlink" title="打开连接-握手"></a>打开连接-握手</h1><h1 id="如何写代码？"><a href="#如何写代码？" class="headerlink" title="如何写代码？"></a>如何写代码？</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
+<li><a href="https://github.com/abbshr/abbshr.github.io/issues/22">学习WebSocket协议—从顶层到底层的实现原理</a></li>
+<li><a href="https://www.zhihu.com/question/20215561">知乎:WebSocket 是什么原理？为什么可以实现持久连接？</a></li>
+<li><a href="https://spring.io/guides/gs/messaging-stomp-websocket/">Spring: Using WebSocket to build an interactive web application</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>工作总结</category>
+      </categories>
+      <tags>
+        <tag>WebSocket</tag>
       </tags>
   </entry>
   <entry>
@@ -891,6 +868,50 @@
 <h2 id="Insert-a-Read-More"><a href="#Insert-a-Read-More" class="headerlink" title="Insert a Read More"></a>Insert a Read More</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!-- more --&gt;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>maven pom文件多版本管理revision</title>
+    <url>/2022/06/16/maven-pom-revision/</url>
+    <content><![CDATA[<p>maven工程中，对多个子module及相应的pom版本进行管理是很头疼的事，利用<strong>flatten-maven-plugin</strong> 插件将pom版本统一管理起来，在变更的时候只需要改</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;revision&gt;1.0.0-SNAPSHOT&lt;/revision&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="使用姿势"><a href="#使用姿势" class="headerlink" title="使用姿势"></a>使用姿势</h1><p>使用${revision}对maven工程中多个pom里的版本号进行关联</p>
+<h2 id="父pom"><a href="#父pom" class="headerlink" title="父pom"></a>父pom</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;project&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">  &lt;parent&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;apache&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;18&lt;/version&gt;</span><br><span class="line">  &lt;/parent&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;ci-parent&lt;/artifactId&gt;</span><br><span class="line">  &lt;name&gt;First CI Friendly&lt;/name&gt;</span><br><span class="line">  &lt;version&gt;$&#123;revision&#125;&lt;/version&gt;</span><br><span class="line">  ...</span><br><span class="line">  &lt;properties&gt;</span><br><span class="line">    &lt;revision&gt;1.0.0-SNAPSHOT&lt;/revision&gt;</span><br><span class="line">  &lt;/properties&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>
+
+<p>注意revision在properties中声明</p>
+<p>在build中使用相关插件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;build&gt;</span><br><span class="line">  &lt;plugins&gt;</span><br><span class="line">    &lt;plugin&gt;</span><br><span class="line">      &lt;groupId&gt;org.codehaus.mojo&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;flatten-maven-plugin&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;1.1.0&lt;/version&gt;</span><br><span class="line">      &lt;configuration&gt;</span><br><span class="line">          &lt;!-- 是否更新pom文件，此处还有更高级的用法 --&gt;</span><br><span class="line">        &lt;updatePomFile&gt;true&lt;/updatePomFile&gt;</span><br><span class="line">        &lt;flattenMode&gt;resolveCiFriendliesOnly&lt;/flattenMode&gt;</span><br><span class="line">      &lt;/configuration&gt;</span><br><span class="line">      &lt;executions&gt;</span><br><span class="line">        &lt;execution&gt;</span><br><span class="line">          &lt;id&gt;flatten&lt;/id&gt;</span><br><span class="line">          &lt;phase&gt;process-resources&lt;/phase&gt;</span><br><span class="line">          &lt;goals&gt;</span><br><span class="line">            &lt;goal&gt;flatten&lt;/goal&gt;</span><br><span class="line">          &lt;/goals&gt;</span><br><span class="line">        &lt;/execution&gt;</span><br><span class="line">        &lt;execution&gt;</span><br><span class="line">          &lt;id&gt;flatten.clean&lt;/id&gt;</span><br><span class="line">          &lt;phase&gt;clean&lt;/phase&gt;</span><br><span class="line">          &lt;goals&gt;</span><br><span class="line">            &lt;goal&gt;clean&lt;/goal&gt;</span><br><span class="line">          &lt;/goals&gt;</span><br><span class="line">        &lt;/execution&gt;</span><br><span class="line">      &lt;/executions&gt;</span><br><span class="line">    &lt;/plugin&gt;</span><br><span class="line">  &lt;/plugins&gt;</span><br><span class="line">  &lt;/build&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="子pom"><a href="#子pom" class="headerlink" title="子pom"></a>子pom</h2><p>在parent的声明version中直接使用${revision}即可</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;project&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">  &lt;parent&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;ci-parent&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;$&#123;revision&#125;&lt;/version&gt;</span><br><span class="line">  &lt;/parent&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;ci-child&lt;/artifactId&gt;</span><br><span class="line">   ...</span><br><span class="line">  &lt;dependencies&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">      &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;child2&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;$&#123;project.version&#125;&lt;/version&gt;</span><br><span class="line">    &lt;/dependency&gt;</span><br><span class="line">  &lt;/dependencies&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.cnblogs.com/ElEGenT/p/12938773.html">https://www.cnblogs.com/ElEGenT/p/12938773.html</a></p>
+]]></content>
+      <tags>
+        <tag>maven</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020年8月知识收集</title>
+    <url>/2020/08/10/202008knowledge/</url>
+    <content><![CDATA[<h1 id="机架效果器"><a href="#机架效果器" class="headerlink" title="机架效果器"></a>机架效果器</h1><p><a href="https://www.zhihu.com/question/263981174">https://www.zhihu.com/question/263981174</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Docker容器没有vim</title>
+    <url>/2021/07/17/Docker%E5%AE%B9%E5%99%A8%E6%B2%A1%E6%9C%89vim/</url>
+    <content><![CDATA[<p>docker进入容器后，发现没有vim功能，记录解决办法如下：</p>
+<ol>
+<li>执行</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt-get update</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>安装vim</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt-get install vim</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>docker</tag>
       </tags>
   </entry>
   <entry>
@@ -926,27 +947,6 @@
       </categories>
       <tags>
         <tag>mysql</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>maven pom文件多版本管理revision</title>
-    <url>/2022/06/16/maven-pom-revision/</url>
-    <content><![CDATA[<p>maven工程中，对多个子module及相应的pom版本进行管理是很头疼的事，利用<strong>flatten-maven-plugin</strong> 插件将pom版本统一管理起来，在变更的时候只需要改</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;revision&gt;1.0.0-SNAPSHOT&lt;/revision&gt;</span><br></pre></td></tr></table></figure>
-
-<h1 id="使用姿势"><a href="#使用姿势" class="headerlink" title="使用姿势"></a>使用姿势</h1><p>使用${revision}对maven工程中多个pom里的版本号进行关联</p>
-<h2 id="父pom"><a href="#父pom" class="headerlink" title="父pom"></a>父pom</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;project&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">  &lt;parent&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;apache&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;18&lt;/version&gt;</span><br><span class="line">  &lt;/parent&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;ci-parent&lt;/artifactId&gt;</span><br><span class="line">  &lt;name&gt;First CI Friendly&lt;/name&gt;</span><br><span class="line">  &lt;version&gt;$&#123;revision&#125;&lt;/version&gt;</span><br><span class="line">  ...</span><br><span class="line">  &lt;properties&gt;</span><br><span class="line">    &lt;revision&gt;1.0.0-SNAPSHOT&lt;/revision&gt;</span><br><span class="line">  &lt;/properties&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>
-
-<p>注意revision在properties中声明</p>
-<p>在build中使用相关插件</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;build&gt;</span><br><span class="line">  &lt;plugins&gt;</span><br><span class="line">    &lt;plugin&gt;</span><br><span class="line">      &lt;groupId&gt;org.codehaus.mojo&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;flatten-maven-plugin&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;1.1.0&lt;/version&gt;</span><br><span class="line">      &lt;configuration&gt;</span><br><span class="line">          &lt;!-- 是否更新pom文件，此处还有更高级的用法 --&gt;</span><br><span class="line">        &lt;updatePomFile&gt;true&lt;/updatePomFile&gt;</span><br><span class="line">        &lt;flattenMode&gt;resolveCiFriendliesOnly&lt;/flattenMode&gt;</span><br><span class="line">      &lt;/configuration&gt;</span><br><span class="line">      &lt;executions&gt;</span><br><span class="line">        &lt;execution&gt;</span><br><span class="line">          &lt;id&gt;flatten&lt;/id&gt;</span><br><span class="line">          &lt;phase&gt;process-resources&lt;/phase&gt;</span><br><span class="line">          &lt;goals&gt;</span><br><span class="line">            &lt;goal&gt;flatten&lt;/goal&gt;</span><br><span class="line">          &lt;/goals&gt;</span><br><span class="line">        &lt;/execution&gt;</span><br><span class="line">        &lt;execution&gt;</span><br><span class="line">          &lt;id&gt;flatten.clean&lt;/id&gt;</span><br><span class="line">          &lt;phase&gt;clean&lt;/phase&gt;</span><br><span class="line">          &lt;goals&gt;</span><br><span class="line">            &lt;goal&gt;clean&lt;/goal&gt;</span><br><span class="line">          &lt;/goals&gt;</span><br><span class="line">        &lt;/execution&gt;</span><br><span class="line">      &lt;/executions&gt;</span><br><span class="line">    &lt;/plugin&gt;</span><br><span class="line">  &lt;/plugins&gt;</span><br><span class="line">  &lt;/build&gt;</span><br></pre></td></tr></table></figure>
-<h2 id="子pom"><a href="#子pom" class="headerlink" title="子pom"></a>子pom</h2><p>在parent的声明version中直接使用${revision}即可</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;project&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">  &lt;parent&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;ci-parent&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;$&#123;revision&#125;&lt;/version&gt;</span><br><span class="line">  &lt;/parent&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;ci-child&lt;/artifactId&gt;</span><br><span class="line">   ...</span><br><span class="line">  &lt;dependencies&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">      &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;child2&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;$&#123;project.version&#125;&lt;/version&gt;</span><br><span class="line">    &lt;/dependency&gt;</span><br><span class="line">  &lt;/dependencies&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>
-
-<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.cnblogs.com/ElEGenT/p/12938773.html">https://www.cnblogs.com/ElEGenT/p/12938773.html</a></p>
-]]></content>
-      <tags>
-        <tag>maven</tag>
       </tags>
   </entry>
 </search>
