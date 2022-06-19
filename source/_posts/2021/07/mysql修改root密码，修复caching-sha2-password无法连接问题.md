@@ -2,7 +2,7 @@
 title: mysql修改root密码，修复caching_sha2_password无法连接问题
 date: 2021-07-17 20:11:06
 tags: mysql
-categories: Database
+categories: 技术资料
 ---
 通过Sequel连接mysql时发现无法连接，报错为：
 ```

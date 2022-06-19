@@ -6,7 +6,7 @@ tags:
 - backend
 - Spring
 categories:
-- 业余学习
+- 技术资料
 ---
 # Java需要掌握的基本知识总结
 ## Java基础

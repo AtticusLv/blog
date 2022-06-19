@@ -4,7 +4,7 @@ date: 2016-09-02 16:25:05
 tags:
 - git
 categories:
-- 工作总结
+- 技术资料
 ---
 Below picture describes the whole commands during git handling.<br>
 {% asset_img git.png Git-Data-Transport-Commands %}

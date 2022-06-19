@@ -6,7 +6,7 @@ tags:
 - fontend
 - backend
 categories:
-- 业余学习
+- 技术资料
 ---
 原文地址
 > [Roadmap to becoming a web developer in 2017](https://github.com/kamranahmedse/developer-roadmap/blob/master/README.md)

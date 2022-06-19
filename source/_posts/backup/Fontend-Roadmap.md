@@ -4,7 +4,7 @@ date: 2017-02-22 21:23:29
 tags:
 - fontend
 categories:
-- 前端
+- 技术资料
 ---
 # 前端学习路线
 {% asset_img fontend.png fontend %}
@@ -15,7 +15,7 @@ categories:
 - [x] [Css]()
 - [x] [Javascript]()
 - [ ] [jQuery]()
-- [ ] [Vue](cn.vuejs.org)
+- [x] [Vue](http://cn.vuejs.org)
 - [x] [React](http://facebook.github.io/react/)
 - [x] [React Router](https://github.com/reactjs/react-router-tutorial)
 - [ ] [Redux](https://github.com/reactjs/redux)

@@ -4,7 +4,7 @@ date: 2017-01-10 19:28:44
 tags:
 - Nginx
 categories:
-- 工作总结
+- 技术资料
 ---
 # Nginx是什么
 # Nginx框架

@@ -2,15 +2,16 @@
 title: About me...
 date: 2020-08-08 08:08:08
 ---
-# Hello, my dear friends
-I'm Atticus, a backend engineer, a leader of a company, a project manager and a freelancer.
+# Hello
+I'm Atticus. I'm working and living in Chengdu, a city with delicious food and beautiful scenes.
 
-I have several customers in Internet, Industry areas, and I also seek for interesting opportunities.
+Now I'm working as a system architecture in one of top companies here.
 
-I have a team work with me, and we take challenge of different interesting things, such as **Web development**, **AR projects**, **manufactering production**, **IOT**, **E-Commerce**, etc..
+# About work
+I'm familiar with web development, AR & VR technology. I wrote Java, VueJS, and also some C#, GO. 
 
-I like swimming on the Internet, and road trip during vocation.
+If you know some knowledge about computer technology and basis, you'll find the world of "Hello World" in computer is really fabulous and fantastic.
 
-If you are interesting in me, you can leave me a message.
+I am also acting as a freelancer during my part-time. If you need help, do [Contact Me](mailto:ppzhuo@126.com).
 
-Or... you can find the way by yourself to contact me ^_^
+^_^

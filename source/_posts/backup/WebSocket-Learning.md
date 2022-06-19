@@ -4,7 +4,7 @@ date: 2016-11-23 16:47:16
 tags:
 - WebSocket
 categories:
-- 工作总结
+- 技术资料
 comments: true
 ---
 # 啥是Websocket

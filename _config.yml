@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Atticus' Blog
+title: Atticus Blog
 subtitle: ''
 description: ''
 keywords:
-author: Lv Atticus
+author: Atticus Lv
 language: zh-CN
 timezone: ''
 
@@ -58,7 +58,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 5
   order_by: -date
 
 # Category & Tag

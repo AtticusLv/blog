@@ -5,7 +5,7 @@ tags:
 - restful API
 - backend
 categories:
-- 工作总结
+- 技术资料
 ---
 
 ## Restful是什么

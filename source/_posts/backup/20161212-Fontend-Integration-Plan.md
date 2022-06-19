@@ -5,7 +5,7 @@ tags:
 - fontend
 - project
 categories:
-- 前端
+- 技术资料
 ---
 Mark一下，慢慢来看看别人家项目都咋做滴～
 原文地址 [https://github.com/fouber/blog](https://github.com/fouber/blog)

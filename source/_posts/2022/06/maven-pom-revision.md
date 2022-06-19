@@ -7,6 +7,8 @@ tags:
 
 maven工程中，对多个子module及相应的pom版本进行管理是很头疼的事，利用**flatten-maven-plugin** 插件将pom版本统一管理起来，在变更的时候只需要改
 
+<!-- more -->
+
 ```
 <revision>1.0.0-SNAPSHOT</revision>
 ```

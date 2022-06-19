@@ -4,7 +4,7 @@ date: 2016-08-12 14:53:59
 tags:
 - Java
 categories:
-- 业余学习
+- 技术资料
 ---
 总结Java中Comparable和Comparator两个接口
 
