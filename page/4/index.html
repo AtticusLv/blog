@@ -21,33 +21,23 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"blog.nuoyang.tech","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.12.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"default"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="Java需要掌握的基本知识总结Java基础什么是多态？final、finally和finalize区别？GC的基本原理？ 老年代和新生代一些概念？什么时候会回收？abstract和interface区别？Java只能单继承，不能多重继承？可以创造一个描述这类行为的接口 Overload和Override区别ArrayList和Vector区别HashMap与Hashtable区别HashMapHa">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Java需要掌握的基本知识">
-<meta property="og:url" content="https://blog.nuoyang.tech/2017/01/17/backup-Interview-Java/index.html">
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Atticus Blog">
+<meta property="og:url" content="https://blog.nuoyang.tech/page/4/index.html">
 <meta property="og:site_name" content="Atticus Blog">
-<meta property="og:description" content="Java需要掌握的基本知识总结Java基础什么是多态？final、finally和finalize区别？GC的基本原理？ 老年代和新生代一些概念？什么时候会回收？abstract和interface区别？Java只能单继承，不能多重继承？可以创造一个描述这类行为的接口 Overload和Override区别ArrayList和Vector区别HashMap与Hashtable区别HashMapHa">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://blog.nuoyang.tech/2017/01/17/backup-Interview-Java/hashmap1.jpg">
-<meta property="og:image" content="https://blog.nuoyang.tech/2017/01/17/backup-Interview-Java/tree-map.jpg">
-<meta property="article:published_time" content="2017-01-17T02:15:47.000Z">
-<meta property="article:modified_time" content="2022-06-19T09:12:49.747Z">
 <meta property="article:author" content="Atticus Lv">
-<meta property="article:tag" content="Java">
-<meta property="article:tag" content="backend">
-<meta property="article:tag" content="Spring">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://blog.nuoyang.tech/2017/01/17/backup-Interview-Java/hashmap1.jpg">
 
 
-<link rel="canonical" href="https://blog.nuoyang.tech/2017/01/17/backup-Interview-Java/">
+<link rel="canonical" href="https://blog.nuoyang.tech/page/4/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://blog.nuoyang.tech/2017/01/17/backup-Interview-Java/","path":"2017/01/17/backup-Interview-Java/","title":"Java需要掌握的基本知识"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"page/4/index.html","title":""}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Java需要掌握的基本知识 | Atticus Blog</title>
+<title>Atticus Blog</title>
   
 
 
@@ -77,7 +67,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <p class="site-title">Atticus Blog</p>
+      <h1 class="site-title">Atticus Blog</h1>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -136,7 +126,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+    <div class="sidebar-inner sidebar-overview-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -149,7 +139,6 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Java%E9%9C%80%E8%A6%81%E6%8E%8C%E6%8F%A1%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93"><span class="nav-number">1.</span> <span class="nav-text">Java需要掌握的基本知识总结</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Java%E5%9F%BA%E7%A1%80"><span class="nav-number">1.1.</span> <span class="nav-text">Java基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%A4%9A%E6%80%81%EF%BC%9F"><span class="nav-number">1.1.1.</span> <span class="nav-text">什么是多态？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#final%E3%80%81finally%E5%92%8Cfinalize%E5%8C%BA%E5%88%AB%EF%BC%9F"><span class="nav-number">1.1.2.</span> <span class="nav-text">final、finally和finalize区别？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GC%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86%EF%BC%9F-%E8%80%81%E5%B9%B4%E4%BB%A3%E5%92%8C%E6%96%B0%E7%94%9F%E4%BB%A3%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5%EF%BC%9F%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E4%BC%9A%E5%9B%9E%E6%94%B6%EF%BC%9F"><span class="nav-number">1.1.3.</span> <span class="nav-text">GC的基本原理？ 老年代和新生代一些概念？什么时候会回收？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#abstract%E5%92%8Cinterface%E5%8C%BA%E5%88%AB%EF%BC%9F"><span class="nav-number">1.1.4.</span> <span class="nav-text">abstract和interface区别？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Java%E5%8F%AA%E8%83%BD%E5%8D%95%E7%BB%A7%E6%89%BF%EF%BC%8C%E4%B8%8D%E8%83%BD%E5%A4%9A%E9%87%8D%E7%BB%A7%E6%89%BF%EF%BC%9F"><span class="nav-number">1.1.5.</span> <span class="nav-text">Java只能单继承，不能多重继承？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Overload%E5%92%8COverride%E5%8C%BA%E5%88%AB"><span class="nav-number">1.1.6.</span> <span class="nav-text">Overload和Override区别</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ArrayList%E5%92%8CVector%E5%8C%BA%E5%88%AB"><span class="nav-number">1.1.7.</span> <span class="nav-text">ArrayList和Vector区别</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#HashMap%E4%B8%8EHashtable%E5%8C%BA%E5%88%AB"><span class="nav-number">1.1.8.</span> <span class="nav-text">HashMap与Hashtable区别</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#HashMap"><span class="nav-number">1.1.8.1.</span> <span class="nav-text">HashMap</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Hashtable"><span class="nav-number">1.1.8.2.</span> <span class="nav-text">Hashtable</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9B%86%E5%90%88%E7%B1%BB%E6%8E%A5%E5%8F%A3%E6%9C%89%E5%93%AA%E4%BA%9B-%E5%85%B7%E4%BD%93%E5%AE%9E%E7%8E%B0%E6%9C%89%E5%93%AA%E4%BA%9B%E7%B1%BB%EF%BC%9F"><span class="nav-number">1.1.9.</span> <span class="nav-text">集合类接口有哪些?具体实现有哪些类？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#TreeMap%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0Key%E6%8E%92%E5%BA%8F"><span class="nav-number">1.1.10.</span> <span class="nav-text">TreeMap如何实现Key排序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Java%E9%87%8C%E6%9C%89%E5%93%AA%E4%BA%9B%E5%B9%B6%E5%8F%91%E5%BA%93"><span class="nav-number">1.1.11.</span> <span class="nav-text">Java里有哪些并发库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ConcurrentHashMap%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="nav-number">1.1.12.</span> <span class="nav-text">ConcurrentHashMap是什么？</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#HashEntry%E7%B1%BB"><span class="nav-number">1.1.12.1.</span> <span class="nav-text">HashEntry类</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Spring%E5%9F%BA%E7%A1%80"><span class="nav-number">1.2.</span> <span class="nav-text">Spring基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFSpring-AOP%EF%BC%9F"><span class="nav-number">1.2.1.</span> <span class="nav-text">什么是Spring AOP？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Spring-AOP%E5%AE%9E%E7%8E%B0%E6%9C%BA%E5%88%B6"><span class="nav-number">1.2.2.</span> <span class="nav-text">Spring AOP实现机制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFSpring-IOC-x2F-%E6%8E%A7%E5%88%B6%E5%8F%8D%E8%BD%AC"><span class="nav-number">1.2.3.</span> <span class="nav-text">什么是Spring IOC&#x2F;控制反转</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hibernate%EF%BC%8CiBatis%E5%92%8CJPA%EF%BC%9F"><span class="nav-number">1.2.4.</span> <span class="nav-text">Hibernate，iBatis和JPA？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Spring%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5"><span class="nav-number">1.2.5.</span> <span class="nav-text">Spring依赖注入</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="nav-number">1.3.</span> <span class="nav-text">数据库</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#mySQL%E7%B4%A2%E5%BC%95%E7%BB%93%E6%9E%84%E5%8E%9F%E7%90%86"><span class="nav-number">1.3.1.</span> <span class="nav-text">mySQL索引结构原理</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%82%E8%80%83"><span class="nav-number">2.</span> <span class="nav-text">参考</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -183,17 +172,134 @@
 </noscript>
 
 
-    <div class="main-inner post posts-expand">
+    <div class="main-inner index posts-expand">
 
-
-  
+    
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.nuoyang.tech/2017/02/22/backup-Fontend-Roadmap/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/head.jpg">
+      <meta itemprop="name" content="Atticus Lv">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Atticus Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Atticus Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2017/02/22/backup-Fontend-Roadmap/" class="post-title-link" itemprop="url">Fontend Roadmap</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2017-02-22 21:23:29" itemprop="dateCreated datePublished" datetime="2017-02-22T21:23:29+08:00">2017-02-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-06-19 16:22:52" itemprop="dateModified" datetime="2022-06-19T16:22:52+08:00">2022-06-19</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/" itemprop="url" rel="index"><span itemprop="name">技术资料</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="前端学习路线"><a href="#前端学习路线" class="headerlink" title="前端学习路线"></a>前端学习路线</h1><img src="/2017/02/22/backup-Fontend-Roadmap/fontend.png" class="" title="fontend">
+
+<h1 id="To-Do"><a href="#To-Do" class="headerlink" title="To Do"></a>To Do</h1><h2 id="Basic"><a href="#Basic" class="headerlink" title="Basic"></a>Basic</h2><ul>
+<li><input checked="" disabled="" type="checkbox"> <a href="">Html</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="">Css</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="">Javascript</a></li>
+<li><input disabled="" type="checkbox"> <a href="">jQuery</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a target="_blank" rel="noopener" href="http://cn.vuejs.org/">Vue</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a target="_blank" rel="noopener" href="http://facebook.github.io/react/">React</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a target="_blank" rel="noopener" href="https://github.com/reactjs/react-router-tutorial">React Router</a></li>
+<li><input disabled="" type="checkbox"> <a target="_blank" rel="noopener" href="https://github.com/reactjs/redux">Redux</a></li>
+<li><input disabled="" type="checkbox"> <a target="_blank" rel="noopener" href="http://es6.ruanyifeng.com/#docs/intro">ES6</a></li>
+<li><input disabled="" type="checkbox"> <a href="">Sass</a></li>
+<li><input disabled="" type="checkbox"> <a href="">Less</a></li>
+</ul>
+<h2 id="UI-Library"><a href="#UI-Library" class="headerlink" title="UI Library"></a>UI Library</h2><ul>
+<li><input disabled="" type="checkbox"> <a href="">Bootstrap</a></li>
+<li><input disabled="" type="checkbox"> <a href="">Materialize CSS</a></li>
+<li><input disabled="" type="checkbox"> <a href="">Semantic UI</a></li>
+<li><input disabled="" type="checkbox"> <a href="ant.design">antd</a></li>
+</ul>
+<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ul>
+<li><input checked="" disabled="" type="checkbox"> <a target="_blank" rel="noopener" href="https://webpack.github.io/docs/">Webpack</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="">npm</a></li>
+<li><input disabled="" type="checkbox"> <a href="">Browserify</a></li>
+<li><input disabled="" type="checkbox"> <a target="_blank" rel="noopener" href="https://github.com/dvajs/dva">dva</a></li>
+</ul>
+<h2 id="Plugins"><a href="#Plugins" class="headerlink" title="Plugins"></a>Plugins</h2><ul>
+<li><input checked="" disabled="" type="checkbox"> extract-text-webpack-plugin - 抽取CSS文件插件</li>
+<li><input checked="" disabled="" type="checkbox"> open-browser-webpack-plugin - 自动打开浏览器插件</li>
+</ul>
+<h2 id="Style-Guide"><a href="#Style-Guide" class="headerlink" title="Style Guide"></a>Style Guide</h2><ul>
+<li><input disabled="" type="checkbox"> <a target="_blank" rel="noopener" href="https://github.com/sivan/javascript-style-guide/blob/master/es5/README.md#translation">Airbnb JS Style Guide</a></li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="https://blog.nuoyang.tech/2017/01/17/backup-Interview-Java/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -207,13 +313,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="Java需要掌握的基本知识 | Atticus Blog">
+      <meta itemprop="name" content="undefined | Atticus Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          Java需要掌握的基本知识
-        </h1>
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2017/01/17/backup-Interview-Java/" class="post-title-link" itemprop="url">Java需要掌握的基本知识</a>
+        </h2>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -252,7 +358,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="Java需要掌握的基本知识总结"><a href="#Java需要掌握的基本知识总结" class="headerlink" title="Java需要掌握的基本知识总结"></a>Java需要掌握的基本知识总结</h1><h2 id="Java基础"><a href="#Java基础" class="headerlink" title="Java基础"></a>Java基础</h2><h3 id="什么是多态？"><a href="#什么是多态？" class="headerlink" title="什么是多态？"></a>什么是多态？</h3><h3 id="final、finally和finalize区别？"><a href="#final、finally和finalize区别？" class="headerlink" title="final、finally和finalize区别？"></a>final、finally和finalize区别？</h3><h3 id="GC的基本原理？-老年代和新生代一些概念？什么时候会回收？"><a href="#GC的基本原理？-老年代和新生代一些概念？什么时候会回收？" class="headerlink" title="GC的基本原理？ 老年代和新生代一些概念？什么时候会回收？"></a>GC的基本原理？ 老年代和新生代一些概念？什么时候会回收？</h3><h3 id="abstract和interface区别？"><a href="#abstract和interface区别？" class="headerlink" title="abstract和interface区别？"></a>abstract和interface区别？</h3><h3 id="Java只能单继承，不能多重继承？"><a href="#Java只能单继承，不能多重继承？" class="headerlink" title="Java只能单继承，不能多重继承？"></a>Java只能单继承，不能多重继承？</h3><p>可以创造一个描述这类行为的接口</p>
+          <h1 id="Java需要掌握的基本知识总结"><a href="#Java需要掌握的基本知识总结" class="headerlink" title="Java需要掌握的基本知识总结"></a>Java需要掌握的基本知识总结</h1><h2 id="Java基础"><a href="#Java基础" class="headerlink" title="Java基础"></a>Java基础</h2><h3 id="什么是多态？"><a href="#什么是多态？" class="headerlink" title="什么是多态？"></a>什么是多态？</h3><h3 id="final、finally和finalize区别？"><a href="#final、finally和finalize区别？" class="headerlink" title="final、finally和finalize区别？"></a>final、finally和finalize区别？</h3><h3 id="GC的基本原理？-老年代和新生代一些概念？什么时候会回收？"><a href="#GC的基本原理？-老年代和新生代一些概念？什么时候会回收？" class="headerlink" title="GC的基本原理？ 老年代和新生代一些概念？什么时候会回收？"></a>GC的基本原理？ 老年代和新生代一些概念？什么时候会回收？</h3><h3 id="abstract和interface区别？"><a href="#abstract和interface区别？" class="headerlink" title="abstract和interface区别？"></a>abstract和interface区别？</h3><h3 id="Java只能单继承，不能多重继承？"><a href="#Java只能单继承，不能多重继承？" class="headerlink" title="Java只能单继承，不能多重继承？"></a>Java只能单继承，不能多重继承？</h3><p>可以创造一个描述这类行为的接口</p>
 <h3 id="Overload和Override区别"><a href="#Overload和Override区别" class="headerlink" title="Overload和Override区别"></a>Overload和Override区别</h3><h3 id="ArrayList和Vector区别"><a href="#ArrayList和Vector区别" class="headerlink" title="ArrayList和Vector区别"></a>ArrayList和Vector区别</h3><h3 id="HashMap与Hashtable区别"><a href="#HashMap与Hashtable区别" class="headerlink" title="HashMap与Hashtable区别"></a>HashMap与Hashtable区别</h3><h4 id="HashMap"><a href="#HashMap" class="headerlink" title="HashMap"></a>HashMap</h4><p>HashMap是基于哈希表的Map接口实现，允许使用null值和null键，它不保证映射的顺序，不是同步的，如果多个线程同时访问一个HashMap，而其中至少一个线程从结构上（添加或者删除一个或多个映射关系的操作）修改了，则必须保持外部同步，以防止对映射进行恶意的非同步访问。<br>HashMap实际上是数组和链表结合的数据结构</p>
 <img src="/2017/01/17/backup-Interview-Java/hashmap1.jpg" class="" title="hashmap">
 <p>HashMap底层是一个数组结构，数组中每一项又是一个链表，当新建一个HashMap时，就会初始化一个数组。JDK中HashMap源码：</p>
@@ -275,6 +381,7 @@
 <h2 id="Spring基础"><a href="#Spring基础" class="headerlink" title="Spring基础"></a>Spring基础</h2><h3 id="什么是Spring-AOP？"><a href="#什么是Spring-AOP？" class="headerlink" title="什么是Spring AOP？"></a>什么是Spring AOP？</h3><h3 id="Spring-AOP实现机制"><a href="#Spring-AOP实现机制" class="headerlink" title="Spring AOP实现机制"></a>Spring AOP实现机制</h3><h3 id="什么是Spring-IOC-x2F-控制反转"><a href="#什么是Spring-IOC-x2F-控制反转" class="headerlink" title="什么是Spring IOC&#x2F;控制反转"></a>什么是Spring IOC&#x2F;控制反转</h3><h3 id="Hibernate，iBatis和JPA？"><a href="#Hibernate，iBatis和JPA？" class="headerlink" title="Hibernate，iBatis和JPA？"></a>Hibernate，iBatis和JPA？</h3><h3 id="Spring依赖注入"><a href="#Spring依赖注入" class="headerlink" title="Spring依赖注入"></a>Spring依赖注入</h3><p>平常的java开发中，程序员在某个类中需要依赖其它类的方法，则通常是new一个依赖类再调用类实例的方法，这种开发存在的问题是new的类实例不好统一管理，spring提出了依赖注入的思想，即依赖类不由程序员实例化，而是通过spring容器帮我们new指定实例并且将实例注入到需要该对象的类中。依赖注入的另一种说法是“控制反转”，通俗的理解是：平常我们new一个实例，这个实例的控制权是我们程序员，而控制反转是指new实例工作不由我们程序员来做而是交给spring容器来做。</p>
 <h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2><h3 id="mySQL索引结构原理"><a href="#mySQL索引结构原理" class="headerlink" title="mySQL索引结构原理"></a>mySQL索引结构原理</h3><p>索引是对记录按照多个字段进行排序的一种方式。对表中某个字段建立索引会创建另一种数据结构，其中保存着字段的值，每个值又指向与它相关的记录。这种索引的数据结构是经过排序的，因而可以对其执行二分查找。<br>索引的缺点是占用额外的磁盘空间，因为索引保存在MyISAM数据库中，所以如果为同一表中的很多字段都建立索引，那这个文件可能会很快膨胀到文件系统规定的上限。<br><strong>唯一索引</strong><br>索引值必须唯一<br>创建索引： create unique index 索引名 on 表名(列名); alter table 表名 add unique index 索引名 (列名);<br>删除索引： drop index 索引名 on 表名; alter table 表名 drop index 索引名;<br><strong>主键</strong><br>主键是唯一索引的一种，主键要求建表时指定，一般用auto_increment列，关键字是primary key<br>主键创建：creat table test2 (id int not null primary key auto_increment);<br><strong>全文索引</strong><br>InnoDB不支持，MyISAM支持性能比较好，一般在 CHAR、VARCHAR 或 TEXT 列上创建。 Create table 表名( id int not null primary key anto_increment, title varchar(100),FULLTEXT(title) )type&#x3D;MyISAM;<br><strong>单列索引与多列索引</strong></p>
 <h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1>
+      
     </div>
 
     
@@ -282,26 +389,8 @@
     
 
     <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/Java/" rel="tag"># Java</a>
-              <a href="/tags/backend/" rel="tag"># backend</a>
-              <a href="/tags/Spring/" rel="tag"># Spring</a>
-          </div>
-
-        
-
-          <div class="post-nav">
-            <div class="post-nav-item">
-                <a href="/2017/01/10/backup-Nginx-Learning/" rel="prev" title="Nginx学习总结">
-                  <i class="fa fa-chevron-left"></i> Nginx学习总结
-                </a>
-            </div>
-            <div class="post-nav-item">
-                <a href="/2017/02/22/backup-Fontend-Roadmap/" rel="next" title="Fontend Roadmap">
-                  Fontend Roadmap <i class="fa fa-chevron-right"></i>
-                </a>
-            </div>
-          </div>
+        <div class="post-eof"></div>
+      
     </footer>
   </article>
 </div>
@@ -309,7 +398,330 @@
 
 
 
+    
 
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.nuoyang.tech/2017/01/10/backup-Nginx-Learning/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/head.jpg">
+      <meta itemprop="name" content="Atticus Lv">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Atticus Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Atticus Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2017/01/10/backup-Nginx-Learning/" class="post-title-link" itemprop="url">Nginx学习总结</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2017-01-10 19:28:44" itemprop="dateCreated datePublished" datetime="2017-01-10T19:28:44+08:00">2017-01-10</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-06-19 16:20:09" itemprop="dateModified" datetime="2022-06-19T16:20:09+08:00">2022-06-19</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/" itemprop="url" rel="index"><span itemprop="name">技术资料</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="Nginx是什么"><a href="#Nginx是什么" class="headerlink" title="Nginx是什么"></a>Nginx是什么</h1><h1 id="Nginx框架"><a href="#Nginx框架" class="headerlink" title="Nginx框架"></a>Nginx框架</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
+<li><a target="_blank" rel="noopener" href="http://www.runoob.com/linux/nginx-install-setup.html">Nginx 安装配置</a></li>
+<li><a target="_blank" rel="noopener" href="http://wiki.jikexueyuan.com/project/nginx/nginx-framework.html">极客学院Nginx教程</a></li>
+<li><a target="_blank" rel="noopener" href="http://tengine.taobao.org/book/chapter_02.html">腾讯Nginx平台初探教程</a></li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.nuoyang.tech/2016/12/03/backup-20161212-Fontend-Integration-Plan/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/head.jpg">
+      <meta itemprop="name" content="Atticus Lv">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Atticus Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Atticus Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2016/12/03/backup-20161212-Fontend-Integration-Plan/" class="post-title-link" itemprop="url">看看别人怎么做前端项目的</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2016-12-03 22:24:39" itemprop="dateCreated datePublished" datetime="2016-12-03T22:24:39+08:00">2016-12-03</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-06-19 16:20:44" itemprop="dateModified" datetime="2022-06-19T16:20:44+08:00">2022-06-19</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/" itemprop="url" rel="index"><span itemprop="name">技术资料</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>Mark一下，慢慢来看看别人家项目都咋做滴～<br>原文地址 <a target="_blank" rel="noopener" href="https://github.com/fouber/blog">https://github.com/fouber/blog</a></p>
+<ul>
+<li>系列专题<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/fouber/blog/issues/10">前端工程——基础篇</a></li>
+</ul>
+</li>
+<li>工程杂谈<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/fouber/blog/issues/1">浅谈前端集成解决方案</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/fouber/blog/issues/3">前端工程与性能优化</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/fouber/blog/issues/2">前端开发体系建设日记</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/fouber/blog/issues/4">前端开发体与模块化框架</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/fouber/blog/issues/6">大公司里怎样开发和部署前端代码？</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/fouber/blog/issues/7">如何进行前端自动化测试？</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/fouber/blog/issues/5">md5戳计算过程</a></li>
+</ul>
+</li>
+<li>示例项目<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/fouber/static-resource-management-system-demo">php版静态资源管理系统示例</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/fouber/fis-php-md.js">模块化开发组合php版静态资源管理示例</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/fouber/fis-java-jsp">java版静态资源管理系统示例</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/fouber/static-resource-digest-project">静态资源缓存控制演示项目</a></li>
+</ul>
+</li>
+<li>业界实践<ul>
+<li><a target="_blank" rel="noopener" href="http://tech.meituan.com/frontend-component-practice.html">前端组件化开发实践</a> by 美团</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/xufei/blog/issues/19">2015前端组件化框架之路</a> by <a target="_blank" rel="noopener" href="http://weibo.com/sharpmaster">@民工精髓</a></li>
+<li><a target="_blank" rel="noopener" href="http://fex.baidu.com/blog/2014/03/fis-module/">前端工程之模块化</a> by <a target="_blank" rel="noopener" href="http://weibo.com/u/1916384703">@沈洪顺</a></li>
+<li>前端xss防火墙系列文章 by <a target="_blank" rel="noopener" href="https://github.com/zjcqoo">@ＥtherＤream</a><ul>
+<li><a target="_blank" rel="noopener" href="http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-1/">内联事件拦截</a></li>
+<li><a target="_blank" rel="noopener" href="http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-2/">可疑模块拦截</a></li>
+<li><a target="_blank" rel="noopener" href="http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-3/">无懈可击的钩子</a></li>
+<li><a target="_blank" rel="noopener" href="http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-4/">天衣无缝的防护</a></li>
+<li><a target="_blank" rel="noopener" href="http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-5">整装待发</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>经典图书<ul>
+<li>《<a target="_blank" rel="noopener" href="http://book.douban.com/subject/2084131/">High Performance Web Sites</a>》（<a target="_blank" rel="noopener" href="http://book.douban.com/subject/3132277/">高性能网站建设指南</a>）</li>
+<li>《<a target="_blank" rel="noopener" href="http://book.douban.com/subject/3686503/">Even Faster Web Sites</a>》（<a target="_blank" rel="noopener" href="http://book.douban.com/subject/4719162/">高性能网站建设进阶指南</a>）</li>
+<li>《<a target="_blank" rel="noopener" href="http://book.douban.com/subject/21866396/">High Performance Browser Networking</a>》（<a target="_blank" rel="noopener" href="http://book.douban.com/subject/25856314/">Web性能权威指南</a>）</li>
+</ul>
+</li>
+<li>经典文章<ul>
+<li><a target="_blank" rel="noopener" href="https://developer.yahoo.com/performance/rules.html">Best Practices for Speeding Up Your Web Site（雅虎35条）</a></li>
+<li><a target="_blank" rel="noopener" href="http://v.youku.com/v_show/id_XMjI5OTUxMjE2.html">Facebook静态网页资源的管理和优化</a> [<a target="_blank" rel="noopener" href="http://velocity.oreilly.com.cn/2010/ppts/VelocityChina2010Dec7StaticResource.pdf">PDF</a>] by <a target="_blank" rel="noopener" href="http://weibo.com/weixiaoliang9">@David Wei</a></li>
+<li><a target="_blank" rel="noopener" href="http://v.youku.com/v_show/id_XMzUwOTQzMzA4.html">Facebook移动互联网应用的性能优化</a> [<a target="_blank" rel="noopener" href="http://velocity.oreilly.com.cn/2011/ppts/MobilePerformanceVelocity2011_DavidWei.pdf">PDF</a>] by <a target="_blank" rel="noopener" href="http://weibo.com/weixiaoliang9">@David Wei</a></li>
+<li><a target="_blank" rel="noopener" href="https://developers.google.com/speed/docs/insights/rules?csw=1">PageSpeed Insights规则</a></li>
+<li><a target="_blank" rel="noopener" href="https://developers.google.com/speed/docs/insights/mobile">Mobile Analysis in PageSpeed Insights</a></li>
+<li>Optimizing the Critical Rendering Path for Instant Mobile Websites [<a target="_blank" rel="noopener" href="https://docs.google.com/presentation/d/1IRHyU7_crIiCjl0Gvue0WY3eY_eYvFQvSfwQouW9368/present?slide=id.p19">slides</a>,<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=YV1nKLWoARQ">video</a>]</li>
+<li>Instant Mobile Websites: Techniques and Best Practices [<a target="_blank" rel="noopener" href="http://storage.googleapis.com/io-2013/presentations/239-%20Instant%20Mobile%20Websites-%20Techniques%20and%20Best%20Practices.pdf">slides</a>, <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Bzw8-ZLpwtw">video</a>]</li>
+<li><a target="_blank" rel="noopener" href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/">Critical Rendering Path（关键呈现路径）</a></li>
+<li><a target="_blank" rel="noopener" href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/?hl=zh-cn">Optimizing Content Efficienc（优化内容效率）</a></li>
+<li><a target="_blank" rel="noopener" href="https://developers.google.com/web/fundamentals/performance/rendering/?hl=zh-cn">Rendering（渲染性能）</a></li>
+<li><a target="_blank" rel="noopener" href="http://taligarsiel.com/Projects/howbrowserswork1.htm">How browsers work</a></li>
+</ul>
+</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.nuoyang.tech/2016/11/23/backup-WebSocket-Learning/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/head.jpg">
+      <meta itemprop="name" content="Atticus Lv">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Atticus Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Atticus Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2016/11/23/backup-WebSocket-Learning/" class="post-title-link" itemprop="url">WebSocket学习</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2016-11-23 16:47:16" itemprop="dateCreated datePublished" datetime="2016-11-23T16:47:16+08:00">2016-11-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-06-19 16:20:06" itemprop="dateModified" datetime="2022-06-19T16:20:06+08:00">2022-06-19</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/" itemprop="url" rel="index"><span itemprop="name">技术资料</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="啥是Websocket"><a href="#啥是Websocket" class="headerlink" title="啥是Websocket"></a>啥是Websocket</h1><p>我们可以先从<strong>RealTime</strong>开始唠起，关于Real Time的实现，主要还是基于Ajax的拉取和Comet的推送</p>
+<h1 id="打开连接-握手"><a href="#打开连接-握手" class="headerlink" title="打开连接-握手"></a>打开连接-握手</h1><h1 id="如何写代码？"><a href="#如何写代码？" class="headerlink" title="如何写代码？"></a>如何写代码？</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
+<li><a target="_blank" rel="noopener" href="https://github.com/abbshr/abbshr.github.io/issues/22">学习WebSocket协议—从顶层到底层的实现原理</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/20215561">知乎:WebSocket 是什么原理？为什么可以实现持久连接？</a></li>
+<li><a target="_blank" rel="noopener" href="https://spring.io/guides/gs/messaging-stomp-websocket/">Spring: Using WebSocket to build an interactive web application</a></li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/3/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/5/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
 
 </div>
   </main>

@@ -63,7 +63,7 @@
 </ul>
 ]]></content>
       <categories>
-        <category>前端</category>
+        <category>技术资料</category>
       </categories>
       <tags>
         <tag>fontend</tag>
@@ -158,81 +158,10 @@
 </ol>
 ]]></content>
       <categories>
-        <category>业余学习</category>
+        <category>技术资料</category>
       </categories>
       <tags>
         <tag>架构</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo编辑博客时要用到的命令</title>
-    <url>/2017/05/16/backup-2017-05-16-hexo-command/</url>
-    <content><![CDATA[<p>记录下在博客中要经常用的hexo相关的tag和命令</p>
-<h1 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h1><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img issue3.png issue3 %&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><p>$2^{i-1}$</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$2^&#123;i-1&#125;$</span><br></pre></td></tr></table></figure>
-<h2 id="kdb标签"><a href="#kdb标签" class="headerlink" title="kdb标签"></a>kdb标签</h2><p>引入hexo-tag-kbd</p>
-<kbd style="border:1px solid gray;font-size:1.2em;box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:2px 3px;padding:1px 5px;">Ctrl</kbd>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% kbd Ctrl %&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="文章链接"><a href="#文章链接" class="headerlink" title="文章链接"></a>文章链接</h2><a href="#">Post not found: Micro-Services 微服务学习</a>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% post_link Micro-Services 微服务学习 %&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h1><h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new post &quot;title&quot;</span><br></pre></td></tr></table></figure>
-<h2 id="清理历史静态文件"><a href="#清理历史静态文件" class="headerlink" title="清理历史静态文件"></a>清理历史静态文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
-<h2 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
-<h2 id="本地启动服务查看"><a href="#本地启动服务查看" class="headerlink" title="本地启动服务查看"></a>本地启动服务查看</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<h2 id="新建新页面"><a href="#新建新页面" class="headerlink" title="新建新页面"></a>新建新页面</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;title&quot;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>10 Commandments of Egoless Programming</title>
-    <url>/2017/06/12/backup-2017-06-12-ten-commandments-of-egoless-programming/</url>
-    <content><![CDATA[<p>最近在InfoQ上读到了篇文章<a href="http://www.infoq.com/cn/news/2017/06/10-Commandments-without-program">无我编程的十条戒律</a>，记录一下这十条诫律。</p>
-<ol>
-<li><p><strong>Understand and accept that you will make mistakes.</strong> The point is to find them early, before they make it into production. Fortunately, except for the few of us developing rocket guidance software at JPL, mistakes are rarely fatal in our industry, so we can, and should, learn, laugh, and move on.</p>
-</li>
-<li><p><strong>You are not your code.</strong> Remember that the entire point of a review is to find problems, and problems will be found. Don’t take it personally when one is uncovered.</p>
-</li>
-<li><p><strong>No matter how much “karate” you know, someone else will always know more.</strong> Such an individual can teach you some new moves if you ask. Seek and accept input from others, especially when you think it’s not needed.</p>
-</li>
-<li><p><strong>Don’t rewrite code without consultation.</strong> There’s a fine line between “fixing code” and “rewriting code.” Know the difference, and pursue stylistic changes within the framework of a code review, not as a lone enforcer.</p>
-</li>
-<li><p><strong>Treat people who know less than you with respect, deference, and patience.</strong> Nontechnical people who deal with developers on a regular basis almost universally hold the opinion that we are prima donnas at best and crybabies at worst. Don’t reinforce this stereotype with anger and impatience.</p>
-</li>
-<li><p><strong>The only constant in the world is change.</strong> Be open to it and accept it with a smile. Look at each change to your requirements, platform, or tool as a new challenge, not as some serious inconvenience to be fought.</p>
-</li>
-<li><p><strong>The only true authority stems from knowledge, not from position.</strong> Knowledge engenders authority, and authority engenders respect – so if you want respect in an egoless environment, cultivate knowledge.</p>
-</li>
-<li><p><strong>Fight for what you believe, but gracefully accept defeat.</strong> Understand that sometimes your ideas will be overruled. Even if you do turn out to be right, don’t take revenge or say, “I told you so” more than a few times at most, and don’t make your dearly departed idea a martyr or rallying cry.</p>
-</li>
-<li><p><strong>Don’t be “the guy in the room.”</strong> Don’t be the guy coding in the dark office emerging only to buy cola. The guy in the room is out of touch, out of sight, and out of control and has no place in an open, collaborative environment.</p>
-</li>
-<li><p><strong>Critique code instead of people – be kind to the coder, not to the code.</strong> As much as possible, make all of your comments positive and oriented to improving the code. Relate comments to local standards, program specs, increased performance, etc.</p>
-</li>
-</ol>
-<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
-<li><a href="https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/">The Ten Commandments of Egoless Programming</a></li>
-<li><a href="http://www.infoq.com/cn/news/2017/06/10-Commandments-without-program">无我编程的十条戒律</a></li>
-<li><a href="https://www.amazon.com/exec/obidos/ASIN/0932633420/codihorr-20">The Psychology of Computer Programming</a> - Jerry Weinberg</li>
-</ol>
-]]></content>
-      <categories>
-        <category>读后感</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Distribute System Summary</title>
-    <url>/2016/10/10/backup-Distribute-System-Summary/</url>
-    <content><![CDATA[<h1 id="分布式系统的一些个人总结"><a href="#分布式系统的一些个人总结" class="headerlink" title="分布式系统的一些个人总结"></a>分布式系统的一些个人总结</h1><p><a href="https://atticuslv.gitbooks.io/distribute-system/content/">gitbook链接</a></p>
-]]></content>
-      <categories>
-        <category>业余学习</category>
-      </categories>
-      <tags>
-        <tag>分布式系统</tag>
       </tags>
   </entry>
   <entry>
@@ -291,10 +220,45 @@
 </ol>
 ]]></content>
       <categories>
-        <category>业余学习</category>
+        <category>技术资料</category>
       </categories>
       <tags>
         <tag>阿里云</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo编辑博客时要用到的命令</title>
+    <url>/2017/05/16/backup-2017-05-16-hexo-command/</url>
+    <content><![CDATA[<p>记录下在博客中要经常用的hexo相关的tag和命令</p>
+<h1 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h1><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img issue3.png issue3 %&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><p>$2^{i-1}$</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$2^&#123;i-1&#125;$</span><br></pre></td></tr></table></figure>
+<h2 id="kdb标签"><a href="#kdb标签" class="headerlink" title="kdb标签"></a>kdb标签</h2><p>引入hexo-tag-kbd</p>
+<kbd style="border:1px solid gray;font-size:1.2em;box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:2px 3px;padding:1px 5px;">Ctrl</kbd>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% kbd Ctrl %&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="文章链接"><a href="#文章链接" class="headerlink" title="文章链接"></a>文章链接</h2><a href="#">Post not found: Micro-Services 微服务学习</a>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% post_link Micro-Services 微服务学习 %&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h1><h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new post &quot;title&quot;</span><br></pre></td></tr></table></figure>
+<h2 id="清理历史静态文件"><a href="#清理历史静态文件" class="headerlink" title="清理历史静态文件"></a>清理历史静态文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+<h2 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+<h2 id="本地启动服务查看"><a href="#本地启动服务查看" class="headerlink" title="本地启动服务查看"></a>本地启动服务查看</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<h2 id="新建新页面"><a href="#新建新页面" class="headerlink" title="新建新页面"></a>新建新页面</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;title&quot;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Distribute System Summary</title>
+    <url>/2016/10/10/backup-Distribute-System-Summary/</url>
+    <content><![CDATA[<h1 id="分布式系统的一些个人总结"><a href="#分布式系统的一些个人总结" class="headerlink" title="分布式系统的一些个人总结"></a>分布式系统的一些个人总结</h1><p><a href="https://atticuslv.gitbooks.io/distribute-system/content/">gitbook链接</a></p>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>分布式系统</tag>
       </tags>
   </entry>
   <entry>
@@ -317,49 +281,40 @@
       </tags>
   </entry>
   <entry>
-    <title>Fontend Roadmap</title>
-    <url>/2017/02/22/backup-Fontend-Roadmap/</url>
-    <content><![CDATA[<h1 id="前端学习路线"><a href="#前端学习路线" class="headerlink" title="前端学习路线"></a>前端学习路线</h1><img src="/2017/02/22/backup-Fontend-Roadmap/fontend.png" class="" title="fontend">
-
-<h1 id="To-Do"><a href="#To-Do" class="headerlink" title="To Do"></a>To Do</h1><h2 id="Basic"><a href="#Basic" class="headerlink" title="Basic"></a>Basic</h2><ul>
-<li><input checked="" disabled="" type="checkbox"> <a href="">Html</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="">Css</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="">Javascript</a></li>
-<li><input disabled="" type="checkbox"> <a href="">jQuery</a></li>
-<li><input disabled="" type="checkbox"> <a href="cn.vuejs.org">Vue</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="http://facebook.github.io/react/">React</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://github.com/reactjs/react-router-tutorial">React Router</a></li>
-<li><input disabled="" type="checkbox"> <a href="https://github.com/reactjs/redux">Redux</a></li>
-<li><input disabled="" type="checkbox"> <a href="http://es6.ruanyifeng.com/#docs/intro">ES6</a></li>
-<li><input disabled="" type="checkbox"> <a href="">Sass</a></li>
-<li><input disabled="" type="checkbox"> <a href="">Less</a></li>
-</ul>
-<h2 id="UI-Library"><a href="#UI-Library" class="headerlink" title="UI Library"></a>UI Library</h2><ul>
-<li><input disabled="" type="checkbox"> <a href="">Bootstrap</a></li>
-<li><input disabled="" type="checkbox"> <a href="">Materialize CSS</a></li>
-<li><input disabled="" type="checkbox"> <a href="">Semantic UI</a></li>
-<li><input disabled="" type="checkbox"> <a href="ant.design">antd</a></li>
-</ul>
-<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ul>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://webpack.github.io/docs/">Webpack</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="">npm</a></li>
-<li><input disabled="" type="checkbox"> <a href="">Browserify</a></li>
-<li><input disabled="" type="checkbox"> <a href="https://github.com/dvajs/dva">dva</a></li>
-</ul>
-<h2 id="Plugins"><a href="#Plugins" class="headerlink" title="Plugins"></a>Plugins</h2><ul>
-<li><input checked="" disabled="" type="checkbox"> extract-text-webpack-plugin - 抽取CSS文件插件</li>
-<li><input checked="" disabled="" type="checkbox"> open-browser-webpack-plugin - 自动打开浏览器插件</li>
-</ul>
-<h2 id="Style-Guide"><a href="#Style-Guide" class="headerlink" title="Style Guide"></a>Style Guide</h2><ul>
-<li><input disabled="" type="checkbox"> <a href="https://github.com/sivan/javascript-style-guide/blob/master/es5/README.md#translation">Airbnb JS Style Guide</a></li>
-</ul>
+    <title>10 Commandments of Egoless Programming</title>
+    <url>/2017/06/12/backup-2017-06-12-ten-commandments-of-egoless-programming/</url>
+    <content><![CDATA[<p>最近在InfoQ上读到了篇文章<a href="http://www.infoq.com/cn/news/2017/06/10-Commandments-without-program">无我编程的十条戒律</a>，记录一下这十条诫律。</p>
+<ol>
+<li><p><strong>Understand and accept that you will make mistakes.</strong> The point is to find them early, before they make it into production. Fortunately, except for the few of us developing rocket guidance software at JPL, mistakes are rarely fatal in our industry, so we can, and should, learn, laugh, and move on.</p>
+</li>
+<li><p><strong>You are not your code.</strong> Remember that the entire point of a review is to find problems, and problems will be found. Don’t take it personally when one is uncovered.</p>
+</li>
+<li><p><strong>No matter how much “karate” you know, someone else will always know more.</strong> Such an individual can teach you some new moves if you ask. Seek and accept input from others, especially when you think it’s not needed.</p>
+</li>
+<li><p><strong>Don’t rewrite code without consultation.</strong> There’s a fine line between “fixing code” and “rewriting code.” Know the difference, and pursue stylistic changes within the framework of a code review, not as a lone enforcer.</p>
+</li>
+<li><p><strong>Treat people who know less than you with respect, deference, and patience.</strong> Nontechnical people who deal with developers on a regular basis almost universally hold the opinion that we are prima donnas at best and crybabies at worst. Don’t reinforce this stereotype with anger and impatience.</p>
+</li>
+<li><p><strong>The only constant in the world is change.</strong> Be open to it and accept it with a smile. Look at each change to your requirements, platform, or tool as a new challenge, not as some serious inconvenience to be fought.</p>
+</li>
+<li><p><strong>The only true authority stems from knowledge, not from position.</strong> Knowledge engenders authority, and authority engenders respect – so if you want respect in an egoless environment, cultivate knowledge.</p>
+</li>
+<li><p><strong>Fight for what you believe, but gracefully accept defeat.</strong> Understand that sometimes your ideas will be overruled. Even if you do turn out to be right, don’t take revenge or say, “I told you so” more than a few times at most, and don’t make your dearly departed idea a martyr or rallying cry.</p>
+</li>
+<li><p><strong>Don’t be “the guy in the room.”</strong> Don’t be the guy coding in the dark office emerging only to buy cola. The guy in the room is out of touch, out of sight, and out of control and has no place in an open, collaborative environment.</p>
+</li>
+<li><p><strong>Critique code instead of people – be kind to the coder, not to the code.</strong> As much as possible, make all of your comments positive and oriented to improving the code. Relate comments to local standards, program specs, increased performance, etc.</p>
+</li>
+</ol>
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
+<li><a href="https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/">The Ten Commandments of Egoless Programming</a></li>
+<li><a href="http://www.infoq.com/cn/news/2017/06/10-Commandments-without-program">无我编程的十条戒律</a></li>
+<li><a href="https://www.amazon.com/exec/obidos/ASIN/0932633420/codihorr-20">The Psychology of Computer Programming</a> - Jerry Weinberg</li>
+</ol>
 ]]></content>
       <categories>
-        <category>前端</category>
+        <category>读后感</category>
       </categories>
-      <tags>
-        <tag>fontend</tag>
-      </tags>
   </entry>
   <entry>
     <title>Git Data Transport Commands</title>
@@ -440,7 +395,7 @@
 </ul>
 ]]></content>
       <categories>
-        <category>工作总结</category>
+        <category>技术资料</category>
       </categories>
       <tags>
         <tag>git</tag>
@@ -591,10 +546,55 @@
 </ol>
 ]]></content>
       <categories>
-        <category>业余学习</category>
+        <category>技术资料</category>
       </categories>
       <tags>
         <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Fontend Roadmap</title>
+    <url>/2017/02/22/backup-Fontend-Roadmap/</url>
+    <content><![CDATA[<h1 id="前端学习路线"><a href="#前端学习路线" class="headerlink" title="前端学习路线"></a>前端学习路线</h1><img src="/2017/02/22/backup-Fontend-Roadmap/fontend.png" class="" title="fontend">
+
+<h1 id="To-Do"><a href="#To-Do" class="headerlink" title="To Do"></a>To Do</h1><h2 id="Basic"><a href="#Basic" class="headerlink" title="Basic"></a>Basic</h2><ul>
+<li><input checked="" disabled="" type="checkbox"> <a href="">Html</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="">Css</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="">Javascript</a></li>
+<li><input disabled="" type="checkbox"> <a href="">jQuery</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="http://cn.vuejs.org/">Vue</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="http://facebook.github.io/react/">React</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://github.com/reactjs/react-router-tutorial">React Router</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/reactjs/redux">Redux</a></li>
+<li><input disabled="" type="checkbox"> <a href="http://es6.ruanyifeng.com/#docs/intro">ES6</a></li>
+<li><input disabled="" type="checkbox"> <a href="">Sass</a></li>
+<li><input disabled="" type="checkbox"> <a href="">Less</a></li>
+</ul>
+<h2 id="UI-Library"><a href="#UI-Library" class="headerlink" title="UI Library"></a>UI Library</h2><ul>
+<li><input disabled="" type="checkbox"> <a href="">Bootstrap</a></li>
+<li><input disabled="" type="checkbox"> <a href="">Materialize CSS</a></li>
+<li><input disabled="" type="checkbox"> <a href="">Semantic UI</a></li>
+<li><input disabled="" type="checkbox"> <a href="ant.design">antd</a></li>
+</ul>
+<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ul>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://webpack.github.io/docs/">Webpack</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="">npm</a></li>
+<li><input disabled="" type="checkbox"> <a href="">Browserify</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/dvajs/dva">dva</a></li>
+</ul>
+<h2 id="Plugins"><a href="#Plugins" class="headerlink" title="Plugins"></a>Plugins</h2><ul>
+<li><input checked="" disabled="" type="checkbox"> extract-text-webpack-plugin - 抽取CSS文件插件</li>
+<li><input checked="" disabled="" type="checkbox"> open-browser-webpack-plugin - 自动打开浏览器插件</li>
+</ul>
+<h2 id="Style-Guide"><a href="#Style-Guide" class="headerlink" title="Style Guide"></a>Style Guide</h2><ul>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/sivan/javascript-style-guide/blob/master/es5/README.md#translation">Airbnb JS Style Guide</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>fontend</tag>
       </tags>
   </entry>
   <entry>
@@ -619,7 +619,7 @@
 </ol>
 ]]></content>
       <categories>
-        <category>业余学习</category>
+        <category>技术资料</category>
       </categories>
       <tags>
         <tag>数据结构</tag>
@@ -652,7 +652,7 @@
 <h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2><h3 id="mySQL索引结构原理"><a href="#mySQL索引结构原理" class="headerlink" title="mySQL索引结构原理"></a>mySQL索引结构原理</h3><p>索引是对记录按照多个字段进行排序的一种方式。对表中某个字段建立索引会创建另一种数据结构，其中保存着字段的值，每个值又指向与它相关的记录。这种索引的数据结构是经过排序的，因而可以对其执行二分查找。<br>索引的缺点是占用额外的磁盘空间，因为索引保存在MyISAM数据库中，所以如果为同一表中的很多字段都建立索引，那这个文件可能会很快膨胀到文件系统规定的上限。<br><strong>唯一索引</strong><br>索引值必须唯一<br>创建索引： create unique index 索引名 on 表名(列名); alter table 表名 add unique index 索引名 (列名);<br>删除索引： drop index 索引名 on 表名; alter table 表名 drop index 索引名;<br><strong>主键</strong><br>主键是唯一索引的一种，主键要求建表时指定，一般用auto_increment列，关键字是primary key<br>主键创建：creat table test2 (id int not null primary key auto_increment);<br><strong>全文索引</strong><br>InnoDB不支持，MyISAM支持性能比较好，一般在 CHAR、VARCHAR 或 TEXT 列上创建。 Create table 表名( id int not null primary key anto_increment, title varchar(100),FULLTEXT(title) )type&#x3D;MyISAM;<br><strong>单列索引与多列索引</strong></p>
 <h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1>]]></content>
       <categories>
-        <category>业余学习</category>
+        <category>技术资料</category>
       </categories>
       <tags>
         <tag>Java</tag>
@@ -686,7 +686,7 @@
 <p>所以Comparable相当于“内部比较器”，而Comparator相当于“外部比较器”。</p>
 ]]></content>
       <categories>
-        <category>业余学习</category>
+        <category>技术资料</category>
       </categories>
       <tags>
         <tag>Java</tag>
@@ -754,7 +754,7 @@
 </ul>
 ]]></content>
       <categories>
-        <category>工作总结</category>
+        <category>技术资料</category>
       </categories>
       <tags>
         <tag>微服务</tag>
@@ -780,27 +780,11 @@
 </ol>
 ]]></content>
       <categories>
-        <category>工作总结</category>
+        <category>技术资料</category>
       </categories>
       <tags>
         <tag>backend</tag>
         <tag>restful API</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Nginx学习总结</title>
-    <url>/2017/01/10/backup-Nginx-Learning/</url>
-    <content><![CDATA[<h1 id="Nginx是什么"><a href="#Nginx是什么" class="headerlink" title="Nginx是什么"></a>Nginx是什么</h1><h1 id="Nginx框架"><a href="#Nginx框架" class="headerlink" title="Nginx框架"></a>Nginx框架</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
-<li><a href="http://www.runoob.com/linux/nginx-install-setup.html">Nginx 安装配置</a></li>
-<li><a href="http://wiki.jikexueyuan.com/project/nginx/nginx-framework.html">极客学院Nginx教程</a></li>
-<li><a href="http://tengine.taobao.org/book/chapter_02.html">腾讯Nginx平台初探教程</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>工作总结</category>
-      </categories>
-      <tags>
-        <tag>Nginx</tag>
       </tags>
   </entry>
   <entry>
@@ -819,7 +803,7 @@
 <h2 id="👷-DevOps-Roadmap"><a href="#👷-DevOps-Roadmap" class="headerlink" title="👷 DevOps Roadmap"></a>👷 DevOps Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/devops.png" class="" title="devops">
 ]]></content>
       <categories>
-        <category>业余学习</category>
+        <category>技术资料</category>
       </categories>
       <tags>
         <tag>fontend</tag>
@@ -838,10 +822,69 @@
 </ol>
 ]]></content>
       <categories>
-        <category>工作总结</category>
+        <category>技术资料</category>
       </categories>
       <tags>
         <tag>WebSocket</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Nginx学习总结</title>
+    <url>/2017/01/10/backup-Nginx-Learning/</url>
+    <content><![CDATA[<h1 id="Nginx是什么"><a href="#Nginx是什么" class="headerlink" title="Nginx是什么"></a>Nginx是什么</h1><h1 id="Nginx框架"><a href="#Nginx框架" class="headerlink" title="Nginx框架"></a>Nginx框架</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
+<li><a href="http://www.runoob.com/linux/nginx-install-setup.html">Nginx 安装配置</a></li>
+<li><a href="http://wiki.jikexueyuan.com/project/nginx/nginx-framework.html">极客学院Nginx教程</a></li>
+<li><a href="http://tengine.taobao.org/book/chapter_02.html">腾讯Nginx平台初探教程</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>Nginx</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020年8月知识收集</title>
+    <url>/2020/08/10/202008knowledge/</url>
+    <content><![CDATA[<h1 id="机架效果器"><a href="#机架效果器" class="headerlink" title="机架效果器"></a>机架效果器</h1><p><a href="https://www.zhihu.com/question/263981174">https://www.zhihu.com/question/263981174</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Docker容器没有vim</title>
+    <url>/2021/07/17/Docker%E5%AE%B9%E5%99%A8%E6%B2%A1%E6%9C%89vim/</url>
+    <content><![CDATA[<p>docker进入容器后，发现没有vim功能，记录解决办法如下：</p>
+<ol>
+<li>执行</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt-get update</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>安装vim</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt-get install vim</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Materials collection of Kubernetes</title>
+    <url>/2022/06/19/kubernetes-related-study-materials/</url>
+    <content><![CDATA[<h1 id="TL-amp-DL"><a href="#TL-amp-DL" class="headerlink" title="TL&amp;DL"></a>TL&amp;DL</h1><p>工作中收集一些Kubernetes相关的技术资料</p>
+<h1 id="Collection"><a href="#Collection" class="headerlink" title="Collection"></a>Collection</h1><ul>
+<li><a href="https://kubernetes.io/">https://kubernetes.io/官网</a></li>
+<li><a href="https://ebpf.io/">eBPF</a></li>
+</ul>
+<h1 id="Command"><a href="#Command" class="headerlink" title="Command"></a>Command</h1><h2 id="kubectl"><a href="#kubectl" class="headerlink" title="kubectl"></a>kubectl</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">get       #显示一个或多个资源</span><br><span class="line">describe  #显示资源详情</span><br><span class="line">create    #从文件或标准输入创建资源</span><br><span class="line">update   #从文件或标准输入更新资源</span><br><span class="line">delete   #通过文件名、标准输入、资源名或者 label 删除资源</span><br><span class="line">log       #输出 pod 中一个容器的日志</span><br><span class="line">rolling-update  #对指定的 RC 执行滚动升级</span><br><span class="line">exec  #在容器内部执行命令</span><br><span class="line">port-forward #将本地端口转发到 Pod</span><br><span class="line">proxy   #为 Kubernetes API server 启动代理服务器</span><br><span class="line">run     #在集群中使用指定镜像启动容器</span><br><span class="line">expose   #将 SVC 或 pod 暴露为新的 kubernetes service</span><br><span class="line">label     #更新资源的 label</span><br><span class="line">config   #修改 kubernetes 配置文件</span><br><span class="line">cluster-info #显示集群信息</span><br><span class="line">api-versions #以”组/版本”的格式输出服务端支持的 API 版本</span><br><span class="line">version       #输出服务端和客户端的版本信息</span><br><span class="line">help         #显示各个命令的帮助信息</span><br><span class="line">ingress-nginx  #管理 ingress 服务的插件(官方安装和使用方式)</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>kubernetes</tag>
+        <tag>k8s</tag>
       </tags>
   </entry>
   <entry>
@@ -868,50 +911,6 @@
 <h2 id="Insert-a-Read-More"><a href="#Insert-a-Read-More" class="headerlink" title="Insert a Read More"></a>Insert a Read More</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!-- more --&gt;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>maven pom文件多版本管理revision</title>
-    <url>/2022/06/16/maven-pom-revision/</url>
-    <content><![CDATA[<p>maven工程中，对多个子module及相应的pom版本进行管理是很头疼的事，利用<strong>flatten-maven-plugin</strong> 插件将pom版本统一管理起来，在变更的时候只需要改</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;revision&gt;1.0.0-SNAPSHOT&lt;/revision&gt;</span><br></pre></td></tr></table></figure>
-
-<h1 id="使用姿势"><a href="#使用姿势" class="headerlink" title="使用姿势"></a>使用姿势</h1><p>使用${revision}对maven工程中多个pom里的版本号进行关联</p>
-<h2 id="父pom"><a href="#父pom" class="headerlink" title="父pom"></a>父pom</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;project&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">  &lt;parent&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;apache&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;18&lt;/version&gt;</span><br><span class="line">  &lt;/parent&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;ci-parent&lt;/artifactId&gt;</span><br><span class="line">  &lt;name&gt;First CI Friendly&lt;/name&gt;</span><br><span class="line">  &lt;version&gt;$&#123;revision&#125;&lt;/version&gt;</span><br><span class="line">  ...</span><br><span class="line">  &lt;properties&gt;</span><br><span class="line">    &lt;revision&gt;1.0.0-SNAPSHOT&lt;/revision&gt;</span><br><span class="line">  &lt;/properties&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>
-
-<p>注意revision在properties中声明</p>
-<p>在build中使用相关插件</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;build&gt;</span><br><span class="line">  &lt;plugins&gt;</span><br><span class="line">    &lt;plugin&gt;</span><br><span class="line">      &lt;groupId&gt;org.codehaus.mojo&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;flatten-maven-plugin&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;1.1.0&lt;/version&gt;</span><br><span class="line">      &lt;configuration&gt;</span><br><span class="line">          &lt;!-- 是否更新pom文件，此处还有更高级的用法 --&gt;</span><br><span class="line">        &lt;updatePomFile&gt;true&lt;/updatePomFile&gt;</span><br><span class="line">        &lt;flattenMode&gt;resolveCiFriendliesOnly&lt;/flattenMode&gt;</span><br><span class="line">      &lt;/configuration&gt;</span><br><span class="line">      &lt;executions&gt;</span><br><span class="line">        &lt;execution&gt;</span><br><span class="line">          &lt;id&gt;flatten&lt;/id&gt;</span><br><span class="line">          &lt;phase&gt;process-resources&lt;/phase&gt;</span><br><span class="line">          &lt;goals&gt;</span><br><span class="line">            &lt;goal&gt;flatten&lt;/goal&gt;</span><br><span class="line">          &lt;/goals&gt;</span><br><span class="line">        &lt;/execution&gt;</span><br><span class="line">        &lt;execution&gt;</span><br><span class="line">          &lt;id&gt;flatten.clean&lt;/id&gt;</span><br><span class="line">          &lt;phase&gt;clean&lt;/phase&gt;</span><br><span class="line">          &lt;goals&gt;</span><br><span class="line">            &lt;goal&gt;clean&lt;/goal&gt;</span><br><span class="line">          &lt;/goals&gt;</span><br><span class="line">        &lt;/execution&gt;</span><br><span class="line">      &lt;/executions&gt;</span><br><span class="line">    &lt;/plugin&gt;</span><br><span class="line">  &lt;/plugins&gt;</span><br><span class="line">  &lt;/build&gt;</span><br></pre></td></tr></table></figure>
-<h2 id="子pom"><a href="#子pom" class="headerlink" title="子pom"></a>子pom</h2><p>在parent的声明version中直接使用${revision}即可</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;project&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">  &lt;parent&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;ci-parent&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;$&#123;revision&#125;&lt;/version&gt;</span><br><span class="line">  &lt;/parent&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;ci-child&lt;/artifactId&gt;</span><br><span class="line">   ...</span><br><span class="line">  &lt;dependencies&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">      &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;child2&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;$&#123;project.version&#125;&lt;/version&gt;</span><br><span class="line">    &lt;/dependency&gt;</span><br><span class="line">  &lt;/dependencies&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>
-
-<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.cnblogs.com/ElEGenT/p/12938773.html">https://www.cnblogs.com/ElEGenT/p/12938773.html</a></p>
-]]></content>
-      <tags>
-        <tag>maven</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2020年8月知识收集</title>
-    <url>/2020/08/10/202008knowledge/</url>
-    <content><![CDATA[<h1 id="机架效果器"><a href="#机架效果器" class="headerlink" title="机架效果器"></a>机架效果器</h1><p><a href="https://www.zhihu.com/question/263981174">https://www.zhihu.com/question/263981174</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Docker容器没有vim</title>
-    <url>/2021/07/17/Docker%E5%AE%B9%E5%99%A8%E6%B2%A1%E6%9C%89vim/</url>
-    <content><![CDATA[<p>docker进入容器后，发现没有vim功能，记录解决办法如下：</p>
-<ol>
-<li>执行</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt-get update</span><br></pre></td></tr></table></figure>
-
-<ol start="2">
-<li>安装vim</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt-get install vim</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>docker</tag>
       </tags>
   </entry>
   <entry>
@@ -943,10 +942,33 @@
 </ol>
 ]]></content>
       <categories>
-        <category>Database</category>
+        <category>技术资料</category>
       </categories>
       <tags>
         <tag>mysql</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>maven pom文件多版本管理revision</title>
+    <url>/2022/06/16/maven-pom-revision/</url>
+    <content><![CDATA[<p>maven工程中，对多个子module及相应的pom版本进行管理是很头疼的事，利用<strong>flatten-maven-plugin</strong> 插件将pom版本统一管理起来，在变更的时候只需要改</p>
+<span id="more"></span>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;revision&gt;1.0.0-SNAPSHOT&lt;/revision&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="使用姿势"><a href="#使用姿势" class="headerlink" title="使用姿势"></a>使用姿势</h1><p>使用${revision}对maven工程中多个pom里的版本号进行关联</p>
+<h2 id="父pom"><a href="#父pom" class="headerlink" title="父pom"></a>父pom</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;project&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">  &lt;parent&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;apache&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;18&lt;/version&gt;</span><br><span class="line">  &lt;/parent&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;ci-parent&lt;/artifactId&gt;</span><br><span class="line">  &lt;name&gt;First CI Friendly&lt;/name&gt;</span><br><span class="line">  &lt;version&gt;$&#123;revision&#125;&lt;/version&gt;</span><br><span class="line">  ...</span><br><span class="line">  &lt;properties&gt;</span><br><span class="line">    &lt;revision&gt;1.0.0-SNAPSHOT&lt;/revision&gt;</span><br><span class="line">  &lt;/properties&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>
+
+<p>注意revision在properties中声明</p>
+<p>在build中使用相关插件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;build&gt;</span><br><span class="line">  &lt;plugins&gt;</span><br><span class="line">    &lt;plugin&gt;</span><br><span class="line">      &lt;groupId&gt;org.codehaus.mojo&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;flatten-maven-plugin&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;1.1.0&lt;/version&gt;</span><br><span class="line">      &lt;configuration&gt;</span><br><span class="line">          &lt;!-- 是否更新pom文件，此处还有更高级的用法 --&gt;</span><br><span class="line">        &lt;updatePomFile&gt;true&lt;/updatePomFile&gt;</span><br><span class="line">        &lt;flattenMode&gt;resolveCiFriendliesOnly&lt;/flattenMode&gt;</span><br><span class="line">      &lt;/configuration&gt;</span><br><span class="line">      &lt;executions&gt;</span><br><span class="line">        &lt;execution&gt;</span><br><span class="line">          &lt;id&gt;flatten&lt;/id&gt;</span><br><span class="line">          &lt;phase&gt;process-resources&lt;/phase&gt;</span><br><span class="line">          &lt;goals&gt;</span><br><span class="line">            &lt;goal&gt;flatten&lt;/goal&gt;</span><br><span class="line">          &lt;/goals&gt;</span><br><span class="line">        &lt;/execution&gt;</span><br><span class="line">        &lt;execution&gt;</span><br><span class="line">          &lt;id&gt;flatten.clean&lt;/id&gt;</span><br><span class="line">          &lt;phase&gt;clean&lt;/phase&gt;</span><br><span class="line">          &lt;goals&gt;</span><br><span class="line">            &lt;goal&gt;clean&lt;/goal&gt;</span><br><span class="line">          &lt;/goals&gt;</span><br><span class="line">        &lt;/execution&gt;</span><br><span class="line">      &lt;/executions&gt;</span><br><span class="line">    &lt;/plugin&gt;</span><br><span class="line">  &lt;/plugins&gt;</span><br><span class="line">  &lt;/build&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="子pom"><a href="#子pom" class="headerlink" title="子pom"></a>子pom</h2><p>在parent的声明version中直接使用${revision}即可</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;project&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">  &lt;parent&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;ci-parent&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;$&#123;revision&#125;&lt;/version&gt;</span><br><span class="line">  &lt;/parent&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;ci-child&lt;/artifactId&gt;</span><br><span class="line">   ...</span><br><span class="line">  &lt;dependencies&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">      &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;child2&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;$&#123;project.version&#125;&lt;/version&gt;</span><br><span class="line">    &lt;/dependency&gt;</span><br><span class="line">  &lt;/dependencies&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.cnblogs.com/ElEGenT/p/12938773.html">https://www.cnblogs.com/ElEGenT/p/12938773.html</a></p>
+]]></content>
+      <tags>
+        <tag>maven</tag>
       </tags>
   </entry>
 </search>
