@@ -871,7 +871,13 @@
 
 <h2 id="Insert-a-picture"><a href="#Insert-a-picture" class="headerlink" title="Insert a picture"></a>Insert a picture</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![picture&#x27;s name](picture&#x27;s relative path)</span><br></pre></td></tr></table></figure>
 
-<h2 id="Insert-a-Read-More"><a href="#Insert-a-Read-More" class="headerlink" title="Insert a Read More"></a>Insert a Read More</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!-- more --&gt;</span><br></pre></td></tr></table></figure>]]></content>
+<h2 id="Insert-a-Read-More"><a href="#Insert-a-Read-More" class="headerlink" title="Insert a Read More"></a>Insert a Read More</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!-- more --&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Top-articles"><a href="#Top-articles" class="headerlink" title="Top articles"></a>Top articles</h2><p>need to install plugin</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure>
+
+<p>write <strong>top</strong> attribute in the article</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">top: true</span><br><span class="line"></span><br><span class="line">top: 10 # when number is large, the article is the toppest article</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>hexo</tag>
       </tags>
@@ -970,5 +976,45 @@
       <tags>
         <tag>maven</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Java Reactive Programming Collection</title>
+    <url>/2022/06/19/Java-Reactive-Programming-Collection/</url>
+    <content><![CDATA[<h1 id="TL-amp-DR"><a href="#TL-amp-DR" class="headerlink" title="TL&amp;DR"></a>TL&amp;DR</h1><p>Collection of reactive components in java language.</p>
+<p>Including:</p>
+<ul>
+<li>framework</li>
+<li>ORM(database related)</li>
+<li>utilities</li>
+</ul>
+<h1 id="Collection-Detail"><a href="#Collection-Detail" class="headerlink" title="Collection Detail"></a>Collection Detail</h1><ul>
+<li>Framework<ul>
+<li><a href="https://projectreactor.io/">Project Reactor</a></li>
+<li><a href="https://github.com/reactor/reactor-netty">reactor-netty</a></li>
+</ul>
+</li>
+<li>ORM(databse related)<ul>
+<li><a href="https://r2dbc.io/">r2dbc</a><ul>
+<li><a href="https://github.com/mirromutth/r2dbc-mysql">r2dbc-mysql</a></li>
+<li><a href="https://github.com/pgjdbc/r2dbc-postgresql">r2dbc-postgresql</a></li>
+</ul>
+</li>
+<li></li>
+</ul>
+</li>
+<li>Web<ul>
+<li><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html">Spring Webflux</a></li>
+</ul>
+</li>
+<li>Message<ul>
+<li><a href="https://projectreactor.io/docs/kafka/release/reference/">reactor-kafka</a></li>
+</ul>
+</li>
+<li>Tutorials<ul>
+<li><a href="https://www.baeldung.com/spring-data-mongodb-reactive">Spring Data Reactive Repositories with MongoDB</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
   </entry>
 </search>
