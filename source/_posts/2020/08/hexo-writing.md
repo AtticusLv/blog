@@ -48,3 +48,18 @@ hexo d
 ```
 <!-- more -->
 ```
+
+## Top articles
+need to install plugin
+
+```
+npm install hexo-generator-index-pin-top --save
+```
+
+write **top** attribute in the article
+
+```
+top: true
+
+top: 10 # when number is large, the article is the toppest article
+```
