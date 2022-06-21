@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2017-04-27-my-own-timezone</title>
-    <url>/2017/04/27/backup-2017-04-27-my-own-timezone/</url>
-    <content><![CDATA[<p>感谢老婆大人每天的帮助～</p>
-<img src="/2017/04/27/backup-2017-04-27-my-own-timezone/on-time-in-my-timezone.jpg" class="" title="my-own-timezone">
-
-<p>恩！给自己打个鸡血</p>
-<h1 id="I’m-very-much-ON-TIME-and-in-my-TIME-ZONE"><a href="#I’m-very-much-ON-TIME-and-in-my-TIME-ZONE" class="headerlink" title="I’m very much ON TIME, and in my TIME ZONE"></a>I’m very much ON TIME, and in my TIME ZONE</h1>]]></content>
-  </entry>
-  <entry>
     <title>看看别人怎么做前端项目的</title>
     <url>/2016/12/03/backup-20161212-Fontend-Integration-Plan/</url>
     <content><![CDATA[<p>Mark一下，慢慢来看看别人家项目都咋做滴～<br>原文地址 <a href="https://github.com/fouber/blog">https://github.com/fouber/blog</a></p>
@@ -80,27 +71,13 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo编辑博客时要用到的命令</title>
-    <url>/2017/05/16/backup-2017-05-16-hexo-command/</url>
-    <content><![CDATA[<p>记录下在博客中要经常用的hexo相关的tag和命令</p>
-<h1 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h1><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img issue3.png issue3 %&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><p>$2^{i-1}$</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$2^&#123;i-1&#125;$</span><br></pre></td></tr></table></figure>
-<h2 id="kdb标签"><a href="#kdb标签" class="headerlink" title="kdb标签"></a>kdb标签</h2><p>引入hexo-tag-kbd</p>
-<kbd style="border:1px solid gray;font-size:1.2em;box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:2px 3px;padding:1px 5px;">Ctrl</kbd>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% kbd Ctrl %&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="文章链接"><a href="#文章链接" class="headerlink" title="文章链接"></a>文章链接</h2><a href="#">Post not found: Micro-Services 微服务学习</a>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% post_link Micro-Services 微服务学习 %&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h1><h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new post &quot;title&quot;</span><br></pre></td></tr></table></figure>
-<h2 id="清理历史静态文件"><a href="#清理历史静态文件" class="headerlink" title="清理历史静态文件"></a>清理历史静态文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
-<h2 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
-<h2 id="本地启动服务查看"><a href="#本地启动服务查看" class="headerlink" title="本地启动服务查看"></a>本地启动服务查看</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<h2 id="新建新页面"><a href="#新建新页面" class="headerlink" title="新建新页面"></a>新建新页面</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;title&quot;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
+    <title>2017-04-27-my-own-timezone</title>
+    <url>/2017/04/27/backup-2017-04-27-my-own-timezone/</url>
+    <content><![CDATA[<p>感谢老婆大人每天的帮助～</p>
+<img src="/2017/04/27/backup-2017-04-27-my-own-timezone/on-time-in-my-timezone.jpg" class="" title="my-own-timezone">
+
+<p>恩！给自己打个鸡血</p>
+<h1 id="I’m-very-much-ON-TIME-and-in-my-TIME-ZONE"><a href="#I’m-very-much-ON-TIME-and-in-my-TIME-ZONE" class="headerlink" title="I’m very much ON TIME, and in my TIME ZONE"></a>I’m very much ON TIME, and in my TIME ZONE</h1>]]></content>
   </entry>
   <entry>
     <title>那些关于“架构”的七七八八</title>
@@ -185,6 +162,29 @@
       </categories>
       <tags>
         <tag>架构</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo编辑博客时要用到的命令</title>
+    <url>/2017/05/16/backup-2017-05-16-hexo-command/</url>
+    <content><![CDATA[<p>记录下在博客中要经常用的hexo相关的tag和命令</p>
+<h1 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h1><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img issue3.png issue3 %&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><p>$2^{i-1}$</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$2^&#123;i-1&#125;$</span><br></pre></td></tr></table></figure>
+<h2 id="kdb标签"><a href="#kdb标签" class="headerlink" title="kdb标签"></a>kdb标签</h2><p>引入hexo-tag-kbd</p>
+<kbd style="border:1px solid gray;font-size:1.2em;box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:2px 3px;padding:1px 5px;">Ctrl</kbd>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% kbd Ctrl %&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="文章链接"><a href="#文章链接" class="headerlink" title="文章链接"></a>文章链接</h2><a href="#">Post not found: Micro-Services 微服务学习</a>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% post_link Micro-Services 微服务学习 %&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h1><h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new post &quot;title&quot;</span><br></pre></td></tr></table></figure>
+<h2 id="清理历史静态文件"><a href="#清理历史静态文件" class="headerlink" title="清理历史静态文件"></a>清理历史静态文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+<h2 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+<h2 id="本地启动服务查看"><a href="#本地启动服务查看" class="headerlink" title="本地启动服务查看"></a>本地启动服务查看</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<h2 id="新建新页面"><a href="#新建新页面" class="headerlink" title="新建新页面"></a>新建新页面</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;title&quot;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -284,25 +284,6 @@
       <categories>
         <category>读后感</category>
       </categories>
-  </entry>
-  <entry>
-    <title>熵</title>
-    <url>/2017/04/27/backup-2017-4-27-%E7%86%B5/</url>
-    <content><![CDATA[<p>今天拜读了阮一峰大神的新博客，<a href="http://www.ruanyifeng.com/blog/2017/04/entropy.html">熵：宇宙的终极规则</a>，很有感触。文中有提到一本书-《熵：一种新的世界观》，改日拜读一下。</p>
-<p>简单的说来，<strong>熵是那些在能量转换过程中浪费掉的、无法再利用的能量</strong>。</p>
-<p>这里引用阮大神的图和一句话</p>
-<img src="/2017/04/27/backup-2017-4-27-%E7%86%B5/bg2017042408.jpg" class="" title="entropy">
-
-<p><strong>如果不施加外力影响，事务永远向着更加混乱的状态发展</strong>，比如上图里那个由整齐到混乱的房间。</p>
-<p>由此我联系到平时工作生活，如果工作不持续的施加外力（持续不断学习新技术、新能力），最终自己掌握的会变的碎片化；如果生活中不持续的去打理（比如整理房间，比如陶冶情操），自己也会慢慢变得无趣。</p>
-<p>好可怕，谁都逃不掉 <strong>熵</strong> 这个圈圈</p>
-]]></content>
-      <categories>
-        <category>读后感</category>
-      </categories>
-      <tags>
-        <tag>熵</tag>
-      </tags>
   </entry>
   <entry>
     <title>Distribute System Summary</title>
@@ -598,31 +579,22 @@
       </tags>
   </entry>
   <entry>
-    <title>数据结构相关问题总结</title>
-    <url>/2016/05/19/backup-Interview-Data-Structure/</url>
-    <content><![CDATA[<p>我们来总结一下数据结构相关的一些知识，这里包括最普遍的链表、二叉树问题。</p>
-<h1 id="基本问题"><a href="#基本问题" class="headerlink" title="基本问题"></a>基本问题</h1><h2 id="二叉树"><a href="#二叉树" class="headerlink" title="二叉树"></a>二叉树</h2><p>二叉树是每个节点最多有两个分支的树结构，通常分支被称作<strong>左子树</strong>和<strong>右子树</strong>。二叉树的分支具有左右次序，不能颠倒。<br>二叉树的第i层最多有$2^{i-1}$个节点；深度为k的二叉树最多共有$2{k+1}-1$个节点</p>
-<h3 id="满二叉树"><a href="#满二叉树" class="headerlink" title="满二叉树"></a>满二叉树</h3><p>每一层的节点数都是最大节点数，即深度为k有$2^k-1$个节点的二叉树</p>
-<h3 id="完全二叉树"><a href="#完全二叉树" class="headerlink" title="完全二叉树"></a>完全二叉树</h3><p>除最后一层外，其余层都是满的，并且最后一层或者是满的，或者是在右边缺少若干节点，即为完全二叉树。深度为k的<a href="#%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91">完全二叉树</a>，至少有$2^{k-1}$个节点，至多有$2^k-1$个节点。</p>
-<h3 id="访问二叉树的方法"><a href="#访问二叉树的方法" class="headerlink" title="访问二叉树的方法"></a>访问二叉树的方法</h3><h3 id="红黑树"><a href="#红黑树" class="headerlink" title="红黑树"></a>红黑树</h3><p>红黑树是一种自平衡二叉查找树，它可以在$O(logn)$时间内做查找、插入和删除等操作。</p>
-<p><strong>红黑树的性质</strong></p>
-<p>红黑树，是通过红黑两种颜色域保证树的高度近似平衡，它的每个节点是一个五元组：color(颜色)，key(数据)，left(左孩子)，right(右孩子)和p(父节点)。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">红黑树定义</span><br><span class="line">性质1. 节点是红色或黑色</span><br><span class="line">性质2. 根是黑色</span><br><span class="line">性质3. 所有叶子都是黑色（叶子都是NIL节点）</span><br><span class="line">性质4. 如果一个节点是红的，则它的两个儿子都是黑的</span><br><span class="line">性质5. 从任一节点到其叶子的所有简单路径都包含相同数目的黑色节点</span><br></pre></td></tr></table></figure>
-<img src="/2016/05/19/backup-Interview-Data-Structure/red-black-tree.jpg" class="" title="red-black-tree">
-<p>一个关键性质：<br>从根到叶子的最长可能路径不多于最短的可能路径的两倍长</p>
-<p><strong>红黑树的基本操作</strong><br>红黑树上的查找操作与普通二叉查找树上的查找操作相同，但是红黑树上的插入操作和删除操作会导致不再符合红黑树的性质。恢复红黑树的性质需要少量（%O(logn)%）颜色变更和不超过三次树旋转（插入操作是两次）。虽然插入和删除很复杂，但操作时间仍可以保持为%O(logn)%次。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">插入操作：</span><br><span class="line">(1) 查找插入的位置，时间复杂度为O(n)</span><br><span class="line">(2) 将新节点的color赋值为红色</span><br><span class="line">(3) 自下而上重新调整该树为红黑树</span><br></pre></td></tr></table></figure>
-<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
-<li><a href="https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsaj/dsaj.pdf">数据结构与算法（Java 描述）</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%8F%89%E6%A0%91">Wikipedia二叉树</a></li>
-<li><a href="http://dongxicheng.org/structure/red-black-tree/">红黑树</a></li>
-</ol>
+    <title>熵</title>
+    <url>/2017/04/27/backup-2017-4-27-%E7%86%B5/</url>
+    <content><![CDATA[<p>今天拜读了阮一峰大神的新博客，<a href="http://www.ruanyifeng.com/blog/2017/04/entropy.html">熵：宇宙的终极规则</a>，很有感触。文中有提到一本书-《熵：一种新的世界观》，改日拜读一下。</p>
+<p>简单的说来，<strong>熵是那些在能量转换过程中浪费掉的、无法再利用的能量</strong>。</p>
+<p>这里引用阮大神的图和一句话</p>
+<img src="/2017/04/27/backup-2017-4-27-%E7%86%B5/bg2017042408.jpg" class="" title="entropy">
+
+<p><strong>如果不施加外力影响，事务永远向着更加混乱的状态发展</strong>，比如上图里那个由整齐到混乱的房间。</p>
+<p>由此我联系到平时工作生活，如果工作不持续的施加外力（持续不断学习新技术、新能力），最终自己掌握的会变的碎片化；如果生活中不持续的去打理（比如整理房间，比如陶冶情操），自己也会慢慢变得无趣。</p>
+<p>好可怕，谁都逃不掉 <strong>熵</strong> 这个圈圈</p>
 ]]></content>
       <categories>
-        <category>技术资料</category>
+        <category>读后感</category>
       </categories>
       <tags>
-        <tag>数据结构</tag>
+        <tag>熵</tag>
       </tags>
   </entry>
   <entry>
@@ -658,6 +630,34 @@
         <tag>Java</tag>
         <tag>backend</tag>
         <tag>Spring</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构相关问题总结</title>
+    <url>/2016/05/19/backup-Interview-Data-Structure/</url>
+    <content><![CDATA[<p>我们来总结一下数据结构相关的一些知识，这里包括最普遍的链表、二叉树问题。</p>
+<h1 id="基本问题"><a href="#基本问题" class="headerlink" title="基本问题"></a>基本问题</h1><h2 id="二叉树"><a href="#二叉树" class="headerlink" title="二叉树"></a>二叉树</h2><p>二叉树是每个节点最多有两个分支的树结构，通常分支被称作<strong>左子树</strong>和<strong>右子树</strong>。二叉树的分支具有左右次序，不能颠倒。<br>二叉树的第i层最多有$2^{i-1}$个节点；深度为k的二叉树最多共有$2{k+1}-1$个节点</p>
+<h3 id="满二叉树"><a href="#满二叉树" class="headerlink" title="满二叉树"></a>满二叉树</h3><p>每一层的节点数都是最大节点数，即深度为k有$2^k-1$个节点的二叉树</p>
+<h3 id="完全二叉树"><a href="#完全二叉树" class="headerlink" title="完全二叉树"></a>完全二叉树</h3><p>除最后一层外，其余层都是满的，并且最后一层或者是满的，或者是在右边缺少若干节点，即为完全二叉树。深度为k的<a href="#%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91">完全二叉树</a>，至少有$2^{k-1}$个节点，至多有$2^k-1$个节点。</p>
+<h3 id="访问二叉树的方法"><a href="#访问二叉树的方法" class="headerlink" title="访问二叉树的方法"></a>访问二叉树的方法</h3><h3 id="红黑树"><a href="#红黑树" class="headerlink" title="红黑树"></a>红黑树</h3><p>红黑树是一种自平衡二叉查找树，它可以在$O(logn)$时间内做查找、插入和删除等操作。</p>
+<p><strong>红黑树的性质</strong></p>
+<p>红黑树，是通过红黑两种颜色域保证树的高度近似平衡，它的每个节点是一个五元组：color(颜色)，key(数据)，left(左孩子)，right(右孩子)和p(父节点)。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">红黑树定义</span><br><span class="line">性质1. 节点是红色或黑色</span><br><span class="line">性质2. 根是黑色</span><br><span class="line">性质3. 所有叶子都是黑色（叶子都是NIL节点）</span><br><span class="line">性质4. 如果一个节点是红的，则它的两个儿子都是黑的</span><br><span class="line">性质5. 从任一节点到其叶子的所有简单路径都包含相同数目的黑色节点</span><br></pre></td></tr></table></figure>
+<img src="/2016/05/19/backup-Interview-Data-Structure/red-black-tree.jpg" class="" title="red-black-tree">
+<p>一个关键性质：<br>从根到叶子的最长可能路径不多于最短的可能路径的两倍长</p>
+<p><strong>红黑树的基本操作</strong><br>红黑树上的查找操作与普通二叉查找树上的查找操作相同，但是红黑树上的插入操作和删除操作会导致不再符合红黑树的性质。恢复红黑树的性质需要少量（%O(logn)%）颜色变更和不超过三次树旋转（插入操作是两次）。虽然插入和删除很复杂，但操作时间仍可以保持为%O(logn)%次。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">插入操作：</span><br><span class="line">(1) 查找插入的位置，时间复杂度为O(n)</span><br><span class="line">(2) 将新节点的color赋值为红色</span><br><span class="line">(3) 自下而上重新调整该树为红黑树</span><br></pre></td></tr></table></figure>
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
+<li><a href="https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsaj/dsaj.pdf">数据结构与算法（Java 描述）</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%8F%89%E6%A0%91">Wikipedia二叉树</a></li>
+<li><a href="http://dongxicheng.org/structure/red-black-tree/">红黑树</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
       </tags>
   </entry>
   <entry>
@@ -761,19 +761,27 @@
       </tags>
   </entry>
   <entry>
-    <title>Nginx学习总结</title>
-    <url>/2017/01/10/backup-Nginx-Learning/</url>
-    <content><![CDATA[<h1 id="Nginx是什么"><a href="#Nginx是什么" class="headerlink" title="Nginx是什么"></a>Nginx是什么</h1><h1 id="Nginx框架"><a href="#Nginx框架" class="headerlink" title="Nginx框架"></a>Nginx框架</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
-<li><a href="http://www.runoob.com/linux/nginx-install-setup.html">Nginx 安装配置</a></li>
-<li><a href="http://wiki.jikexueyuan.com/project/nginx/nginx-framework.html">极客学院Nginx教程</a></li>
-<li><a href="http://tengine.taobao.org/book/chapter_02.html">腾讯Nginx平台初探教程</a></li>
-</ol>
+    <title>Roadmap to become a Web Developer</title>
+    <url>/2017/04/12/backup-Web-Learning-Roadmap-2017/</url>
+    <content><![CDATA[<p>原文地址</p>
+<blockquote>
+<p><a href="https://github.com/kamranahmedse/developer-roadmap/blob/master/README.md">Roadmap to becoming a web developer in 2017</a></p>
+</blockquote>
+<h2 id="🚀-Introduction"><a href="#🚀-Introduction" class="headerlink" title="🚀 Introduction"></a>🚀 Introduction</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/introduction.png" class="" title="introduction">
+
+<h2 id="🎨-Front-end-Roadmap"><a href="#🎨-Front-end-Roadmap" class="headerlink" title="🎨 Front-end Roadmap"></a>🎨 Front-end Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/fontend.png" class="" title="fontend">
+
+<h2 id="👽-Back-end-Roadmap"><a href="#👽-Back-end-Roadmap" class="headerlink" title="👽 Back-end Roadmap"></a>👽 Back-end Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/backend.png" class="" title="backend">
+
+<h2 id="👷-DevOps-Roadmap"><a href="#👷-DevOps-Roadmap" class="headerlink" title="👷 DevOps Roadmap"></a>👷 DevOps Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/devops.png" class="" title="devops">
 ]]></content>
       <categories>
         <category>技术资料</category>
       </categories>
       <tags>
-        <tag>Nginx</tag>
+        <tag>fontend</tag>
+        <tag>backend</tag>
+        <tag>Roadmap</tag>
       </tags>
   </entry>
   <entry>
@@ -802,53 +810,6 @@
         <tag>backend</tag>
         <tag>restful API</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Roadmap to become a Web Developer</title>
-    <url>/2017/04/12/backup-Web-Learning-Roadmap-2017/</url>
-    <content><![CDATA[<p>原文地址</p>
-<blockquote>
-<p><a href="https://github.com/kamranahmedse/developer-roadmap/blob/master/README.md">Roadmap to becoming a web developer in 2017</a></p>
-</blockquote>
-<h2 id="🚀-Introduction"><a href="#🚀-Introduction" class="headerlink" title="🚀 Introduction"></a>🚀 Introduction</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/introduction.png" class="" title="introduction">
-
-<h2 id="🎨-Front-end-Roadmap"><a href="#🎨-Front-end-Roadmap" class="headerlink" title="🎨 Front-end Roadmap"></a>🎨 Front-end Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/fontend.png" class="" title="fontend">
-
-<h2 id="👽-Back-end-Roadmap"><a href="#👽-Back-end-Roadmap" class="headerlink" title="👽 Back-end Roadmap"></a>👽 Back-end Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/backend.png" class="" title="backend">
-
-<h2 id="👷-DevOps-Roadmap"><a href="#👷-DevOps-Roadmap" class="headerlink" title="👷 DevOps Roadmap"></a>👷 DevOps Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/devops.png" class="" title="devops">
-]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>fontend</tag>
-        <tag>backend</tag>
-        <tag>Roadmap</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WebSocket学习</title>
-    <url>/2016/11/23/backup-WebSocket-Learning/</url>
-    <content><![CDATA[<h1 id="啥是Websocket"><a href="#啥是Websocket" class="headerlink" title="啥是Websocket"></a>啥是Websocket</h1><p>我们可以先从<strong>RealTime</strong>开始唠起，关于Real Time的实现，主要还是基于Ajax的拉取和Comet的推送</p>
-<h1 id="打开连接-握手"><a href="#打开连接-握手" class="headerlink" title="打开连接-握手"></a>打开连接-握手</h1><h1 id="如何写代码？"><a href="#如何写代码？" class="headerlink" title="如何写代码？"></a>如何写代码？</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
-<li><a href="https://github.com/abbshr/abbshr.github.io/issues/22">学习WebSocket协议—从顶层到底层的实现原理</a></li>
-<li><a href="https://www.zhihu.com/question/20215561">知乎:WebSocket 是什么原理？为什么可以实现持久连接？</a></li>
-<li><a href="https://spring.io/guides/gs/messaging-stomp-websocket/">Spring: Using WebSocket to build an interactive web application</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>WebSocket</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2020年8月知识收集</title>
-    <url>/2020/08/10/202008knowledge/</url>
-    <content><![CDATA[<h1 id="机架效果器"><a href="#机架效果器" class="headerlink" title="机架效果器"></a>机架效果器</h1><p><a href="https://www.zhihu.com/question/263981174">https://www.zhihu.com/question/263981174</a></p>
-]]></content>
   </entry>
   <entry>
     <title>HEXO写作命令记录</title>
@@ -881,6 +842,159 @@
       <tags>
         <tag>hexo</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Nginx学习总结</title>
+    <url>/2017/01/10/backup-Nginx-Learning/</url>
+    <content><![CDATA[<h1 id="Nginx是什么"><a href="#Nginx是什么" class="headerlink" title="Nginx是什么"></a>Nginx是什么</h1><h1 id="Nginx框架"><a href="#Nginx框架" class="headerlink" title="Nginx框架"></a>Nginx框架</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
+<li><a href="http://www.runoob.com/linux/nginx-install-setup.html">Nginx 安装配置</a></li>
+<li><a href="http://wiki.jikexueyuan.com/project/nginx/nginx-framework.html">极客学院Nginx教程</a></li>
+<li><a href="http://tengine.taobao.org/book/chapter_02.html">腾讯Nginx平台初探教程</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>Nginx</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WebSocket学习</title>
+    <url>/2016/11/23/backup-WebSocket-Learning/</url>
+    <content><![CDATA[<h1 id="啥是Websocket"><a href="#啥是Websocket" class="headerlink" title="啥是Websocket"></a>啥是Websocket</h1><p>我们可以先从<strong>RealTime</strong>开始唠起，关于Real Time的实现，主要还是基于Ajax的拉取和Comet的推送</p>
+<h1 id="打开连接-握手"><a href="#打开连接-握手" class="headerlink" title="打开连接-握手"></a>打开连接-握手</h1><h1 id="如何写代码？"><a href="#如何写代码？" class="headerlink" title="如何写代码？"></a>如何写代码？</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
+<li><a href="https://github.com/abbshr/abbshr.github.io/issues/22">学习WebSocket协议—从顶层到底层的实现原理</a></li>
+<li><a href="https://www.zhihu.com/question/20215561">知乎:WebSocket 是什么原理？为什么可以实现持久连接？</a></li>
+<li><a href="https://spring.io/guides/gs/messaging-stomp-websocket/">Spring: Using WebSocket to build an interactive web application</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>WebSocket</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022 Study List</title>
+    <url>/2022/06/20/2022-Study-List/</url>
+    <content><![CDATA[<h1 id="计算机基础"><a href="#计算机基础" class="headerlink" title="计算机基础"></a>计算机基础</h1><ul>
+<li><input disabled="" type="checkbox"> 计算机原理</li>
+<li><input disabled="" type="checkbox"> 数据库原理<ul>
+<li><input disabled="" type="checkbox"> mysql</li>
+<li><input disabled="" type="checkbox"> redis</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Kernel</li>
+</ul>
+<h1 id="前沿技术"><a href="#前沿技术" class="headerlink" title="前沿技术"></a>前沿技术</h1><ul>
+<li><input disabled="" type="checkbox"> Kubernetes</li>
+<li><input disabled="" type="checkbox"> Quarkus</li>
+<li><input disabled="" type="checkbox"> OpenResty</li>
+</ul>
+<h1 id="Programming"><a href="#Programming" class="headerlink" title="Programming"></a>Programming</h1><ul>
+<li><input disabled="" type="checkbox"> Go</li>
+</ul>
+<h1 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h1><ul>
+<li><input disabled="" type="checkbox"> guitar 乐理</li>
+<li><input disabled="" type="checkbox"> guitar - Canon</li>
+</ul>
+<h1 id="Books"><a href="#Books" class="headerlink" title="Books"></a>Books</h1><ul>
+<li><input disabled="" type="checkbox"> 人类简史</li>
+<li><input disabled="" type="checkbox"> 国富论</li>
+<li><input disabled="" type="checkbox"> 遥远的救世主</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>学习计划</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020年8月知识收集</title>
+    <url>/2020/08/10/202008knowledge/</url>
+    <content><![CDATA[<h1 id="机架效果器"><a href="#机架效果器" class="headerlink" title="机架效果器"></a>机架效果器</h1><p><a href="https://www.zhihu.com/question/263981174">https://www.zhihu.com/question/263981174</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Materials collection of Kubernetes</title>
+    <url>/2022/06/19/kubernetes-related-study-materials/</url>
+    <content><![CDATA[<h1 id="TL-amp-DL"><a href="#TL-amp-DL" class="headerlink" title="TL&amp;DL"></a>TL&amp;DL</h1><p>工作中收集一些Kubernetes相关的技术资料</p>
+<h1 id="Collection"><a href="#Collection" class="headerlink" title="Collection"></a>Collection</h1><ul>
+<li><a href="https://kubernetes.io/">https://kubernetes.io/官网</a></li>
+<li><a href="https://ebpf.io/">eBPF</a></li>
+</ul>
+<h1 id="Command"><a href="#Command" class="headerlink" title="Command"></a>Command</h1><h2 id="kubectl"><a href="#kubectl" class="headerlink" title="kubectl"></a>kubectl</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">get       #显示一个或多个资源</span><br><span class="line">describe  #显示资源详情</span><br><span class="line">create    #从文件或标准输入创建资源</span><br><span class="line">update   #从文件或标准输入更新资源</span><br><span class="line">delete   #通过文件名、标准输入、资源名或者 label 删除资源</span><br><span class="line">log       #输出 pod 中一个容器的日志</span><br><span class="line">rolling-update  #对指定的 RC 执行滚动升级</span><br><span class="line">exec  #在容器内部执行命令</span><br><span class="line">port-forward #将本地端口转发到 Pod</span><br><span class="line">proxy   #为 Kubernetes API server 启动代理服务器</span><br><span class="line">run     #在集群中使用指定镜像启动容器</span><br><span class="line">expose   #将 SVC 或 pod 暴露为新的 kubernetes service</span><br><span class="line">label     #更新资源的 label</span><br><span class="line">config   #修改 kubernetes 配置文件</span><br><span class="line">cluster-info #显示集群信息</span><br><span class="line">api-versions #以”组/版本”的格式输出服务端支持的 API 版本</span><br><span class="line">version       #输出服务端和客户端的版本信息</span><br><span class="line">help         #显示各个命令的帮助信息</span><br><span class="line">ingress-nginx  #管理 ingress 服务的插件(官方安装和使用方式)</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>kubernetes</tag>
+        <tag>k8s</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>maven pom文件多版本管理revision</title>
+    <url>/2022/06/16/maven-pom-revision/</url>
+    <content><![CDATA[<p>maven工程中，对多个子module及相应的pom版本进行管理是很头疼的事，利用<strong>flatten-maven-plugin</strong> 插件将pom版本统一管理起来，在变更的时候只需要改</p>
+<span id="more"></span>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;revision&gt;1.0.0-SNAPSHOT&lt;/revision&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="使用姿势"><a href="#使用姿势" class="headerlink" title="使用姿势"></a>使用姿势</h1><p>使用${revision}对maven工程中多个pom里的版本号进行关联</p>
+<h2 id="父pom"><a href="#父pom" class="headerlink" title="父pom"></a>父pom</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;project&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">  &lt;parent&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;apache&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;18&lt;/version&gt;</span><br><span class="line">  &lt;/parent&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;ci-parent&lt;/artifactId&gt;</span><br><span class="line">  &lt;name&gt;First CI Friendly&lt;/name&gt;</span><br><span class="line">  &lt;version&gt;$&#123;revision&#125;&lt;/version&gt;</span><br><span class="line">  ...</span><br><span class="line">  &lt;properties&gt;</span><br><span class="line">    &lt;revision&gt;1.0.0-SNAPSHOT&lt;/revision&gt;</span><br><span class="line">  &lt;/properties&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>
+
+<p>注意revision在properties中声明</p>
+<p>在build中使用相关插件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;build&gt;</span><br><span class="line">  &lt;plugins&gt;</span><br><span class="line">    &lt;plugin&gt;</span><br><span class="line">      &lt;groupId&gt;org.codehaus.mojo&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;flatten-maven-plugin&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;1.1.0&lt;/version&gt;</span><br><span class="line">      &lt;configuration&gt;</span><br><span class="line">          &lt;!-- 是否更新pom文件，此处还有更高级的用法 --&gt;</span><br><span class="line">        &lt;updatePomFile&gt;true&lt;/updatePomFile&gt;</span><br><span class="line">        &lt;flattenMode&gt;resolveCiFriendliesOnly&lt;/flattenMode&gt;</span><br><span class="line">      &lt;/configuration&gt;</span><br><span class="line">      &lt;executions&gt;</span><br><span class="line">        &lt;execution&gt;</span><br><span class="line">          &lt;id&gt;flatten&lt;/id&gt;</span><br><span class="line">          &lt;phase&gt;process-resources&lt;/phase&gt;</span><br><span class="line">          &lt;goals&gt;</span><br><span class="line">            &lt;goal&gt;flatten&lt;/goal&gt;</span><br><span class="line">          &lt;/goals&gt;</span><br><span class="line">        &lt;/execution&gt;</span><br><span class="line">        &lt;execution&gt;</span><br><span class="line">          &lt;id&gt;flatten.clean&lt;/id&gt;</span><br><span class="line">          &lt;phase&gt;clean&lt;/phase&gt;</span><br><span class="line">          &lt;goals&gt;</span><br><span class="line">            &lt;goal&gt;clean&lt;/goal&gt;</span><br><span class="line">          &lt;/goals&gt;</span><br><span class="line">        &lt;/execution&gt;</span><br><span class="line">      &lt;/executions&gt;</span><br><span class="line">    &lt;/plugin&gt;</span><br><span class="line">  &lt;/plugins&gt;</span><br><span class="line">  &lt;/build&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="子pom"><a href="#子pom" class="headerlink" title="子pom"></a>子pom</h2><p>在parent的声明version中直接使用${revision}即可</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;project&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">  &lt;parent&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;ci-parent&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;$&#123;revision&#125;&lt;/version&gt;</span><br><span class="line">  &lt;/parent&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;ci-child&lt;/artifactId&gt;</span><br><span class="line">   ...</span><br><span class="line">  &lt;dependencies&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">      &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;child2&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;$&#123;project.version&#125;&lt;/version&gt;</span><br><span class="line">    &lt;/dependency&gt;</span><br><span class="line">  &lt;/dependencies&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.cnblogs.com/ElEGenT/p/12938773.html">https://www.cnblogs.com/ElEGenT/p/12938773.html</a></p>
+]]></content>
+      <tags>
+        <tag>maven</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java Reactive Programming Collection</title>
+    <url>/2022/06/19/Java-Reactive-Programming-Collection/</url>
+    <content><![CDATA[<h1 id="TL-amp-DR"><a href="#TL-amp-DR" class="headerlink" title="TL&amp;DR"></a>TL&amp;DR</h1><p>Collection of reactive components in java language.</p>
+<p>Including:</p>
+<ul>
+<li>framework</li>
+<li>ORM(database related)</li>
+<li>utilities</li>
+</ul>
+<h1 id="Collection-Detail"><a href="#Collection-Detail" class="headerlink" title="Collection Detail"></a>Collection Detail</h1><ul>
+<li>Framework<ul>
+<li><a href="https://projectreactor.io/">Project Reactor</a></li>
+<li><a href="https://github.com/reactor/reactor-netty">reactor-netty</a></li>
+</ul>
+</li>
+<li>ORM(databse related)<ul>
+<li><a href="https://r2dbc.io/">r2dbc</a><ul>
+<li><a href="https://github.com/mirromutth/r2dbc-mysql">r2dbc-mysql</a></li>
+<li><a href="https://github.com/pgjdbc/r2dbc-postgresql">r2dbc-postgresql</a></li>
+</ul>
+</li>
+<li></li>
+</ul>
+</li>
+<li>Web<ul>
+<li><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html">Spring Webflux</a></li>
+</ul>
+</li>
+<li>Message<ul>
+<li><a href="https://projectreactor.io/docs/kafka/release/reference/">reactor-kafka</a></li>
+</ul>
+</li>
+<li>Tutorials<ul>
+<li><a href="https://www.baeldung.com/spring-data-mongodb-reactive">Spring Data Reactive Repositories with MongoDB</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
   </entry>
   <entry>
     <title>Docker容器没有vim</title>
@@ -935,86 +1049,6 @@
       </categories>
       <tags>
         <tag>mysql</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java Reactive Programming Collection</title>
-    <url>/2022/06/19/Java-Reactive-Programming-Collection/</url>
-    <content><![CDATA[<h1 id="TL-amp-DR"><a href="#TL-amp-DR" class="headerlink" title="TL&amp;DR"></a>TL&amp;DR</h1><p>Collection of reactive components in java language.</p>
-<p>Including:</p>
-<ul>
-<li>framework</li>
-<li>ORM(database related)</li>
-<li>utilities</li>
-</ul>
-<h1 id="Collection-Detail"><a href="#Collection-Detail" class="headerlink" title="Collection Detail"></a>Collection Detail</h1><ul>
-<li>Framework<ul>
-<li><a href="https://projectreactor.io/">Project Reactor</a></li>
-<li><a href="https://github.com/reactor/reactor-netty">reactor-netty</a></li>
-</ul>
-</li>
-<li>ORM(databse related)<ul>
-<li><a href="https://r2dbc.io/">r2dbc</a><ul>
-<li><a href="https://github.com/mirromutth/r2dbc-mysql">r2dbc-mysql</a></li>
-<li><a href="https://github.com/pgjdbc/r2dbc-postgresql">r2dbc-postgresql</a></li>
-</ul>
-</li>
-<li></li>
-</ul>
-</li>
-<li>Web<ul>
-<li><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html">Spring Webflux</a></li>
-</ul>
-</li>
-<li>Message<ul>
-<li><a href="https://projectreactor.io/docs/kafka/release/reference/">reactor-kafka</a></li>
-</ul>
-</li>
-<li>Tutorials<ul>
-<li><a href="https://www.baeldung.com/spring-data-mongodb-reactive">Spring Data Reactive Repositories with MongoDB</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>Materials collection of Kubernetes</title>
-    <url>/2022/06/19/kubernetes-related-study-materials/</url>
-    <content><![CDATA[<h1 id="TL-amp-DL"><a href="#TL-amp-DL" class="headerlink" title="TL&amp;DL"></a>TL&amp;DL</h1><p>工作中收集一些Kubernetes相关的技术资料</p>
-<h1 id="Collection"><a href="#Collection" class="headerlink" title="Collection"></a>Collection</h1><ul>
-<li><a href="https://kubernetes.io/">https://kubernetes.io/官网</a></li>
-<li><a href="https://ebpf.io/">eBPF</a></li>
-</ul>
-<h1 id="Command"><a href="#Command" class="headerlink" title="Command"></a>Command</h1><h2 id="kubectl"><a href="#kubectl" class="headerlink" title="kubectl"></a>kubectl</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">get       #显示一个或多个资源</span><br><span class="line">describe  #显示资源详情</span><br><span class="line">create    #从文件或标准输入创建资源</span><br><span class="line">update   #从文件或标准输入更新资源</span><br><span class="line">delete   #通过文件名、标准输入、资源名或者 label 删除资源</span><br><span class="line">log       #输出 pod 中一个容器的日志</span><br><span class="line">rolling-update  #对指定的 RC 执行滚动升级</span><br><span class="line">exec  #在容器内部执行命令</span><br><span class="line">port-forward #将本地端口转发到 Pod</span><br><span class="line">proxy   #为 Kubernetes API server 启动代理服务器</span><br><span class="line">run     #在集群中使用指定镜像启动容器</span><br><span class="line">expose   #将 SVC 或 pod 暴露为新的 kubernetes service</span><br><span class="line">label     #更新资源的 label</span><br><span class="line">config   #修改 kubernetes 配置文件</span><br><span class="line">cluster-info #显示集群信息</span><br><span class="line">api-versions #以”组/版本”的格式输出服务端支持的 API 版本</span><br><span class="line">version       #输出服务端和客户端的版本信息</span><br><span class="line">help         #显示各个命令的帮助信息</span><br><span class="line">ingress-nginx  #管理 ingress 服务的插件(官方安装和使用方式)</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>kubernetes</tag>
-        <tag>k8s</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>maven pom文件多版本管理revision</title>
-    <url>/2022/06/16/maven-pom-revision/</url>
-    <content><![CDATA[<p>maven工程中，对多个子module及相应的pom版本进行管理是很头疼的事，利用<strong>flatten-maven-plugin</strong> 插件将pom版本统一管理起来，在变更的时候只需要改</p>
-<span id="more"></span>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;revision&gt;1.0.0-SNAPSHOT&lt;/revision&gt;</span><br></pre></td></tr></table></figure>
-
-<h1 id="使用姿势"><a href="#使用姿势" class="headerlink" title="使用姿势"></a>使用姿势</h1><p>使用${revision}对maven工程中多个pom里的版本号进行关联</p>
-<h2 id="父pom"><a href="#父pom" class="headerlink" title="父pom"></a>父pom</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;project&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">  &lt;parent&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;apache&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;18&lt;/version&gt;</span><br><span class="line">  &lt;/parent&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;ci-parent&lt;/artifactId&gt;</span><br><span class="line">  &lt;name&gt;First CI Friendly&lt;/name&gt;</span><br><span class="line">  &lt;version&gt;$&#123;revision&#125;&lt;/version&gt;</span><br><span class="line">  ...</span><br><span class="line">  &lt;properties&gt;</span><br><span class="line">    &lt;revision&gt;1.0.0-SNAPSHOT&lt;/revision&gt;</span><br><span class="line">  &lt;/properties&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>
-
-<p>注意revision在properties中声明</p>
-<p>在build中使用相关插件</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;build&gt;</span><br><span class="line">  &lt;plugins&gt;</span><br><span class="line">    &lt;plugin&gt;</span><br><span class="line">      &lt;groupId&gt;org.codehaus.mojo&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;flatten-maven-plugin&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;1.1.0&lt;/version&gt;</span><br><span class="line">      &lt;configuration&gt;</span><br><span class="line">          &lt;!-- 是否更新pom文件，此处还有更高级的用法 --&gt;</span><br><span class="line">        &lt;updatePomFile&gt;true&lt;/updatePomFile&gt;</span><br><span class="line">        &lt;flattenMode&gt;resolveCiFriendliesOnly&lt;/flattenMode&gt;</span><br><span class="line">      &lt;/configuration&gt;</span><br><span class="line">      &lt;executions&gt;</span><br><span class="line">        &lt;execution&gt;</span><br><span class="line">          &lt;id&gt;flatten&lt;/id&gt;</span><br><span class="line">          &lt;phase&gt;process-resources&lt;/phase&gt;</span><br><span class="line">          &lt;goals&gt;</span><br><span class="line">            &lt;goal&gt;flatten&lt;/goal&gt;</span><br><span class="line">          &lt;/goals&gt;</span><br><span class="line">        &lt;/execution&gt;</span><br><span class="line">        &lt;execution&gt;</span><br><span class="line">          &lt;id&gt;flatten.clean&lt;/id&gt;</span><br><span class="line">          &lt;phase&gt;clean&lt;/phase&gt;</span><br><span class="line">          &lt;goals&gt;</span><br><span class="line">            &lt;goal&gt;clean&lt;/goal&gt;</span><br><span class="line">          &lt;/goals&gt;</span><br><span class="line">        &lt;/execution&gt;</span><br><span class="line">      &lt;/executions&gt;</span><br><span class="line">    &lt;/plugin&gt;</span><br><span class="line">  &lt;/plugins&gt;</span><br><span class="line">  &lt;/build&gt;</span><br></pre></td></tr></table></figure>
-<h2 id="子pom"><a href="#子pom" class="headerlink" title="子pom"></a>子pom</h2><p>在parent的声明version中直接使用${revision}即可</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;project&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">  &lt;parent&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;ci-parent&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;$&#123;revision&#125;&lt;/version&gt;</span><br><span class="line">  &lt;/parent&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;ci-child&lt;/artifactId&gt;</span><br><span class="line">   ...</span><br><span class="line">  &lt;dependencies&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">      &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;child2&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;$&#123;project.version&#125;&lt;/version&gt;</span><br><span class="line">    &lt;/dependency&gt;</span><br><span class="line">  &lt;/dependencies&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>
-
-<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.cnblogs.com/ElEGenT/p/12938773.html">https://www.cnblogs.com/ElEGenT/p/12938773.html</a></p>
-]]></content>
-      <tags>
-        <tag>maven</tag>
       </tags>
   </entry>
 </search>
