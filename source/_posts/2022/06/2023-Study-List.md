@@ -1,6 +1,6 @@
 ---
-title: 2022 Study List
-date: 2022-06-20 14:55:11
+title: 2023 Study List
+date: 2023-01-30 14:55:11
 tags:
 - 学习计划
 categories:
@@ -14,15 +14,18 @@ top: 10
 - [ ] Kernel
 # 前沿技术
 - [ ] Kubernetes
+- [ ] Istio
 - [ ] Quarkus
 - [ ] OpenResty
+
 # Programming
 - [ ] Go
+- [ ] LUA
 # 生活
 - [ ] guitar 乐理
 - [ ] guitar - Canon
 # Books
-- [ ] 人类简史
+- [x] 人类简史
 - [ ] 国富论
 - [ ] 遥远的救世主
 
