@@ -182,6 +182,105 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.nuoyang.tech/2020/08/08/hexo-writing/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/head.jpg">
+      <meta itemprop="name" content="Atticus Lv">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Atticus Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Atticus Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2020/08/08/hexo-writing/" class="post-title-link" itemprop="url">HEXO写作命令记录</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2020-08-08 17:51:06" itemprop="dateCreated datePublished" datetime="2020-08-08T17:51:06+08:00">2020-08-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-06-19 17:24:28" itemprop="dateModified" datetime="2022-06-19T17:24:28+08:00">2022-06-19</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="HEXO写作命令记录"><a href="#HEXO写作命令记录" class="headerlink" title="HEXO写作命令记录"></a>HEXO写作命令记录</h1><h2 id="Create-New-Post"><a href="#Create-New-Post" class="headerlink" title="Create New Post"></a>Create New Post</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo new &#x27;[post_name]&#x27;</span><br><span class="line">hexo n &#x27;[post_name]&#x27;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Create-New-Page"><a href="#Create-New-Page" class="headerlink" title="Create New Page"></a>Create New Page</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n page &#x27;&#x27;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Define-Custom-Page-x2F-Post-Template"><a href="#Define-Custom-Page-x2F-Post-Template" class="headerlink" title="Define Custom Page&#x2F;Post Template"></a>Define Custom Page&#x2F;Post Template</h2><ol>
+<li>Create a new markdown file in the root folder <strong>&#x2F;scaffolders</strong>, such as <strong>sprint.md</strong>.</li>
+<li>Use blow commands</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n sprint &#x27;[post_name]&#x27;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+
+<h2 id="Generate-Static-Files"><a href="#Generate-Static-Files" class="headerlink" title="Generate Static Files"></a>Generate Static Files</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+<h2 id="Deploy-to-remote-server-x2F-git"><a href="#Deploy-to-remote-server-x2F-git" class="headerlink" title="Deploy to remote server&#x2F;git"></a>Deploy to remote server&#x2F;git</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<h2 id="Insert-a-picture"><a href="#Insert-a-picture" class="headerlink" title="Insert a picture"></a>Insert a picture</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![picture&#x27;s name](picture&#x27;s relative path)</span><br></pre></td></tr></table></figure>
+
+<h2 id="Insert-a-Read-More"><a href="#Insert-a-Read-More" class="headerlink" title="Insert a Read More"></a>Insert a Read More</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- more --&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Top-articles"><a href="#Top-articles" class="headerlink" title="Top articles"></a>Top articles</h2><p>need to install plugin</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure>
+
+<p>write <strong>top</strong> attribute in the article</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">top: true</span><br><span class="line"></span><br><span class="line">top: 10 # when number is large, the article is the toppest article</span><br></pre></td></tr></table></figure>
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="https://blog.nuoyang.tech/2017/06/12/backup-2017-06-12-ten-commandments-of-egoless-programming/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -652,85 +751,6 @@
 <li><a target="_blank" rel="noopener" href="http://www.infoq.com/cn/architect/">InfoQ架构师月刊</a></li>
 </ol>
 
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://blog.nuoyang.tech/2017/04/27/backup-2017-04-27-my-own-timezone/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/head.jpg">
-      <meta itemprop="name" content="Atticus Lv">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Atticus Blog">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Atticus Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2017/04/27/backup-2017-04-27-my-own-timezone/" class="post-title-link" itemprop="url">2017-04-27-my-own-timezone</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2017-04-27 16:36:17" itemprop="dateCreated datePublished" datetime="2017-04-27T16:36:17+08:00">2017-04-27</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-06-16 17:05:51" itemprop="dateModified" datetime="2022-06-16T17:05:51+08:00">2022-06-16</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>感谢老婆大人每天的帮助～</p>
-<img src="/2017/04/27/backup-2017-04-27-my-own-timezone/on-time-in-my-timezone.jpg" class="" title="my-own-timezone">
-
-<p>恩！给自己打个鸡血</p>
-<h1 id="I’m-very-much-ON-TIME-and-in-my-TIME-ZONE"><a href="#I’m-very-much-ON-TIME-and-in-my-TIME-ZONE" class="headerlink" title="I’m very much ON TIME, and in my TIME ZONE"></a>I’m very much ON TIME, and in my TIME ZONE</h1>
       
     </div>
 

@@ -21,23 +21,27 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"blog.nuoyang.tech","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.12.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"default"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Atticus Blog">
-<meta property="og:url" content="https://blog.nuoyang.tech/archives/2017/index.html">
+    <meta name="description" content="MQTT相关资料 MQTT: http:&#x2F;&#x2F;mqtt.org&#x2F; Hands-On Internet of Things with MQTT: https:&#x2F;&#x2F;learning.oreilly.com&#x2F;library&#x2F;view&#x2F;hands-on-internet-of&#x2F;9781789341782 初识 MQTT 为什么 MQTT 是最适合物联网的网络协议 https:&#x2F;&#x2F;www.ibm.com&#x2F;de">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MQTT">
+<meta property="og:url" content="https://blog.nuoyang.tech/2023/01/31/MQTT/index.html">
 <meta property="og:site_name" content="Atticus Blog">
+<meta property="og:description" content="MQTT相关资料 MQTT: http:&#x2F;&#x2F;mqtt.org&#x2F; Hands-On Internet of Things with MQTT: https:&#x2F;&#x2F;learning.oreilly.com&#x2F;library&#x2F;view&#x2F;hands-on-internet-of&#x2F;9781789341782 初识 MQTT 为什么 MQTT 是最适合物联网的网络协议 https:&#x2F;&#x2F;www.ibm.com&#x2F;de">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-01-31T07:10:13.000Z">
+<meta property="article:modified_time" content="2023-01-31T07:19:28.821Z">
 <meta property="article:author" content="Atticus Lv">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://blog.nuoyang.tech/archives/2017/">
+<link rel="canonical" href="https://blog.nuoyang.tech/2023/01/31/MQTT/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"archives/2017/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://blog.nuoyang.tech/2023/01/31/MQTT/","path":"2023/01/31/MQTT/","title":"MQTT"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>归档 | Atticus Blog</title>
+<title>MQTT | Atticus Blog</title>
   
 
 
@@ -67,7 +71,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">Atticus Blog</h1>
+      <p class="site-title">Atticus Blog</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -126,7 +130,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -139,6 +143,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#MQTT%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99"><span class="nav-number">1.</span> <span class="nav-text">MQTT相关资料</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -172,232 +177,113 @@
 </noscript>
 
 
-    <div class="main-inner archive posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
-  
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 30 篇日志。 继续努力。</span>
-      </div>
 
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.nuoyang.tech/2023/01/31/MQTT/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/head.jpg">
+      <meta itemprop="name" content="Atticus Lv">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Atticus Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="MQTT | Atticus Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          MQTT
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2017</span>
+
+      <time title="创建时间：2023-01-31 15:10:13 / 修改时间：15:19:28" itemprop="dateCreated datePublished" datetime="2023-01-31T15:10:13+08:00">2023-01-31</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/" itemprop="url" rel="index"><span itemprop="name">技术资料</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/%E8%AF%BB%E5%90%8E%E6%84%9F/" itemprop="url" rel="index"><span itemprop="name">读后感</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="MQTT相关资料"><a href="#MQTT相关资料" class="headerlink" title="MQTT相关资料"></a>MQTT相关资料</h1><ul>
+<li>MQTT: <a target="_blank" rel="noopener" href="http://mqtt.org/">http://mqtt.org/</a></li>
+<li>Hands-On Internet of Things with MQTT: <a target="_blank" rel="noopener" href="https://learning.oreilly.com/library/view/hands-on-internet-of/9781789341782">https://learning.oreilly.com/library/view/hands-on-internet-of/9781789341782</a></li>
+<li>初识 MQTT 为什么 MQTT 是最适合物联网的网络协议 <a target="_blank" rel="noopener" href="https://www.ibm.com/developerworks/cn/iot/iot-mqtt-why-good-for-iot/index.html">https://www.ibm.com/developerworks/cn/iot/iot-mqtt-why-good-for-iot/index.html</a></li>
+<li>MQTT协议中文: <a target="_blank" rel="noopener" href="https://mcxiaoke.gitbooks.io/mqtt-cn/content/">https://mcxiaoke.gitbooks.io/mqtt-cn/content/</a></li>
+<li>MQTT 5: <a target="_blank" rel="noopener" href="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html">https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html</a></li>
+<li>Eclipse Mosquitto: open source message broker that implements the MQTT protocol versions 3.1 and 3.1.1 <a target="_blank" rel="noopener" href="https://mosquitto.org/">https://mosquitto.org/</a></li>
+<li>Eclipse Paho: open-source client implementations of MQTT and MQTT-SN messaging protocols <a target="_blank" rel="noopener" href="https://www.eclipse.org/paho/">https://www.eclipse.org/paho/</a></li>
+<li>HiveMQ: MQTT based messaging platform designed for the fast, efficient and reliable movement of data to and from connected IoT devices <a target="_blank" rel="noopener" href="https://www.hivemq.com/">https://www.hivemq.com/</a></li>
+<li>Reactor Netty: <a target="_blank" rel="noopener" href="https://github.com/reactor/reactor-netty">https://github.com/reactor/reactor-netty</a></li>
+<li>Open-source IoT Platform: <a target="_blank" rel="noopener" href="https://github.com/actorcloud/ActorCloud">https://github.com/actorcloud/ActorCloud</a></li>
+</ul>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2017-06-12T15:43:31+08:00"
-              content="2017-06-12">
-          06-12
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2017/06/12/backup-2017-06-12-ten-commandments-of-egoless-programming/" itemprop="url">
-            <span itemprop="name">10 Commandments of Egoless Programming</span>
-          </a>
-      </div>
+    <footer class="post-footer">
 
-      
-    </header>
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/01/30/2023-Study-List/" rel="prev" title="2023 Study List">
+                  <i class="fa fa-chevron-left"></i> 2023 Study List
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
   </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2017-05-18T11:38:04+08:00"
-              content="2017-05-18">
-          05-18
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2017/05/18/backup-2017-05-18-aliyun-linux-quick-api/" itemprop="url">
-            <span itemprop="name">阿里云快速搭建公网ip访问api</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2017-05-16T11:00:12+08:00"
-              content="2017-05-16">
-          05-16
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2017/05/16/backup-2017-05-16-hexo-command/" itemprop="url">
-            <span itemprop="name">Hexo编辑博客时要用到的命令</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2017-05-08T10:49:10+08:00"
-              content="2017-05-08">
-          05-08
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2017/05/08/backup-2017-05-08-software-architecture/" itemprop="url">
-            <span itemprop="name">那些关于“架构”的七七八八</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2017-04-27T16:36:17+08:00"
-              content="2017-04-27">
-          04-27
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2017/04/27/backup-2017-04-27-my-own-timezone/" itemprop="url">
-            <span itemprop="name">2017-04-27-my-own-timezone</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2017-04-27T10:41:19+08:00"
-              content="2017-04-27">
-          04-27
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2017/04/27/backup-2017-4-27-%E7%86%B5/" itemprop="url">
-            <span itemprop="name">熵</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2017-04-24T14:31:11+08:00"
-              content="2017-04-24">
-          04-24
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2017/04/24/backup-Micro-Services/" itemprop="url">
-            <span itemprop="name">微服务学习</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2017-04-24T10:01:17+08:00"
-              content="2017-04-24">
-          04-24
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2017/04/24/backup-Restful-API/" itemprop="url">
-            <span itemprop="name">Restful API总结</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2017-04-12T21:35:52+08:00"
-              content="2017-04-12">
-          04-12
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2017/04/12/backup-Web-Learning-Roadmap-2017/" itemprop="url">
-            <span itemprop="name">Roadmap to become a Web Developer</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2017-02-22T21:23:29+08:00"
-              content="2017-02-22">
-          02-22
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2017/02/22/backup-Fontend-Roadmap/" itemprop="url">
-            <span itemprop="name">Fontend Roadmap</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
+</div>
 
 
-    </div>
-  </div>
-  
-  
-  
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/archives/2017/page/2/">2</a><a class="extend next" rel="next" href="/archives/2017/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
-  </nav>
+
+
+
 
 </div>
   </main>

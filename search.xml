@@ -1109,4 +1109,25 @@
         <tag>springboot</tag>
       </tags>
   </entry>
+  <entry>
+    <title>MQTT</title>
+    <url>/2023/01/31/MQTT/</url>
+    <content><![CDATA[<h1 id="MQTT相关资料"><a href="#MQTT相关资料" class="headerlink" title="MQTT相关资料"></a>MQTT相关资料</h1><ul>
+<li>MQTT: <a href="http://mqtt.org/">http://mqtt.org/</a></li>
+<li>Hands-On Internet of Things with MQTT: <a href="https://learning.oreilly.com/library/view/hands-on-internet-of/9781789341782">https://learning.oreilly.com/library/view/hands-on-internet-of/9781789341782</a></li>
+<li>初识 MQTT 为什么 MQTT 是最适合物联网的网络协议 <a href="https://www.ibm.com/developerworks/cn/iot/iot-mqtt-why-good-for-iot/index.html">https://www.ibm.com/developerworks/cn/iot/iot-mqtt-why-good-for-iot/index.html</a></li>
+<li>MQTT协议中文: <a href="https://mcxiaoke.gitbooks.io/mqtt-cn/content/">https://mcxiaoke.gitbooks.io/mqtt-cn/content/</a></li>
+<li>MQTT 5: <a href="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html">https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html</a></li>
+<li>Eclipse Mosquitto: open source message broker that implements the MQTT protocol versions 3.1 and 3.1.1 <a href="https://mosquitto.org/">https://mosquitto.org/</a></li>
+<li>Eclipse Paho: open-source client implementations of MQTT and MQTT-SN messaging protocols <a href="https://www.eclipse.org/paho/">https://www.eclipse.org/paho/</a></li>
+<li>HiveMQ: MQTT based messaging platform designed for the fast, efficient and reliable movement of data to and from connected IoT devices <a href="https://www.hivemq.com/">https://www.hivemq.com/</a></li>
+<li>Reactor Netty: <a href="https://github.com/reactor/reactor-netty">https://github.com/reactor/reactor-netty</a></li>
+<li>Open-source IoT Platform: <a href="https://github.com/actorcloud/ActorCloud">https://github.com/actorcloud/ActorCloud</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+        <category>读后感</category>
+      </categories>
+  </entry>
 </search>
