@@ -1,63 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>看看别人怎么做前端项目的</title>
-    <url>/2016/12/03/backup-20161212-Fontend-Integration-Plan/</url>
-    <content><![CDATA[<p>Mark一下，慢慢来看看别人家项目都咋做滴～<br>原文地址 <a href="https://github.com/fouber/blog">https://github.com/fouber/blog</a></p>
+    <title>2023学习清单</title>
+    <url>/2023/01/30/2023-Study-List/</url>
+    <content><![CDATA[<h1 id="计算机基础"><a href="#计算机基础" class="headerlink" title="计算机基础"></a>计算机基础</h1><ul>
+<li><input disabled="" type="checkbox"> 计算机原理</li>
+<li><input disabled="" type="checkbox"> 数据库原理<ul>
+<li><input disabled="" type="checkbox"> mysql</li>
+<li><input disabled="" type="checkbox"> redis</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Kernel</li>
+</ul>
+<h1 id="前沿技术"><a href="#前沿技术" class="headerlink" title="前沿技术"></a>前沿技术</h1><ul>
+<li><input disabled="" type="checkbox"> Kubernetes</li>
+<li><input disabled="" type="checkbox"> Istio</li>
+<li><input disabled="" type="checkbox"> Quarkus</li>
+<li><input disabled="" type="checkbox"> OpenResty</li>
+<li><input disabled="" type="checkbox"> Serverless</li>
+</ul>
+<h1 id="Programming"><a href="#Programming" class="headerlink" title="Programming"></a>Programming</h1><ul>
+<li><input disabled="" type="checkbox"> Go</li>
+<li><input disabled="" type="checkbox"> LUA</li>
+</ul>
+<h1 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h1><ul>
+<li><input disabled="" type="checkbox"> guitar 乐理</li>
+<li><input disabled="" type="checkbox"> guitar - Canon</li>
+</ul>
+<h1 id="Books"><a href="#Books" class="headerlink" title="Books"></a>Books</h1><ul>
+<li><input checked="" disabled="" type="checkbox"> 人类简史</li>
+<li><input disabled="" type="checkbox"> 国富论</li>
+<li><input disabled="" type="checkbox"> 遥远的救世主</li>
+<li><input disabled="" type="checkbox"> 西游记</li>
+<li><input disabled="" type="checkbox"> 资本论</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Plan</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java Reactive Programming Collection</title>
+    <url>/2022/06/19/Java-Reactive-Programming-Collection/</url>
+    <content><![CDATA[<h1 id="TL-amp-DR"><a href="#TL-amp-DR" class="headerlink" title="TL&amp;DR"></a>TL&amp;DR</h1><p>Collection of reactive components in java language.</p>
+<p>Including:</p>
 <ul>
-<li>系列专题<ul>
-<li><a href="https://github.com/fouber/blog/issues/10">前端工程——基础篇</a></li>
+<li>framework</li>
+<li>ORM(database related)</li>
+<li>utilities</li>
+</ul>
+<h1 id="Collection-Detail"><a href="#Collection-Detail" class="headerlink" title="Collection Detail"></a>Collection Detail</h1><ul>
+<li>Framework<ul>
+<li><a href="https://projectreactor.io/">Project Reactor</a></li>
+<li><a href="https://github.com/reactor/reactor-netty">reactor-netty</a></li>
 </ul>
 </li>
-<li>工程杂谈<ul>
-<li><a href="https://github.com/fouber/blog/issues/1">浅谈前端集成解决方案</a></li>
-<li><a href="https://github.com/fouber/blog/issues/3">前端工程与性能优化</a></li>
-<li><a href="https://github.com/fouber/blog/issues/2">前端开发体系建设日记</a></li>
-<li><a href="https://github.com/fouber/blog/issues/4">前端开发体与模块化框架</a></li>
-<li><a href="https://github.com/fouber/blog/issues/6">大公司里怎样开发和部署前端代码？</a></li>
-<li><a href="https://github.com/fouber/blog/issues/7">如何进行前端自动化测试？</a></li>
-<li><a href="https://github.com/fouber/blog/issues/5">md5戳计算过程</a></li>
+<li>ORM(databse related)<ul>
+<li><a href="https://r2dbc.io/">r2dbc</a><ul>
+<li><a href="https://github.com/mirromutth/r2dbc-mysql">r2dbc-mysql</a></li>
+<li><a href="https://github.com/pgjdbc/r2dbc-postgresql">r2dbc-postgresql</a></li>
 </ul>
 </li>
-<li>示例项目<ul>
-<li><a href="https://github.com/fouber/static-resource-management-system-demo">php版静态资源管理系统示例</a></li>
-<li><a href="https://github.com/fouber/fis-php-md.js">模块化开发组合php版静态资源管理示例</a></li>
-<li><a href="https://github.com/fouber/fis-java-jsp">java版静态资源管理系统示例</a></li>
-<li><a href="https://github.com/fouber/static-resource-digest-project">静态资源缓存控制演示项目</a></li>
+<li></li>
 </ul>
 </li>
-<li>业界实践<ul>
-<li><a href="http://tech.meituan.com/frontend-component-practice.html">前端组件化开发实践</a> by 美团</li>
-<li><a href="https://github.com/xufei/blog/issues/19">2015前端组件化框架之路</a> by <a href="http://weibo.com/sharpmaster">@民工精髓</a></li>
-<li><a href="http://fex.baidu.com/blog/2014/03/fis-module/">前端工程之模块化</a> by <a href="http://weibo.com/u/1916384703">@沈洪顺</a></li>
-<li>前端xss防火墙系列文章 by <a href="https://github.com/zjcqoo">@ＥtherＤream</a><ul>
-<li><a href="http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-1/">内联事件拦截</a></li>
-<li><a href="http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-2/">可疑模块拦截</a></li>
-<li><a href="http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-3/">无懈可击的钩子</a></li>
-<li><a href="http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-4/">天衣无缝的防护</a></li>
-<li><a href="http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-5">整装待发</a></li>
+<li>Web<ul>
+<li><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html">Spring Webflux</a></li>
 </ul>
 </li>
+<li>Message<ul>
+<li><a href="https://projectreactor.io/docs/kafka/release/reference/">reactor-kafka</a></li>
 </ul>
 </li>
-<li>经典图书<ul>
-<li>《<a href="http://book.douban.com/subject/2084131/">High Performance Web Sites</a>》（<a href="http://book.douban.com/subject/3132277/">高性能网站建设指南</a>）</li>
-<li>《<a href="http://book.douban.com/subject/3686503/">Even Faster Web Sites</a>》（<a href="http://book.douban.com/subject/4719162/">高性能网站建设进阶指南</a>）</li>
-<li>《<a href="http://book.douban.com/subject/21866396/">High Performance Browser Networking</a>》（<a href="http://book.douban.com/subject/25856314/">Web性能权威指南</a>）</li>
-</ul>
-</li>
-<li>经典文章<ul>
-<li><a href="https://developer.yahoo.com/performance/rules.html">Best Practices for Speeding Up Your Web Site（雅虎35条）</a></li>
-<li><a href="http://v.youku.com/v_show/id_XMjI5OTUxMjE2.html">Facebook静态网页资源的管理和优化</a> [<a href="http://velocity.oreilly.com.cn/2010/ppts/VelocityChina2010Dec7StaticResource.pdf">PDF</a>] by <a href="http://weibo.com/weixiaoliang9">@David Wei</a></li>
-<li><a href="http://v.youku.com/v_show/id_XMzUwOTQzMzA4.html">Facebook移动互联网应用的性能优化</a> [<a href="http://velocity.oreilly.com.cn/2011/ppts/MobilePerformanceVelocity2011_DavidWei.pdf">PDF</a>] by <a href="http://weibo.com/weixiaoliang9">@David Wei</a></li>
-<li><a href="https://developers.google.com/speed/docs/insights/rules?csw=1">PageSpeed Insights规则</a></li>
-<li><a href="https://developers.google.com/speed/docs/insights/mobile">Mobile Analysis in PageSpeed Insights</a></li>
-<li>Optimizing the Critical Rendering Path for Instant Mobile Websites [<a href="https://docs.google.com/presentation/d/1IRHyU7_crIiCjl0Gvue0WY3eY_eYvFQvSfwQouW9368/present?slide=id.p19">slides</a>,<a href="https://www.youtube.com/watch?v=YV1nKLWoARQ">video</a>]</li>
-<li>Instant Mobile Websites: Techniques and Best Practices [<a href="http://storage.googleapis.com/io-2013/presentations/239-%20Instant%20Mobile%20Websites-%20Techniques%20and%20Best%20Practices.pdf">slides</a>, <a href="https://www.youtube.com/watch?v=Bzw8-ZLpwtw">video</a>]</li>
-<li><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/">Critical Rendering Path（关键呈现路径）</a></li>
-<li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/?hl=zh-cn">Optimizing Content Efficienc（优化内容效率）</a></li>
-<li><a href="https://developers.google.com/web/fundamentals/performance/rendering/?hl=zh-cn">Rendering（渲染性能）</a></li>
-<li><a href="http://taligarsiel.com/Projects/howbrowserswork1.htm">How browsers work</a></li>
+<li>Tutorials<ul>
+<li><a href="https://www.baeldung.com/spring-data-mongodb-reactive">Spring Data Reactive Repositories with MongoDB</a></li>
 </ul>
 </li>
 </ul>
@@ -66,18 +85,336 @@
         <category>技术资料</category>
       </categories>
       <tags>
-        <tag>fontend</tag>
-        <tag>project</tag>
+        <tag>java</tag>
+        <tag>reactive</tag>
       </tags>
   </entry>
   <entry>
-    <title>2017-04-27-my-own-timezone</title>
-    <url>/2017/04/27/backup-2017-04-27-my-own-timezone/</url>
-    <content><![CDATA[<p>感谢老婆大人每天的帮助～</p>
-<img src="/2017/04/27/backup-2017-04-27-my-own-timezone/on-time-in-my-timezone.jpg" class="" title="my-own-timezone">
+    <title>MQTT</title>
+    <url>/2023/01/31/MQTT/</url>
+    <content><![CDATA[<h1 id="MQTT相关资料"><a href="#MQTT相关资料" class="headerlink" title="MQTT相关资料"></a>MQTT相关资料</h1><ul>
+<li>MQTT: <a href="http://mqtt.org/">http://mqtt.org/</a></li>
+<li>Hands-On Internet of Things with MQTT: <a href="https://learning.oreilly.com/library/view/hands-on-internet-of/9781789341782">https://learning.oreilly.com/library/view/hands-on-internet-of/9781789341782</a></li>
+<li>初识 MQTT 为什么 MQTT 是最适合物联网的网络协议 <a href="https://www.ibm.com/developerworks/cn/iot/iot-mqtt-why-good-for-iot/index.html">https://www.ibm.com/developerworks/cn/iot/iot-mqtt-why-good-for-iot/index.html</a></li>
+<li>MQTT协议中文: <a href="https://mcxiaoke.gitbooks.io/mqtt-cn/content/">https://mcxiaoke.gitbooks.io/mqtt-cn/content/</a></li>
+<li>MQTT 5: <a href="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html">https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html</a></li>
+<li>Eclipse Mosquitto: open source message broker that implements the MQTT protocol versions 3.1 and 3.1.1 <a href="https://mosquitto.org/">https://mosquitto.org/</a></li>
+<li>Eclipse Paho: open-source client implementations of MQTT and MQTT-SN messaging protocols <a href="https://www.eclipse.org/paho/">https://www.eclipse.org/paho/</a></li>
+<li>HiveMQ: MQTT based messaging platform designed for the fast, efficient and reliable movement of data to and from connected IoT devices <a href="https://www.hivemq.com/">https://www.hivemq.com/</a></li>
+<li>Reactor Netty: <a href="https://github.com/reactor/reactor-netty">https://github.com/reactor/reactor-netty</a></li>
+<li>Open-source IoT Platform: <a href="https://github.com/actorcloud/ActorCloud">https://github.com/actorcloud/ActorCloud</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+        <category>读后感</category>
+      </categories>
+      <tags>
+        <tag>mqtt</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用Istio和SpringBoot进行RPC调用</title>
+    <url>/2022/06/24/Use-Istio-and-SpringBoot-to-do-RPC-Remote-Procedure-Call/</url>
+    <content><![CDATA[<h1 id="TL-amp-DR"><a href="#TL-amp-DR" class="headerlink" title="TL&amp;DR"></a>TL&amp;DR</h1><p>Kubernetes相关的云原生技术非常火热，相关的service mesh和istio前沿技术也流行起来。</p>
+<p>尝试使用Istio和SpringBoot结合的方式来做内部服务间的rpc调用。</p>
+<h2 id="术语"><a href="#术语" class="headerlink" title="术语"></a>术语</h2><ul>
+<li>rpc： remote procedure call</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>istio</tag>
+        <tag>springboot</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>awesome blog</title>
+    <url>/2022/06/21/awesome-blog/</url>
+    <content><![CDATA[<h1 id="Awesome-Blog-Collection"><a href="#Awesome-Blog-Collection" class="headerlink" title="Awesome Blog Collection"></a>Awesome Blog Collection</h1><p>收集牛逼官方、技术大佬们的技术博客</p>
+<h3 id="个人技术博客"><a href="#个人技术博客" class="headerlink" title="个人技术博客"></a>个人技术博客</h3><ul>
+<li><p><a href="https://www.brendangregg.com/">Brendan Gregg: 内核性能</a></p>
+</li>
+<li><p><a href="https://www.cncf.io/blog/">CNCF官方博客</a>  </p>
+<p>Cloud Native Computing Foundation</p>
+</li>
+<li><p><a href="https://thorstenball.com/">Thorsten Ball个人博客</a></p>
+</li>
+<li><p><a href="https://www.kamilgrzybek.com/">Kamil Grzybek个人博客</a> </p>
+<p>  Modular Monolith System Architecture</p>
+</li>
+<li><p><a href="https://jimmysong.io/">JimmySong云原生博客</a></p>
+</li>
+</ul>
+<h3 id="技术公司博客"><a href="#技术公司博客" class="headerlink" title="技术公司博客"></a>技术公司博客</h3><ul>
+<li><a href="https://tech.meituan.com/">美团</a></li>
+<li><a href="https://shopify.engineering/">Shopify</a></li>
+<li><a href="https://netflixtechblog.com/">Netflix</a></li>
+<li><a href="https://tech.facebook.com/">Facebook&#x2F;Meta</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Materials collection of Kubernetes</title>
+    <url>/2022/06/19/kubernetes-related-study-materials/</url>
+    <content><![CDATA[<h1 id="TL-amp-DL"><a href="#TL-amp-DL" class="headerlink" title="TL&amp;DL"></a>TL&amp;DL</h1><p>工作中收集一些Kubernetes相关的技术资料</p>
+<h1 id="Collection"><a href="#Collection" class="headerlink" title="Collection"></a>Collection</h1><ul>
+<li><a href="https://kubernetes.io/">https://kubernetes.io/官网</a></li>
+<li><a href="https://ebpf.io/">eBPF</a></li>
+</ul>
+<h1 id="Command"><a href="#Command" class="headerlink" title="Command"></a>Command</h1><h2 id="kubectl"><a href="#kubectl" class="headerlink" title="kubectl"></a>kubectl</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">get       #显示一个或多个资源</span><br><span class="line">describe  #显示资源详情</span><br><span class="line">create    #从文件或标准输入创建资源</span><br><span class="line">update   #从文件或标准输入更新资源</span><br><span class="line">delete   #通过文件名、标准输入、资源名或者 label 删除资源</span><br><span class="line">log       #输出 pod 中一个容器的日志</span><br><span class="line">rolling-update  #对指定的 RC 执行滚动升级</span><br><span class="line">exec  #在容器内部执行命令</span><br><span class="line">port-forward #将本地端口转发到 Pod</span><br><span class="line">proxy   #为 Kubernetes API server 启动代理服务器</span><br><span class="line">run     #在集群中使用指定镜像启动容器</span><br><span class="line">expose   #将 SVC 或 pod 暴露为新的 kubernetes service</span><br><span class="line">label     #更新资源的 label</span><br><span class="line">config   #修改 kubernetes 配置文件</span><br><span class="line">cluster-info #显示集群信息</span><br><span class="line">api-versions #以”组/版本”的格式输出服务端支持的 API 版本</span><br><span class="line">version       #输出服务端和客户端的版本信息</span><br><span class="line">help         #显示各个命令的帮助信息</span><br><span class="line">ingress-nginx  #管理 ingress 服务的插件(官方安装和使用方式)</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>kubernetes</tag>
+        <tag>k8s</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>maven pom文件多版本管理revision</title>
+    <url>/2022/06/16/maven-pom-revision/</url>
+    <content><![CDATA[<p>maven工程中，对多个子module及相应的pom版本进行管理是很头疼的事，利用<strong>flatten-maven-plugin</strong> 插件将pom版本统一管理起来，在变更的时候只需要改</p>
+<span id="more"></span>
 
-<p>恩！给自己打个鸡血</p>
-<h1 id="I’m-very-much-ON-TIME-and-in-my-TIME-ZONE"><a href="#I’m-very-much-ON-TIME-and-in-my-TIME-ZONE" class="headerlink" title="I’m very much ON TIME, and in my TIME ZONE"></a>I’m very much ON TIME, and in my TIME ZONE</h1>]]></content>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;revision&gt;1.0.0-SNAPSHOT&lt;/revision&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="使用姿势"><a href="#使用姿势" class="headerlink" title="使用姿势"></a>使用姿势</h1><p>使用${revision}对maven工程中多个pom里的版本号进行关联</p>
+<h2 id="父pom"><a href="#父pom" class="headerlink" title="父pom"></a>父pom</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;project&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">  &lt;parent&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;apache&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;18&lt;/version&gt;</span><br><span class="line">  &lt;/parent&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;ci-parent&lt;/artifactId&gt;</span><br><span class="line">  &lt;name&gt;First CI Friendly&lt;/name&gt;</span><br><span class="line">  &lt;version&gt;$&#123;revision&#125;&lt;/version&gt;</span><br><span class="line">  ...</span><br><span class="line">  &lt;properties&gt;</span><br><span class="line">    &lt;revision&gt;1.0.0-SNAPSHOT&lt;/revision&gt;</span><br><span class="line">  &lt;/properties&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>
+
+<p>注意revision在properties中声明</p>
+<p>在build中使用相关插件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;build&gt;</span><br><span class="line">  &lt;plugins&gt;</span><br><span class="line">    &lt;plugin&gt;</span><br><span class="line">      &lt;groupId&gt;org.codehaus.mojo&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;flatten-maven-plugin&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;1.1.0&lt;/version&gt;</span><br><span class="line">      &lt;configuration&gt;</span><br><span class="line">          &lt;!-- 是否更新pom文件，此处还有更高级的用法 --&gt;</span><br><span class="line">        &lt;updatePomFile&gt;true&lt;/updatePomFile&gt;</span><br><span class="line">        &lt;flattenMode&gt;resolveCiFriendliesOnly&lt;/flattenMode&gt;</span><br><span class="line">      &lt;/configuration&gt;</span><br><span class="line">      &lt;executions&gt;</span><br><span class="line">        &lt;execution&gt;</span><br><span class="line">          &lt;id&gt;flatten&lt;/id&gt;</span><br><span class="line">          &lt;phase&gt;process-resources&lt;/phase&gt;</span><br><span class="line">          &lt;goals&gt;</span><br><span class="line">            &lt;goal&gt;flatten&lt;/goal&gt;</span><br><span class="line">          &lt;/goals&gt;</span><br><span class="line">        &lt;/execution&gt;</span><br><span class="line">        &lt;execution&gt;</span><br><span class="line">          &lt;id&gt;flatten.clean&lt;/id&gt;</span><br><span class="line">          &lt;phase&gt;clean&lt;/phase&gt;</span><br><span class="line">          &lt;goals&gt;</span><br><span class="line">            &lt;goal&gt;clean&lt;/goal&gt;</span><br><span class="line">          &lt;/goals&gt;</span><br><span class="line">        &lt;/execution&gt;</span><br><span class="line">      &lt;/executions&gt;</span><br><span class="line">    &lt;/plugin&gt;</span><br><span class="line">  &lt;/plugins&gt;</span><br><span class="line">  &lt;/build&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="子pom"><a href="#子pom" class="headerlink" title="子pom"></a>子pom</h2><p>在parent的声明version中直接使用${revision}即可</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;project&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">  &lt;parent&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;ci-parent&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;$&#123;revision&#125;&lt;/version&gt;</span><br><span class="line">  &lt;/parent&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;ci-child&lt;/artifactId&gt;</span><br><span class="line">   ...</span><br><span class="line">  &lt;dependencies&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">      &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;child2&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;$&#123;project.version&#125;&lt;/version&gt;</span><br><span class="line">    &lt;/dependency&gt;</span><br><span class="line">  &lt;/dependencies&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.cnblogs.com/ElEGenT/p/12938773.html">https://www.cnblogs.com/ElEGenT/p/12938773.html</a></p>
+]]></content>
+      <tags>
+        <tag>maven</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>mysql修改root密码，修复caching_sha2_password无法连接问题</title>
+    <url>/2021/07/17/mysql%E4%BF%AE%E6%94%B9root%E5%AF%86%E7%A0%81%EF%BC%8C%E4%BF%AE%E5%A4%8Dcaching-sha2-password%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>通过Sequel连接mysql时发现无法连接，报错为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MySQL said: Authentication plugin &#x27;caching_sha2_password&#x27; cannot be loaded: dlopen(/usr/local/lib/pl.....</span><br></pre></td></tr></table></figure>
+
+<p>原因是mysql8默认为<strong>caching_sha2_password</strong>加密方式，而sequel只支持<strong>mysql_native_password</strong></p>
+<h1 id="修复方式"><a href="#修复方式" class="headerlink" title="修复方式"></a>修复方式</h1><p>可以直接使用sql server来连接，在安装时选择支持全部的加密方式</p>
+<p>本文因项目需要，手动改mysql的加密方式</p>
+<ol>
+<li><p>加入mysql</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mysql -uroot -p</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>查看当前信息</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">use mysql;</span><br><span class="line">select Host, User, plugin from user;</span><br></pre></td></tr></table></figure>
+<p>可以看到</p>
+</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+-----------+------------------+-----------------------+</span><br><span class="line">| Host      | User             | plugin                |</span><br><span class="line">+-----------+------------------+-----------------------+</span><br><span class="line">| %         | root             | caching_sha2_password |</span><br><span class="line">| localhost | mysql.infoschema | caching_sha2_password |</span><br><span class="line">| localhost | mysql.session    | caching_sha2_password |</span><br><span class="line">| localhost | mysql.sys        | caching_sha2_password |</span><br><span class="line">| localhost | root             | mysql_native_password |</span><br><span class="line">+-----------+------------------+-----------------------+</span><br></pre></td></tr></table></figure>
+<p>只修改root@localhost是不够的，root@%也需要修改<br>3. 修改加密方式</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">alter user &#x27;root&#x27;@&#x27;localhost&#x27; identified with mysql_native_password by &#x27;12345678&#x27;;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">alter user &#x27;root&#x27;@&#x27;%&#x27; identified with mysql_native_password by &#x27;12345678&#x27;;</span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li>刷新<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">flush privileges;</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>mysql</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Docker容器没有vim</title>
+    <url>/2021/07/17/Docker%E5%AE%B9%E5%99%A8%E6%B2%A1%E6%9C%89vim/</url>
+    <content><![CDATA[<p>docker进入容器后，发现没有vim功能，记录解决办法如下：</p>
+<ol>
+<li>执行</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt-get update</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>安装vim</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt-get install vim</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020年8月知识收集</title>
+    <url>/2020/08/10/202008knowledge/</url>
+    <content><![CDATA[<h1 id="机架效果器"><a href="#机架效果器" class="headerlink" title="机架效果器"></a>机架效果器</h1><p><a href="https://www.zhihu.com/question/263981174">https://www.zhihu.com/question/263981174</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>HEXO写作命令记录</title>
+    <url>/2020/08/08/hexo-writing/</url>
+    <content><![CDATA[<h1 id="HEXO写作命令记录"><a href="#HEXO写作命令记录" class="headerlink" title="HEXO写作命令记录"></a>HEXO写作命令记录</h1><h2 id="Create-New-Post"><a href="#Create-New-Post" class="headerlink" title="Create New Post"></a>Create New Post</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new &#x27;[post_name]&#x27;</span><br><span class="line">hexo n &#x27;[post_name]&#x27;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Create-New-Page"><a href="#Create-New-Page" class="headerlink" title="Create New Page"></a>Create New Page</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n page &#x27;&#x27;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Define-Custom-Page-x2F-Post-Template"><a href="#Define-Custom-Page-x2F-Post-Template" class="headerlink" title="Define Custom Page&#x2F;Post Template"></a>Define Custom Page&#x2F;Post Template</h2><ol>
+<li>Create a new markdown file in the root folder <strong>&#x2F;scaffolders</strong>, such as <strong>sprint.md</strong>.</li>
+<li>Use blow commands</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n sprint &#x27;[post_name]&#x27;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+
+<h2 id="Generate-Static-Files"><a href="#Generate-Static-Files" class="headerlink" title="Generate Static Files"></a>Generate Static Files</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+<h2 id="Deploy-to-remote-server-x2F-git"><a href="#Deploy-to-remote-server-x2F-git" class="headerlink" title="Deploy to remote server&#x2F;git"></a>Deploy to remote server&#x2F;git</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<h2 id="Insert-a-picture"><a href="#Insert-a-picture" class="headerlink" title="Insert a picture"></a>Insert a picture</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![picture&#x27;s name](picture&#x27;s relative path)</span><br></pre></td></tr></table></figure>
+
+<h2 id="Insert-a-Read-More"><a href="#Insert-a-Read-More" class="headerlink" title="Insert a Read More"></a>Insert a Read More</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!-- more --&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Top-articles"><a href="#Top-articles" class="headerlink" title="Top articles"></a>Top articles</h2><p>need to install plugin</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure>
+
+<p>write <strong>top</strong> attribute in the article</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">top: true</span><br><span class="line"></span><br><span class="line">top: 10 # when number is large, the article is the toppest article</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>10 Commandments of Egoless Programming</title>
+    <url>/2017/06/12/backup-2017-06-12-ten-commandments-of-egoless-programming/</url>
+    <content><![CDATA[<p>最近在InfoQ上读到了篇文章<a href="http://www.infoq.com/cn/news/2017/06/10-Commandments-without-program">无我编程的十条戒律</a>，记录一下这十条诫律。</p>
+<ol>
+<li><p><strong>Understand and accept that you will make mistakes.</strong> The point is to find them early, before they make it into production. Fortunately, except for the few of us developing rocket guidance software at JPL, mistakes are rarely fatal in our industry, so we can, and should, learn, laugh, and move on.</p>
+</li>
+<li><p><strong>You are not your code.</strong> Remember that the entire point of a review is to find problems, and problems will be found. Don’t take it personally when one is uncovered.</p>
+</li>
+<li><p><strong>No matter how much “karate” you know, someone else will always know more.</strong> Such an individual can teach you some new moves if you ask. Seek and accept input from others, especially when you think it’s not needed.</p>
+</li>
+<li><p><strong>Don’t rewrite code without consultation.</strong> There’s a fine line between “fixing code” and “rewriting code.” Know the difference, and pursue stylistic changes within the framework of a code review, not as a lone enforcer.</p>
+</li>
+<li><p><strong>Treat people who know less than you with respect, deference, and patience.</strong> Nontechnical people who deal with developers on a regular basis almost universally hold the opinion that we are prima donnas at best and crybabies at worst. Don’t reinforce this stereotype with anger and impatience.</p>
+</li>
+<li><p><strong>The only constant in the world is change.</strong> Be open to it and accept it with a smile. Look at each change to your requirements, platform, or tool as a new challenge, not as some serious inconvenience to be fought.</p>
+</li>
+<li><p><strong>The only true authority stems from knowledge, not from position.</strong> Knowledge engenders authority, and authority engenders respect – so if you want respect in an egoless environment, cultivate knowledge.</p>
+</li>
+<li><p><strong>Fight for what you believe, but gracefully accept defeat.</strong> Understand that sometimes your ideas will be overruled. Even if you do turn out to be right, don’t take revenge or say, “I told you so” more than a few times at most, and don’t make your dearly departed idea a martyr or rallying cry.</p>
+</li>
+<li><p><strong>Don’t be “the guy in the room.”</strong> Don’t be the guy coding in the dark office emerging only to buy cola. The guy in the room is out of touch, out of sight, and out of control and has no place in an open, collaborative environment.</p>
+</li>
+<li><p><strong>Critique code instead of people – be kind to the coder, not to the code.</strong> As much as possible, make all of your comments positive and oriented to improving the code. Relate comments to local standards, program specs, increased performance, etc.</p>
+</li>
+</ol>
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
+<li><a href="https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/">The Ten Commandments of Egoless Programming</a></li>
+<li><a href="http://www.infoq.com/cn/news/2017/06/10-Commandments-without-program">无我编程的十条戒律</a></li>
+<li><a href="https://www.amazon.com/exec/obidos/ASIN/0932633420/codihorr-20">The Psychology of Computer Programming</a> - Jerry Weinberg</li>
+</ol>
+]]></content>
+      <categories>
+        <category>读后感</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>阿里云快速搭建公网ip访问api</title>
+    <url>/2017/05/18/backup-2017-05-18-aliyun-linux-quick-api/</url>
+    <content><![CDATA[<p>最近抢到了阿里云的6个月试用，于是想自己搭个服务器和数据库，弄个小网站出来，自己也是各种坑踩过来，公网私网映射，配置云安全组规则，也是花了小半天才弄明白这些过程，记录下：</p>
+<h1 id="搭建公网ip访问api"><a href="#搭建公网ip访问api" class="headerlink" title="搭建公网ip访问api"></a>搭建公网ip访问api</h1><h2 id="准备阶段"><a href="#准备阶段" class="headerlink" title="准备阶段"></a>准备阶段</h2><h3 id="要运行的jar包服务"><a href="#要运行的jar包服务" class="headerlink" title="要运行的jar包服务"></a>要运行的jar包服务</h3><p>首先要先准备好一个可执行的jar包，我准备好了自己一个 <strong>jwt token</strong> 相关的服务，跑在4006端口上，具体请求的方法：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">URL: 公网ip:4006/decodetoken</span><br><span class="line">Method: POST</span><br><span class="line">Header: Content-Type:application/json</span><br><span class="line">Body: &#123;&quot;token&quot;:&quot;testing&quot;&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="EC服务器"><a href="#EC服务器" class="headerlink" title="EC服务器"></a>EC服务器</h3><p>我用的是阿里云免费试用的实例规格<code>ecs.xn4.small</code>，这里将隐私部分拿<code>xx</code>和<code>yy</code>代替了</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">配置</span><br><span class="line">CPU： 1核</span><br><span class="line">内存： 1GB</span><br><span class="line">操作系统： Ubuntu 14.04 64位</span><br><span class="line">公网ip： xx.xx.xxx.xxx</span><br><span class="line">私有ip： yy.yy.yyy.yyy</span><br><span class="line">带宽： 1Mbps</span><br></pre></td></tr></table></figure>
+<h3 id="安装java"><a href="#安装java" class="headerlink" title="安装java"></a>安装java</h3><p>具体可以参考<a href="https://www.linuxdashen.com/ubuntu%E5%AE%89%E8%A3%85oracle-java8%E4%BB%A5%E5%8F%8A%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E7%9A%84%E6%AD%A3%E7%A1%AE%E8%AE%BE%E7%BD%AE%E6%96%B9%E6%B3%95">Ubuntu安装Oracle Java8以及环境变量的正确设置方法</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo add-apt-repository ppa:webupd8team/java</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install oracle-java8-installer</span><br></pre></td></tr></table></figure>
+<p>安装过程中会弹出一个Oracle的使用条款，选择yes就可以，安装完后可以运行<code>java -version</code>来检查版本</p>
+<h2 id="运行jar服务"><a href="#运行jar服务" class="headerlink" title="运行jar服务"></a>运行jar服务</h2><p>可以使用<code>nohup</code>+<code>&amp;</code>在后台运行服务，同时会生成一个名字为<code>nohup.out</code>的文件会记录下服务运行日志，具体命令为</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nohup java -jar jwt.jar &amp;</span><br></pre></td></tr></table></figure>
+<p>我们可以用<code>jobs</code>命令来查看有哪些进程在运行，这个时候我们可以通过<code>curl</code>命令来测试api是否工作正常</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">curl yy.yy.yyy.yyy:4006/decodetoken -X POST -i -H &quot;Content-Type:application/json&quot; -d &#x27;&#123;&quot;token&quot;:&quot;testing&quot;&#125;&#x27;</span><br></pre></td></tr></table></figure>
+<h2 id="公网ip和内网ip映射"><a href="#公网ip和内网ip映射" class="headerlink" title="公网ip和内网ip映射"></a>公网ip和内网ip映射</h2><p>这一步我研究了一个晚上才明白，主要使用命令<code>iptables</code>参考教程<a href="http://blog.csdn.net/gyy823/article/details/45153711">linux外网服务器跳转内网服务器实现内网访问（iptables）</a></p>
+<h3 id="配置filter选项，使得ip和port都可以通过防火墙"><a href="#配置filter选项，使得ip和port都可以通过防火墙" class="headerlink" title="配置filter选项，使得ip和port都可以通过防火墙"></a>配置filter选项，使得ip和port都可以通过防火墙</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">iptables -t filter -A INPUT -p tcp --dport 4006 -j ACCEPT</span><br><span class="line">iptables -t filter -A OUTPUT -p tcp --sport 4006 -j ACCEPT</span><br></pre></td></tr></table></figure>
+<h3 id="配置nat转发规则选项"><a href="#配置nat转发规则选项" class="headerlink" title="配置nat转发规则选项"></a>配置nat转发规则选项</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">iptables -t nat -A PREROUTING -d 公网ip -p tcp --dport 4006 -j DNAT --to-destination 私网ip:4006</span><br></pre></td></tr></table></figure>
+<h3 id="保存iptables配置"><a href="#保存iptables配置" class="headerlink" title="保存iptables配置"></a>保存iptables配置</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">iptables-save</span><br></pre></td></tr></table></figure>
+<h3 id="保存和调用iptables配置"><a href="#保存和调用iptables配置" class="headerlink" title="保存和调用iptables配置"></a>保存和调用iptables配置</h3><p>iptables在系统退出的时候，设置都将不存在，需要手动去保存一下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">iptables-save &gt;/etc/iptables.rules</span><br></pre></td></tr></table></figure>
+<p>调用iptables设置</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">iptables-restore &gt;/etc/iptables.rules</span><br></pre></td></tr></table></figure>
+<p>我们可以把它设置成关机开机自动配置</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/network/interfaces</span><br></pre></td></tr></table></figure>
+<p>在最后添加</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pre-up iptables-restore &gt;/etc/iptables.rules //开机时自动调用已经存在的iptables设置</span><br><span class="line">post-down iptables-save &gt;/etc/iptables.rules //关机时自动保存当前的iptables设置</span><br></pre></td></tr></table></figure>
+<p>另外一种保存方法是利用 <strong>iptables-persistent</strong><br><strong>Ubuntu 14.04</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo invoke-rc.d iptables-persistent save</span><br><span class="line">sudo invoke-rc.d iptables-persistent reload</span><br></pre></td></tr></table></figure>
+<p><strong>Ubuntu 16.04</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo netfilter-persistent save</span><br><span class="line">sudo netfilter-persistent reload</span><br></pre></td></tr></table></figure>
+<h2 id="阿里云安全组规则"><a href="#阿里云安全组规则" class="headerlink" title="阿里云安全组规则"></a>阿里云安全组规则</h2><p>这步当时弄了一上午才明白咋回事，在配置上述映射后，关键一步要在阿里云安全组规则里把相应的端口加上</p>
+<img src="/2017/05/18/backup-2017-05-18-aliyun-linux-quick-api/anquan.png" class="" title="ruleOfSecurity">
+<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>这时我们就可以在公网测试api是否能通啦，这里我用的postman，也有很多其他的在线测试工具</p>
+<img src="/2017/05/18/backup-2017-05-18-aliyun-linux-quick-api/token.png" class="" title="test">
+<h1 id="Linux那些命令行"><a href="#Linux那些命令行" class="headerlink" title="Linux那些命令行"></a>Linux那些命令行</h1><h2 id="重启"><a href="#重启" class="headerlink" title="重启"></a>重启</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">reboot</span><br></pre></td></tr></table></figure>
+<h2 id="查看系统资源占用"><a href="#查看系统资源占用" class="headerlink" title="查看系统资源占用"></a>查看系统资源占用</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">top</span><br><span class="line">free</span><br></pre></td></tr></table></figure>
+<h2 id="查看内网ip"><a href="#查看内网ip" class="headerlink" title="查看内网ip"></a>查看内网ip</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure>
+<h2 id="查看进程"><a href="#查看进程" class="headerlink" title="查看进程"></a>查看进程</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ps</span><br></pre></td></tr></table></figure>
+<h2 id="查看磁盘使用"><a href="#查看磁盘使用" class="headerlink" title="查看磁盘使用"></a>查看磁盘使用</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 以Mb为单位</span><br><span class="line">df -m</span><br></pre></td></tr></table></figure>
+<h2 id="创建目录"><a href="#创建目录" class="headerlink" title="创建目录"></a>创建目录</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mkdir 目录名</span><br></pre></td></tr></table></figure>
+<h2 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h2><p>目前我只了解apt方式，欢迎各路豪杰来补充</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 只要可以上网，可以用apt-cache search来查找</span><br><span class="line">apt-cache search software-name</span><br><span class="line"># apt-get</span><br><span class="line">## 安装一个新的软件包</span><br><span class="line">apt-get install packagename</span><br><span class="line">## 卸载一个已安装的软件包(保留配置文件)</span><br><span class="line">apt-get remove packagename</span><br><span class="line">## 卸载一个已安装的软件包(删除配置文件)</span><br><span class="line">apt-get --purge remove packagename</span><br><span class="line">## 删除已经删掉的软件</span><br><span class="line">apt-get autoremove——因为apt会把已装或已卸的软件都备份在硬盘上，所以如果需要空间的话，可以让这个命令来删除你已经删掉的软件。</span><br><span class="line">## 清楚已卸载软件包的deb文件</span><br><span class="line">apt-get autoclean——定期运行这个命令来清除那些已经卸载的软件包的.deb文件。通过这种方式，可以释放大量的磁盘空间。如果需求十分迫切，可以使用apt-get clean以释放更多空间。这个命令会将已安装软件包裹的.deb文件一并删除。</span><br><span class="line">## 清楚安装软件备份</span><br><span class="line">apt-get clean——这个命令会把安装的软件的备份也删除，不过这样不会影响软件的使用的。</span><br><span class="line">## 更新所有已安装的软件包</span><br><span class="line">apt-get upgrade</span><br><span class="line">## 将系统升级到新版本</span><br><span class="line">apt-get dist-upgrade</span><br><span class="line">## 在软件包列表中搜索字符串</span><br><span class="line">apt-cache search string</span><br><span class="line">## 显示软件包信息</span><br><span class="line">apt-cache showpkg pkgs</span><br><span class="line">## 查看库里有多少软件</span><br><span class="line">apt-cache stats</span><br><span class="line">## 打印可用软件包列表</span><br><span class="line">apt-cache dumpavail</span><br><span class="line">## 显示软件包记录，类似于dpkg –print-avail</span><br><span class="line">apt-cache show pkgs</span><br><span class="line">## 打印软件包列表中所有软件包的名称</span><br><span class="line">apt-cache pkgnames</span><br></pre></td></tr></table></figure>
+<h2 id="iptables"><a href="#iptables" class="headerlink" title="iptables"></a>iptables</h2><p>查看iptables配置</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">iptables -L -n</span><br></pre></td></tr></table></figure>
+<p>iptables是直接配置就会生效，重启后会丢失，保存命令为<code>iptables-save</code>，恢复默认为<code>iptables-restore</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 清除原有规则</span><br><span class="line">iptables -F</span><br><span class="line">iptables -X</span><br><span class="line"></span><br><span class="line"># 设定预设规则</span><br><span class="line">iptables -P INPUT DROP</span><br><span class="line">iptables -P OUTPUT DROP</span><br><span class="line">iptables -P FORWARD DROP</span><br><span class="line"></span><br><span class="line"># 添加规则</span><br><span class="line"># 留给ssh用的22端口</span><br><span class="line">iptables -A INPUT -p tcp --dport 22 -j ACCEPT</span><br><span class="line">iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT</span><br><span class="line"></span><br><span class="line"># 设置允许ping</span><br><span class="line">iptables -A INPUT -p icmp -j ACCEPT</span><br><span class="line">iptables -A OUTPUT -p icmp -j ACCEPT</span><br><span class="line"></span><br><span class="line"># 教程上说是允许loopback，不然会导致DNS无法正常关闭等问题</span><br><span class="line">iptables -A INPUT -i lo -p all -j ACCEPT</span><br><span class="line">iptables -A OUTPUT -o lo -p all -j ACCEPT</span><br><span class="line"></span><br><span class="line"># 教程上说是丢弃坏的TCP包</span><br><span class="line">iptables -A FORWARD -p TCP ! --syn -m state --state NEW -j DROP</span><br><span class="line"></span><br><span class="line"># 教程上说处理IP碎片数量,防止攻击,允许每秒100个</span><br><span class="line">iptables -A FORWARD -f -m limit --limit 100/s --limit-burst 100 -j ACCEPT</span><br><span class="line"></span><br><span class="line"># 教程上说设置ICMP包过滤,允许每秒1个包,限制触发条件是10个包</span><br><span class="line">iptables -A FORWARD -p icmp -m limit --limit 1/s --limit-burst 10 -j ACCEPT</span><br><span class="line"></span><br><span class="line"># 如果访问转接慢，可以配置</span><br><span class="line">iptables -t filter -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT</span><br><span class="line">iptables -t filter -A OUTPUT -m state --state ESTABLISHED,RELATED -j ACCEPT</span><br><span class="line">iptables -t nat -A PREROUTING -m state --state ESTABLISHED,RELATED -j ACCEPT</span><br><span class="line">iptables -t nat -A POSTROUTING -m state --state ESTABLISHED,RELATED -j ACCEPT</span><br></pre></td></tr></table></figure>
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
+<li><a href="https://fukun.org/archives/02201800.html">Ubuntu 使用top&#x2F;free查看内存占用大的原因</a></li>
+<li><a href="https://www.deamwork.com/archives/ubuntu-iptables-conn.orz6">吐槽-UbuntuServer用iptables麻烦+如何启动与停止</a></li>
+<li><a href="http://xstarcd.github.io/wiki/Linux/iptables_forward_internetshare.html">通过iptables实现端口转发和内网共享上网</a></li>
+<li><a href="http://bbs.chinaunix.net/thread-4069594-1-1.html">更改了iptables后，无法访问外网</a></li>
+<li><a href="http://blog.csdn.net/gyy823/article/details/45153711">linux外网服务器跳转内网服务器实现内网访问（iptables）</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>阿里云</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo编辑博客时要用到的命令</title>
+    <url>/2017/05/16/backup-2017-05-16-hexo-command/</url>
+    <content><![CDATA[<p>记录下在博客中要经常用的hexo相关的tag和命令</p>
+<h1 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h1><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img issue3.png issue3 %&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><p>$2^{i-1}$</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$2^&#123;i-1&#125;$</span><br></pre></td></tr></table></figure>
+<h2 id="kdb标签"><a href="#kdb标签" class="headerlink" title="kdb标签"></a>kdb标签</h2><p>引入hexo-tag-kbd</p>
+<kbd style="border:1px solid gray;font-size:1.2em;box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:2px 3px;padding:1px 5px;">Ctrl</kbd>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% kbd Ctrl %&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="文章链接"><a href="#文章链接" class="headerlink" title="文章链接"></a>文章链接</h2><a href="#">Post not found: Micro-Services 微服务学习</a>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% post_link Micro-Services 微服务学习 %&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h1><h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new post &quot;title&quot;</span><br></pre></td></tr></table></figure>
+<h2 id="清理历史静态文件"><a href="#清理历史静态文件" class="headerlink" title="清理历史静态文件"></a>清理历史静态文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+<h2 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+<h2 id="本地启动服务查看"><a href="#本地启动服务查看" class="headerlink" title="本地启动服务查看"></a>本地启动服务查看</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<h2 id="新建新页面"><a href="#新建新页面" class="headerlink" title="新建新页面"></a>新建新页面</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;title&quot;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title>那些关于“架构”的七七八八</title>
@@ -165,136 +502,150 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo编辑博客时要用到的命令</title>
-    <url>/2017/05/16/backup-2017-05-16-hexo-command/</url>
-    <content><![CDATA[<p>记录下在博客中要经常用的hexo相关的tag和命令</p>
-<h1 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h1><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img issue3.png issue3 %&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><p>$2^{i-1}$</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$2^&#123;i-1&#125;$</span><br></pre></td></tr></table></figure>
-<h2 id="kdb标签"><a href="#kdb标签" class="headerlink" title="kdb标签"></a>kdb标签</h2><p>引入hexo-tag-kbd</p>
-<kbd style="border:1px solid gray;font-size:1.2em;box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:2px 3px;padding:1px 5px;">Ctrl</kbd>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% kbd Ctrl %&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="文章链接"><a href="#文章链接" class="headerlink" title="文章链接"></a>文章链接</h2><a href="#">Post not found: Micro-Services 微服务学习</a>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% post_link Micro-Services 微服务学习 %&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h1><h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new post &quot;title&quot;</span><br></pre></td></tr></table></figure>
-<h2 id="清理历史静态文件"><a href="#清理历史静态文件" class="headerlink" title="清理历史静态文件"></a>清理历史静态文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
-<h2 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
-<h2 id="本地启动服务查看"><a href="#本地启动服务查看" class="headerlink" title="本地启动服务查看"></a>本地启动服务查看</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<h2 id="新建新页面"><a href="#新建新页面" class="headerlink" title="新建新页面"></a>新建新页面</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;title&quot;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
+    <title>2017-04-27-my-own-timezone</title>
+    <url>/2017/04/27/backup-2017-04-27-my-own-timezone/</url>
+    <content><![CDATA[<p>感谢老婆大人每天的帮助～</p>
+<img src="/2017/04/27/backup-2017-04-27-my-own-timezone/on-time-in-my-timezone.jpg" class="" title="my-own-timezone">
+
+<p>恩！给自己打个鸡血</p>
+<h1 id="I’m-very-much-ON-TIME-and-in-my-TIME-ZONE"><a href="#I’m-very-much-ON-TIME-and-in-my-TIME-ZONE" class="headerlink" title="I’m very much ON TIME, and in my TIME ZONE"></a>I’m very much ON TIME, and in my TIME ZONE</h1>]]></content>
   </entry>
   <entry>
-    <title>阿里云快速搭建公网ip访问api</title>
-    <url>/2017/05/18/backup-2017-05-18-aliyun-linux-quick-api/</url>
-    <content><![CDATA[<p>最近抢到了阿里云的6个月试用，于是想自己搭个服务器和数据库，弄个小网站出来，自己也是各种坑踩过来，公网私网映射，配置云安全组规则，也是花了小半天才弄明白这些过程，记录下：</p>
-<h1 id="搭建公网ip访问api"><a href="#搭建公网ip访问api" class="headerlink" title="搭建公网ip访问api"></a>搭建公网ip访问api</h1><h2 id="准备阶段"><a href="#准备阶段" class="headerlink" title="准备阶段"></a>准备阶段</h2><h3 id="要运行的jar包服务"><a href="#要运行的jar包服务" class="headerlink" title="要运行的jar包服务"></a>要运行的jar包服务</h3><p>首先要先准备好一个可执行的jar包，我准备好了自己一个 <strong>jwt token</strong> 相关的服务，跑在4006端口上，具体请求的方法：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">URL: 公网ip:4006/decodetoken</span><br><span class="line">Method: POST</span><br><span class="line">Header: Content-Type:application/json</span><br><span class="line">Body: &#123;&quot;token&quot;:&quot;testing&quot;&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="EC服务器"><a href="#EC服务器" class="headerlink" title="EC服务器"></a>EC服务器</h3><p>我用的是阿里云免费试用的实例规格<code>ecs.xn4.small</code>，这里将隐私部分拿<code>xx</code>和<code>yy</code>代替了</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">配置</span><br><span class="line">CPU： 1核</span><br><span class="line">内存： 1GB</span><br><span class="line">操作系统： Ubuntu 14.04 64位</span><br><span class="line">公网ip： xx.xx.xxx.xxx</span><br><span class="line">私有ip： yy.yy.yyy.yyy</span><br><span class="line">带宽： 1Mbps</span><br></pre></td></tr></table></figure>
-<h3 id="安装java"><a href="#安装java" class="headerlink" title="安装java"></a>安装java</h3><p>具体可以参考<a href="https://www.linuxdashen.com/ubuntu%E5%AE%89%E8%A3%85oracle-java8%E4%BB%A5%E5%8F%8A%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E7%9A%84%E6%AD%A3%E7%A1%AE%E8%AE%BE%E7%BD%AE%E6%96%B9%E6%B3%95">Ubuntu安装Oracle Java8以及环境变量的正确设置方法</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo add-apt-repository ppa:webupd8team/java</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install oracle-java8-installer</span><br></pre></td></tr></table></figure>
-<p>安装过程中会弹出一个Oracle的使用条款，选择yes就可以，安装完后可以运行<code>java -version</code>来检查版本</p>
-<h2 id="运行jar服务"><a href="#运行jar服务" class="headerlink" title="运行jar服务"></a>运行jar服务</h2><p>可以使用<code>nohup</code>+<code>&amp;</code>在后台运行服务，同时会生成一个名字为<code>nohup.out</code>的文件会记录下服务运行日志，具体命令为</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nohup java -jar jwt.jar &amp;</span><br></pre></td></tr></table></figure>
-<p>我们可以用<code>jobs</code>命令来查看有哪些进程在运行，这个时候我们可以通过<code>curl</code>命令来测试api是否工作正常</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">curl yy.yy.yyy.yyy:4006/decodetoken -X POST -i -H &quot;Content-Type:application/json&quot; -d &#x27;&#123;&quot;token&quot;:&quot;testing&quot;&#125;&#x27;</span><br></pre></td></tr></table></figure>
-<h2 id="公网ip和内网ip映射"><a href="#公网ip和内网ip映射" class="headerlink" title="公网ip和内网ip映射"></a>公网ip和内网ip映射</h2><p>这一步我研究了一个晚上才明白，主要使用命令<code>iptables</code>参考教程<a href="http://blog.csdn.net/gyy823/article/details/45153711">linux外网服务器跳转内网服务器实现内网访问（iptables）</a></p>
-<h3 id="配置filter选项，使得ip和port都可以通过防火墙"><a href="#配置filter选项，使得ip和port都可以通过防火墙" class="headerlink" title="配置filter选项，使得ip和port都可以通过防火墙"></a>配置filter选项，使得ip和port都可以通过防火墙</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">iptables -t filter -A INPUT -p tcp --dport 4006 -j ACCEPT</span><br><span class="line">iptables -t filter -A OUTPUT -p tcp --sport 4006 -j ACCEPT</span><br></pre></td></tr></table></figure>
-<h3 id="配置nat转发规则选项"><a href="#配置nat转发规则选项" class="headerlink" title="配置nat转发规则选项"></a>配置nat转发规则选项</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">iptables -t nat -A PREROUTING -d 公网ip -p tcp --dport 4006 -j DNAT --to-destination 私网ip:4006</span><br></pre></td></tr></table></figure>
-<h3 id="保存iptables配置"><a href="#保存iptables配置" class="headerlink" title="保存iptables配置"></a>保存iptables配置</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">iptables-save</span><br></pre></td></tr></table></figure>
-<h3 id="保存和调用iptables配置"><a href="#保存和调用iptables配置" class="headerlink" title="保存和调用iptables配置"></a>保存和调用iptables配置</h3><p>iptables在系统退出的时候，设置都将不存在，需要手动去保存一下</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">iptables-save &gt;/etc/iptables.rules</span><br></pre></td></tr></table></figure>
-<p>调用iptables设置</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">iptables-restore &gt;/etc/iptables.rules</span><br></pre></td></tr></table></figure>
-<p>我们可以把它设置成关机开机自动配置</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/network/interfaces</span><br></pre></td></tr></table></figure>
-<p>在最后添加</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pre-up iptables-restore &gt;/etc/iptables.rules //开机时自动调用已经存在的iptables设置</span><br><span class="line">post-down iptables-save &gt;/etc/iptables.rules //关机时自动保存当前的iptables设置</span><br></pre></td></tr></table></figure>
-<p>另外一种保存方法是利用 <strong>iptables-persistent</strong><br><strong>Ubuntu 14.04</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo invoke-rc.d iptables-persistent save</span><br><span class="line">sudo invoke-rc.d iptables-persistent reload</span><br></pre></td></tr></table></figure>
-<p><strong>Ubuntu 16.04</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo netfilter-persistent save</span><br><span class="line">sudo netfilter-persistent reload</span><br></pre></td></tr></table></figure>
-<h2 id="阿里云安全组规则"><a href="#阿里云安全组规则" class="headerlink" title="阿里云安全组规则"></a>阿里云安全组规则</h2><p>这步当时弄了一上午才明白咋回事，在配置上述映射后，关键一步要在阿里云安全组规则里把相应的端口加上</p>
-<img src="/2017/05/18/backup-2017-05-18-aliyun-linux-quick-api/anquan.png" class="" title="ruleOfSecurity">
-<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>这时我们就可以在公网测试api是否能通啦，这里我用的postman，也有很多其他的在线测试工具</p>
-<img src="/2017/05/18/backup-2017-05-18-aliyun-linux-quick-api/token.png" class="" title="test">
-<h1 id="Linux那些命令行"><a href="#Linux那些命令行" class="headerlink" title="Linux那些命令行"></a>Linux那些命令行</h1><h2 id="重启"><a href="#重启" class="headerlink" title="重启"></a>重启</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">reboot</span><br></pre></td></tr></table></figure>
-<h2 id="查看系统资源占用"><a href="#查看系统资源占用" class="headerlink" title="查看系统资源占用"></a>查看系统资源占用</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">top</span><br><span class="line">free</span><br></pre></td></tr></table></figure>
-<h2 id="查看内网ip"><a href="#查看内网ip" class="headerlink" title="查看内网ip"></a>查看内网ip</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure>
-<h2 id="查看进程"><a href="#查看进程" class="headerlink" title="查看进程"></a>查看进程</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ps</span><br></pre></td></tr></table></figure>
-<h2 id="查看磁盘使用"><a href="#查看磁盘使用" class="headerlink" title="查看磁盘使用"></a>查看磁盘使用</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 以Mb为单位</span><br><span class="line">df -m</span><br></pre></td></tr></table></figure>
-<h2 id="创建目录"><a href="#创建目录" class="headerlink" title="创建目录"></a>创建目录</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mkdir 目录名</span><br></pre></td></tr></table></figure>
-<h2 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h2><p>目前我只了解apt方式，欢迎各路豪杰来补充</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 只要可以上网，可以用apt-cache search来查找</span><br><span class="line">apt-cache search software-name</span><br><span class="line"># apt-get</span><br><span class="line">## 安装一个新的软件包</span><br><span class="line">apt-get install packagename</span><br><span class="line">## 卸载一个已安装的软件包(保留配置文件)</span><br><span class="line">apt-get remove packagename</span><br><span class="line">## 卸载一个已安装的软件包(删除配置文件)</span><br><span class="line">apt-get --purge remove packagename</span><br><span class="line">## 删除已经删掉的软件</span><br><span class="line">apt-get autoremove——因为apt会把已装或已卸的软件都备份在硬盘上，所以如果需要空间的话，可以让这个命令来删除你已经删掉的软件。</span><br><span class="line">## 清楚已卸载软件包的deb文件</span><br><span class="line">apt-get autoclean——定期运行这个命令来清除那些已经卸载的软件包的.deb文件。通过这种方式，可以释放大量的磁盘空间。如果需求十分迫切，可以使用apt-get clean以释放更多空间。这个命令会将已安装软件包裹的.deb文件一并删除。</span><br><span class="line">## 清楚安装软件备份</span><br><span class="line">apt-get clean——这个命令会把安装的软件的备份也删除，不过这样不会影响软件的使用的。</span><br><span class="line">## 更新所有已安装的软件包</span><br><span class="line">apt-get upgrade</span><br><span class="line">## 将系统升级到新版本</span><br><span class="line">apt-get dist-upgrade</span><br><span class="line">## 在软件包列表中搜索字符串</span><br><span class="line">apt-cache search string</span><br><span class="line">## 显示软件包信息</span><br><span class="line">apt-cache showpkg pkgs</span><br><span class="line">## 查看库里有多少软件</span><br><span class="line">apt-cache stats</span><br><span class="line">## 打印可用软件包列表</span><br><span class="line">apt-cache dumpavail</span><br><span class="line">## 显示软件包记录，类似于dpkg –print-avail</span><br><span class="line">apt-cache show pkgs</span><br><span class="line">## 打印软件包列表中所有软件包的名称</span><br><span class="line">apt-cache pkgnames</span><br></pre></td></tr></table></figure>
-<h2 id="iptables"><a href="#iptables" class="headerlink" title="iptables"></a>iptables</h2><p>查看iptables配置</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">iptables -L -n</span><br></pre></td></tr></table></figure>
-<p>iptables是直接配置就会生效，重启后会丢失，保存命令为<code>iptables-save</code>，恢复默认为<code>iptables-restore</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 清除原有规则</span><br><span class="line">iptables -F</span><br><span class="line">iptables -X</span><br><span class="line"></span><br><span class="line"># 设定预设规则</span><br><span class="line">iptables -P INPUT DROP</span><br><span class="line">iptables -P OUTPUT DROP</span><br><span class="line">iptables -P FORWARD DROP</span><br><span class="line"></span><br><span class="line"># 添加规则</span><br><span class="line"># 留给ssh用的22端口</span><br><span class="line">iptables -A INPUT -p tcp --dport 22 -j ACCEPT</span><br><span class="line">iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT</span><br><span class="line"></span><br><span class="line"># 设置允许ping</span><br><span class="line">iptables -A INPUT -p icmp -j ACCEPT</span><br><span class="line">iptables -A OUTPUT -p icmp -j ACCEPT</span><br><span class="line"></span><br><span class="line"># 教程上说是允许loopback，不然会导致DNS无法正常关闭等问题</span><br><span class="line">iptables -A INPUT -i lo -p all -j ACCEPT</span><br><span class="line">iptables -A OUTPUT -o lo -p all -j ACCEPT</span><br><span class="line"></span><br><span class="line"># 教程上说是丢弃坏的TCP包</span><br><span class="line">iptables -A FORWARD -p TCP ! --syn -m state --state NEW -j DROP</span><br><span class="line"></span><br><span class="line"># 教程上说处理IP碎片数量,防止攻击,允许每秒100个</span><br><span class="line">iptables -A FORWARD -f -m limit --limit 100/s --limit-burst 100 -j ACCEPT</span><br><span class="line"></span><br><span class="line"># 教程上说设置ICMP包过滤,允许每秒1个包,限制触发条件是10个包</span><br><span class="line">iptables -A FORWARD -p icmp -m limit --limit 1/s --limit-burst 10 -j ACCEPT</span><br><span class="line"></span><br><span class="line"># 如果访问转接慢，可以配置</span><br><span class="line">iptables -t filter -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT</span><br><span class="line">iptables -t filter -A OUTPUT -m state --state ESTABLISHED,RELATED -j ACCEPT</span><br><span class="line">iptables -t nat -A PREROUTING -m state --state ESTABLISHED,RELATED -j ACCEPT</span><br><span class="line">iptables -t nat -A POSTROUTING -m state --state ESTABLISHED,RELATED -j ACCEPT</span><br></pre></td></tr></table></figure>
-<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
-<li><a href="https://fukun.org/archives/02201800.html">Ubuntu 使用top&#x2F;free查看内存占用大的原因</a></li>
-<li><a href="https://www.deamwork.com/archives/ubuntu-iptables-conn.orz6">吐槽-UbuntuServer用iptables麻烦+如何启动与停止</a></li>
-<li><a href="http://xstarcd.github.io/wiki/Linux/iptables_forward_internetshare.html">通过iptables实现端口转发和内网共享上网</a></li>
-<li><a href="http://bbs.chinaunix.net/thread-4069594-1-1.html">更改了iptables后，无法访问外网</a></li>
-<li><a href="http://blog.csdn.net/gyy823/article/details/45153711">linux外网服务器跳转内网服务器实现内网访问（iptables）</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>阿里云</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>10 Commandments of Egoless Programming</title>
-    <url>/2017/06/12/backup-2017-06-12-ten-commandments-of-egoless-programming/</url>
-    <content><![CDATA[<p>最近在InfoQ上读到了篇文章<a href="http://www.infoq.com/cn/news/2017/06/10-Commandments-without-program">无我编程的十条戒律</a>，记录一下这十条诫律。</p>
-<ol>
-<li><p><strong>Understand and accept that you will make mistakes.</strong> The point is to find them early, before they make it into production. Fortunately, except for the few of us developing rocket guidance software at JPL, mistakes are rarely fatal in our industry, so we can, and should, learn, laugh, and move on.</p>
-</li>
-<li><p><strong>You are not your code.</strong> Remember that the entire point of a review is to find problems, and problems will be found. Don’t take it personally when one is uncovered.</p>
-</li>
-<li><p><strong>No matter how much “karate” you know, someone else will always know more.</strong> Such an individual can teach you some new moves if you ask. Seek and accept input from others, especially when you think it’s not needed.</p>
-</li>
-<li><p><strong>Don’t rewrite code without consultation.</strong> There’s a fine line between “fixing code” and “rewriting code.” Know the difference, and pursue stylistic changes within the framework of a code review, not as a lone enforcer.</p>
-</li>
-<li><p><strong>Treat people who know less than you with respect, deference, and patience.</strong> Nontechnical people who deal with developers on a regular basis almost universally hold the opinion that we are prima donnas at best and crybabies at worst. Don’t reinforce this stereotype with anger and impatience.</p>
-</li>
-<li><p><strong>The only constant in the world is change.</strong> Be open to it and accept it with a smile. Look at each change to your requirements, platform, or tool as a new challenge, not as some serious inconvenience to be fought.</p>
-</li>
-<li><p><strong>The only true authority stems from knowledge, not from position.</strong> Knowledge engenders authority, and authority engenders respect – so if you want respect in an egoless environment, cultivate knowledge.</p>
-</li>
-<li><p><strong>Fight for what you believe, but gracefully accept defeat.</strong> Understand that sometimes your ideas will be overruled. Even if you do turn out to be right, don’t take revenge or say, “I told you so” more than a few times at most, and don’t make your dearly departed idea a martyr or rallying cry.</p>
-</li>
-<li><p><strong>Don’t be “the guy in the room.”</strong> Don’t be the guy coding in the dark office emerging only to buy cola. The guy in the room is out of touch, out of sight, and out of control and has no place in an open, collaborative environment.</p>
-</li>
-<li><p><strong>Critique code instead of people – be kind to the coder, not to the code.</strong> As much as possible, make all of your comments positive and oriented to improving the code. Relate comments to local standards, program specs, increased performance, etc.</p>
-</li>
-</ol>
-<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
-<li><a href="https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/">The Ten Commandments of Egoless Programming</a></li>
-<li><a href="http://www.infoq.com/cn/news/2017/06/10-Commandments-without-program">无我编程的十条戒律</a></li>
-<li><a href="https://www.amazon.com/exec/obidos/ASIN/0932633420/codihorr-20">The Psychology of Computer Programming</a> - Jerry Weinberg</li>
-</ol>
+    <title>熵</title>
+    <url>/2017/04/27/backup-2017-4-27-%E7%86%B5/</url>
+    <content><![CDATA[<p>今天拜读了阮一峰大神的新博客，<a href="http://www.ruanyifeng.com/blog/2017/04/entropy.html">熵：宇宙的终极规则</a>，很有感触。文中有提到一本书-《熵：一种新的世界观》，改日拜读一下。</p>
+<p>简单的说来，<strong>熵是那些在能量转换过程中浪费掉的、无法再利用的能量</strong>。</p>
+<p>这里引用阮大神的图和一句话</p>
+<img src="/2017/04/27/backup-2017-4-27-%E7%86%B5/bg2017042408.jpg" class="" title="entropy">
+
+<p><strong>如果不施加外力影响，事务永远向着更加混乱的状态发展</strong>，比如上图里那个由整齐到混乱的房间。</p>
+<p>由此我联系到平时工作生活，如果工作不持续的施加外力（持续不断学习新技术、新能力），最终自己掌握的会变的碎片化；如果生活中不持续的去打理（比如整理房间，比如陶冶情操），自己也会慢慢变得无趣。</p>
+<p>好可怕，谁都逃不掉 <strong>熵</strong> 这个圈圈</p>
 ]]></content>
       <categories>
         <category>读后感</category>
       </categories>
+      <tags>
+        <tag>熵</tag>
+      </tags>
   </entry>
   <entry>
-    <title>Distribute System Summary</title>
-    <url>/2016/10/10/backup-Distribute-System-Summary/</url>
-    <content><![CDATA[<h1 id="分布式系统的一些个人总结"><a href="#分布式系统的一些个人总结" class="headerlink" title="分布式系统的一些个人总结"></a>分布式系统的一些个人总结</h1><p><a href="https://atticuslv.gitbooks.io/distribute-system/content/">gitbook链接</a></p>
+    <title>微服务学习</title>
+    <url>/2017/04/24/backup-Micro-Services/</url>
+    <content><![CDATA[<p>总结微服务相关的一些学习知识，从基本概念到开发、部署涉及到的一些技术和名字。</p>
+<h1 id="啥是微服务"><a href="#啥是微服务" class="headerlink" title="啥是微服务"></a>啥是微服务</h1><p>简单的说，微服务是将一个大型的单块架构拆分为多个细粒度服务的架构。这里我查到了微服务需要的四大要求：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- 根据业务模块划分服务种类</span><br><span class="line">- 每个服务可独立部署且相互隔离</span><br><span class="line">- 服务之间通过轻量级API进行通信</span><br><span class="line">- 服务需保证良好的高可用性(24小时)</span><br></pre></td></tr></table></figure>
+<p>四大特点：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- 服务颗粒化</span><br><span class="line">- 责任单一化</span><br><span class="line">- 运行隔离化</span><br><span class="line">- 管理自动化</span><br></pre></td></tr></table></figure>
+<p>在听qcon时候，有听到过高并发情况下要慎用微服务，有空要仔细搜索下为啥这么说。</p>
+<h1 id="微服务架构"><a href="#微服务架构" class="headerlink" title="微服务架构"></a>微服务架构</h1><h2 id="服务颗粒化"><a href="#服务颗粒化" class="headerlink" title="服务颗粒化"></a>服务颗粒化</h2><p>究竟多小或者说怎样算微服务，我们主要是根据以下几个方面来考量：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">根据子系统切分(粗粒度)</span><br><span class="line">根据业务模块切分</span><br><span class="line">根据API切分(细粒度)</span><br></pre></td></tr></table></figure>
+<h2 id="责任单一化"><a href="#责任单一化" class="headerlink" title="责任单一化"></a>责任单一化</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">一个微服务只做一件事情</span><br><span class="line">一个微服务应该只有一个引起它变化的原因</span><br><span class="line">只要是一件事情，尽管它再复杂，也不要拆分</span><br></pre></td></tr></table></figure>
+<h2 id="运行隔离化"><a href="#运行隔离化" class="headerlink" title="运行隔离化"></a>运行隔离化</h2><p>隔离化主要从<code>部署</code>和<code>运行</code>两个方面来看<br><strong>独立部署</strong><br>部署A服务的时候，不会影响B服务的运行<br><strong>独立运行</strong><br>A服务崩溃了，不会影响B服务的运行</p>
+<h2 id="管理自动化"><a href="#管理自动化" class="headerlink" title="管理自动化"></a>管理自动化</h2><p>微服务多了，如何管理它们呢<br><strong>自动化部署</strong><br>自动地服务升降级，不会影响整个系统的运行状态<br><strong>监控与告警</strong><br>监控每个微服务的运行状态，及时发出告警</p>
+<h2 id="什么时候用微服务呢"><a href="#什么时候用微服务呢" class="headerlink" title="什么时候用微服务呢"></a>什么时候用微服务呢</h2><p>我们可以考虑几种现实存在的情况</p>
+<ol>
+<li>比如传统的单体结构，随着时间推移，项目变的越来越大，很难维护</li>
+<li>项目里不止是一种开发语言，考虑到要同时存在java、go、pythen。。。balabala。。。</li>
+<li>感觉到经典的一些架构模式太重的时候，比如以前经常说的SOA</li>
+<li>修改一个Bug需要平滑升级时候</li>
+<li>想对系统进行细粒度监控的时候</li>
+</ol>
+<h2 id="要设计一个轻量级的微服务架构时考虑啥呢？"><a href="#要设计一个轻量级的微服务架构时考虑啥呢？" class="headerlink" title="要设计一个轻量级的微服务架构时考虑啥呢？"></a>要设计一个轻量级的微服务架构时考虑啥呢？</h2><p>引用<a href="http://www.infoq.com/cn/presentations/building-lightweight-micro-service-architecture">InfoQ分享 - 快速搭建轻量级微服务架构</a>上看到的一个技术分享视频的例子</p>
+<h3 id="服务拆分"><a href="#服务拆分" class="headerlink" title="服务拆分"></a>服务拆分</h3>
+<ul>
+<li>根据业务功能拆分服务种类</li>
+<li>每个服务可独立部署和运行</li>
+<li>每个服务独享或共享数据库</li>
+<li>每个服务拥有一组API接口</li>
+</ul>
+<h3 id="服务注册"><a href="#服务注册" class="headerlink" title="服务注册"></a>服务注册</h3><img src="/2017/04/24/backup-Micro-Services/microservice-2.jpg" class="" title="microservice-2">
+<p>当服务启动时，将配置信息注册到服务注册表中，服务注册表需具备高可用性。</p>
+<h3 id="请求路由"><a href="#请求路由" class="headerlink" title="请求路由"></a>请求路由</h3><img src="/2017/04/24/backup-Micro-Services/microservice-3.jpg" class="" title="microservice-3">
+<p>请求需要经过服务网关路由到具体的服务中，服务网关需要能够自动发现可用的服务(服务发现)，服务网关需要具备高可用性且不能成为单点故障。</p>
+<h3 id="一个轻量级的微服务架构设计图"><a href="#一个轻量级的微服务架构设计图" class="headerlink" title="一个轻量级的微服务架构设计图"></a>一个轻量级的微服务架构设计图</h3><img src="/2017/04/24/backup-Micro-Services/microservice-4.jpg" class="" title="microservice-4">
+<h2 id="微服务架构的技术选型"><a href="#微服务架构的技术选型" class="headerlink" title="微服务架构的技术选型"></a>微服务架构的技术选型</h2><p>微服务开发框架： Spring Boot<br>微服务容器： Docker<br>微服务注册表： ZooKeeper<br>微服务网关： Node.js<br>微服务自动化部署： Jenkins<br>具体的一些设计理念我们可以去参考<a href="http://www.infoq.com/cn/presentations/building-lightweight-micro-service-architecture">InfoQ分享 - 快速搭建轻量级微服务架构</a>，PPT里的解释和具体做法很清楚。</p>
+<h1 id="一些名词概念"><a href="#一些名词概念" class="headerlink" title="一些名词概念"></a>一些名词概念</h1><h2 id="CI-Continuous-Integration-持续集成"><a href="#CI-Continuous-Integration-持续集成" class="headerlink" title="CI - Continuous Integration 持续集成"></a>CI - Continuous Integration 持续集成</h2><img src="/2017/04/24/backup-Micro-Services/bg2015092301.png" class="" title="CI">
+
+<p>概念：频繁（一天多次）将代码集成到主干。<br>持续集成的目的，是让产品可以快速迭代，同时还能保持高质量。它的核心措施是，在代码继承到主干之前，必须通过自动化测试，只要有一个测试失败，就不能集成。</p>
+<ul>
+<li>快速发现错误</li>
+<li>防止分支大幅偏离主干</li>
+</ul>
+<h2 id="CD-Continuous-Delivery-持续交付-x2F-Continuous-Deployment-持续部署"><a href="#CD-Continuous-Delivery-持续交付-x2F-Continuous-Deployment-持续部署" class="headerlink" title="CD - Continuous Delivery 持续交付 &#x2F; Continuous Deployment 持续部署"></a>CD - Continuous Delivery 持续交付 &#x2F; Continuous Deployment 持续部署</h2><img src="/2017/04/24/backup-Micro-Services/bg2015092302.jpg" class="" title="CD">
+
+<p>持续交付是指，频繁地将软件的新版本，交给质量团队或者用户评审。如果评审通过，代码进入生产阶段。持续交付强调的是，不管怎么更新，软件是随时随地可以交付的。</p>
+<p>持续部署是持续交付的下一步，在代码通过评审以后，自动部署到生产环境。持续部署强调的是，代码在任何时刻都是可部署的，可以进入生产阶段。持续部署的前提是能自动化完成测试、构建、部署等步骤。</p>
+<h2 id="SOA-Service-Oriented-Architecture"><a href="#SOA-Service-Oriented-Architecture" class="headerlink" title="SOA - Service Oriented Architecture"></a>SOA - Service Oriented Architecture</h2><p>面向服务的架构，通过网络与其他组件通信来为其提供服务的应用组件。其目的在于创建具有弹性的分布式应用，有效消除各类复杂的中央组件。</p>
+<h1 id="微服务要面临的挑战"><a href="#微服务要面临的挑战" class="headerlink" title="微服务要面临的挑战"></a>微服务要面临的挑战</h1><ol>
+<li>运维要求较高<br>系统监控、高可用性、自动化技术</li>
+<li>分布式复杂性<br>网络延迟、系统容错、分布式事务</li>
+<li>部署依赖较强<br>服务依赖、多版本问题</li>
+<li>通信成本较高<br>无状态性、进程间调用</li>
+</ol>
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ul>
+<li><a href="https://martinfowler.com/microservices/">Matin Fowler的网站</a></li>
+<li><a href="http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html">持续集成是什么？</a> - 阮一峰</li>
+<li><a href="https://www.redhat.com/cms/managed-files/mi-microservices-architecture-design-whitepaper-inc0336100lw-201602-a4-zh.pdf">redhat白皮书 成功构建微服务架构</a></li>
+<li><a href="http://www.infoq.com/cn/presentations/building-lightweight-micro-service-architecture">InfoQ分享 - 快速搭建轻量级微服务架构</a></li>
+</ul>
 ]]></content>
       <categories>
         <category>技术资料</category>
       </categories>
       <tags>
-        <tag>分布式系统</tag>
+        <tag>微服务</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Restful API总结</title>
+    <url>/2017/04/24/backup-Restful-API/</url>
+    <content><![CDATA[<h2 id="Restful是什么"><a href="#Restful是什么" class="headerlink" title="Restful是什么"></a>Restful是什么</h2><p>**网站即软件</p>
+<h2 id="Restful-API如何设计"><a href="#Restful-API如何设计" class="headerlink" title="Restful API如何设计"></a>Restful API如何设计</h2><p>我们先有个目标，一套优秀的Restful API应该是什么样子呢？</p>
+<ul>
+<li>尽可能的遵守有关WEB规范和常见约定</li>
+<li>调用接口简单明了，可读性强，没有歧义</li>
+<li>不同API风格保持一致，调用规则，传入参数和返回数据有统一的标准</li>
+<li>能够为客户端提供简单灵活的数据访问方式</li>
+<li>有一定的容错性和防止非法参数功能</li>
+<li>高效，安全可靠，容易扩展</li>
+</ul>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ol>
+<li><a href="http://www.macode.net/restful-service-api-design-best-practise/">RESTful Service API 设计最佳工程实践和常见问题解决方案</a> - Jeffrey Li</li>
+<li><a href="http://www.ruanyifeng.com/blog/2014/05/restful_api.html">RESTful API 设计指南</a> - 阮一峰</li>
+<li><a href="http://www.ruanyifeng.com/blog/2011/09/restful">理解RESTful架构</a> - 阮一峰</li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>backend</tag>
+        <tag>restful API</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Roadmap to become a Web Developer</title>
+    <url>/2017/04/12/backup-Web-Learning-Roadmap-2017/</url>
+    <content><![CDATA[<p>原文地址</p>
+<blockquote>
+<p><a href="https://github.com/kamranahmedse/developer-roadmap/blob/master/README.md">Roadmap to becoming a web developer in 2017</a></p>
+</blockquote>
+<h2 id="🚀-Introduction"><a href="#🚀-Introduction" class="headerlink" title="🚀 Introduction"></a>🚀 Introduction</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/introduction.png" class="" title="introduction">
+
+<h2 id="🎨-Front-end-Roadmap"><a href="#🎨-Front-end-Roadmap" class="headerlink" title="🎨 Front-end Roadmap"></a>🎨 Front-end Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/fontend.png" class="" title="fontend">
+
+<h2 id="👽-Back-end-Roadmap"><a href="#👽-Back-end-Roadmap" class="headerlink" title="👽 Back-end Roadmap"></a>👽 Back-end Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/backend.png" class="" title="backend">
+
+<h2 id="👷-DevOps-Roadmap"><a href="#👷-DevOps-Roadmap" class="headerlink" title="👷 DevOps Roadmap"></a>👷 DevOps Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/devops.png" class="" title="devops">
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>fontend</tag>
+        <tag>backend</tag>
+        <tag>Roadmap</tag>
       </tags>
   </entry>
   <entry>
@@ -340,6 +691,156 @@
       </categories>
       <tags>
         <tag>fontend</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java需要掌握的基本知识</title>
+    <url>/2017/01/17/backup-Interview-Java/</url>
+    <content><![CDATA[<h1 id="Java需要掌握的基本知识总结"><a href="#Java需要掌握的基本知识总结" class="headerlink" title="Java需要掌握的基本知识总结"></a>Java需要掌握的基本知识总结</h1><h2 id="Java基础"><a href="#Java基础" class="headerlink" title="Java基础"></a>Java基础</h2><h3 id="什么是多态？"><a href="#什么是多态？" class="headerlink" title="什么是多态？"></a>什么是多态？</h3><h3 id="final、finally和finalize区别？"><a href="#final、finally和finalize区别？" class="headerlink" title="final、finally和finalize区别？"></a>final、finally和finalize区别？</h3><h3 id="GC的基本原理？-老年代和新生代一些概念？什么时候会回收？"><a href="#GC的基本原理？-老年代和新生代一些概念？什么时候会回收？" class="headerlink" title="GC的基本原理？ 老年代和新生代一些概念？什么时候会回收？"></a>GC的基本原理？ 老年代和新生代一些概念？什么时候会回收？</h3><h3 id="abstract和interface区别？"><a href="#abstract和interface区别？" class="headerlink" title="abstract和interface区别？"></a>abstract和interface区别？</h3><h3 id="Java只能单继承，不能多重继承？"><a href="#Java只能单继承，不能多重继承？" class="headerlink" title="Java只能单继承，不能多重继承？"></a>Java只能单继承，不能多重继承？</h3><p>可以创造一个描述这类行为的接口</p>
+<h3 id="Overload和Override区别"><a href="#Overload和Override区别" class="headerlink" title="Overload和Override区别"></a>Overload和Override区别</h3><h3 id="ArrayList和Vector区别"><a href="#ArrayList和Vector区别" class="headerlink" title="ArrayList和Vector区别"></a>ArrayList和Vector区别</h3><h3 id="HashMap与Hashtable区别"><a href="#HashMap与Hashtable区别" class="headerlink" title="HashMap与Hashtable区别"></a>HashMap与Hashtable区别</h3><h4 id="HashMap"><a href="#HashMap" class="headerlink" title="HashMap"></a>HashMap</h4><p>HashMap是基于哈希表的Map接口实现，允许使用null值和null键，它不保证映射的顺序，不是同步的，如果多个线程同时访问一个HashMap，而其中至少一个线程从结构上（添加或者删除一个或多个映射关系的操作）修改了，则必须保持外部同步，以防止对映射进行恶意的非同步访问。<br>HashMap实际上是数组和链表结合的数据结构</p>
+<img src="/2017/01/17/backup-Interview-Java/hashmap1.jpg" class="" title="hashmap">
+<p>HashMap底层是一个数组结构，数组中每一项又是一个链表，当新建一个HashMap时，就会初始化一个数组。JDK中HashMap源码：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="title function_">HashMap</span><span class="params">(<span class="type">int</span> initialCapacity, <span class="type">float</span> loadFactor)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (initialCapacity &lt; <span class="number">0</span>)</span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">IllegalArgumentException</span>(<span class="string">&quot;Illegal initial capacity: &quot;</span> +</span><br><span class="line">                                               initialCapacity);</span><br><span class="line">        <span class="keyword">if</span> (initialCapacity &gt; MAXIMUM_CAPACITY)</span><br><span class="line">            initialCapacity = MAXIMUM_CAPACITY;</span><br><span class="line">        <span class="keyword">if</span> (loadFactor &lt;= <span class="number">0</span> || Float.isNaN(loadFactor))</span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">IllegalArgumentException</span>(<span class="string">&quot;Illegal load factor: &quot;</span> +</span><br><span class="line">                                               loadFactor);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// Find a power of 2 &gt;= initialCapacity</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">capacity</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">while</span> (capacity &lt; initialCapacity)</span><br><span class="line">            capacity &lt;&lt;= <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">        <span class="built_in">this</span>.loadFactor = loadFactor;</span><br><span class="line">        threshold = (<span class="type">int</span>)Math.min(capacity * loadFactor, MAXIMUM_CAPACITY + <span class="number">1</span>);</span><br><span class="line">        table = <span class="keyword">new</span> <span class="title class_">Entry</span>[capacity];</span><br><span class="line">        useAltHashing = sun.misc.VM.isBooted() &amp;&amp;</span><br><span class="line">                (capacity &gt;= Holder.ALTERNATIVE_HASHING_THRESHOLD);</span><br><span class="line">        init();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>可以注意到<code>table = new Entry[capacity];</code>在构造函数中，它创建了一个Entry数组，其大小为capacity，我们再来看下Entry的源码：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="keyword">class</span> <span class="title class_">Entry</span>&lt;K,V&gt; <span class="keyword">implements</span> <span class="title class_">Map</span>.Entry&lt;K,V&gt; &#123;</span><br><span class="line">    <span class="keyword">final</span> K key;</span><br><span class="line">    V value;</span><br><span class="line">    Entry&lt;K,V&gt; next;</span><br><span class="line">    <span class="keyword">final</span> <span class="type">int</span> hash;</span><br><span class="line">    ……</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><code>Entry</code>是一个static类，其中包含了<code>key</code>和<code>value</code>键值对，另外还包含了一个next的Entry指针。Entry 就是数组中的元素，每个 Entry 其实就是一个 key-value 对，它持有一个指向下一个元素的引用，这就构成了链表。</p>
+<p>简单总结，HashMap在底层将<code>key-value</code>对当成一个整理进行处理，这个整体就是一个 Entry 对象。HashMap 底层采用一个 Entry[] 数组来保存所有的 key-value 对，当需要存储一个 Entry 对象时，会根据 hash 算法来决定其在数组中的存储位置，在根据 equals 方法决定其在该数组位置上的链表中的存储位置；当需要取出一个Entry 时，也会根据 hash 算法找到其在数组中的存储位置，再根据 equals 方法从该位置上的链表中取出该Entry。</p>
+<p><strong>HashMap的resize</strong></p>
+<p>当HashMap中的元素越来越多时</p>
+<h4 id="Hashtable"><a href="#Hashtable" class="headerlink" title="Hashtable"></a>Hashtable</h4><h3 id="集合类接口有哪些-具体实现有哪些类？"><a href="#集合类接口有哪些-具体实现有哪些类？" class="headerlink" title="集合类接口有哪些?具体实现有哪些类？"></a>集合类接口有哪些?具体实现有哪些类？</h3><p>总共有两大接口：Collection和Map。一个是元素集合，一个是键值对集合。<br>[I] - interface<br>[C] - class</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Collection</span><br><span class="line">├── List[I]</span><br><span class="line">|   ├── ArrayList[C]</span><br><span class="line">|   ├── LinkedList[C]</span><br><span class="line">|   ├── Vector[C]</span><br><span class="line">|   ├── Stack[C]</span><br><span class="line">├── Set[I]</span><br><span class="line">|   ├── HashSet[C]</span><br><span class="line">|   ├── SortedSet[I]</span><br><span class="line">|   ├── TreeSet[C]</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Map</span><br><span class="line">├── SortedMap[I]</span><br><span class="line">├── TreeMap[C]</span><br><span class="line">├── Hashtable[C]</span><br><span class="line">├── HashMap[C]</span><br><span class="line">├── LinkedHashMap[C]</span><br><span class="line">├── WeakHashMap[C]</span><br></pre></td></tr></table></figure>
+<h3 id="TreeMap如何实现Key排序"><a href="#TreeMap如何实现Key排序" class="headerlink" title="TreeMap如何实现Key排序"></a>TreeMap如何实现Key排序</h3><p>TreeMap是一个有序的key-value集合，它是通过红黑树实现的，该映射根据其键的自然顺序进行排序，或者根据创建映射时提供的Comparator进行排序，具体取决于使用的构造方法。它继承于AbstractMap，所以它是一个key-value集合。<br>大致结构是这样的：</p>
+<img src="/2017/01/17/backup-Interview-Java/tree-map.jpg" class="" title="tree-map">
+
+<p>TreeMap如果不指定排序器，默认将按照key值进行升序排序，如果指定了排序器，则按照指定的排序器进行排序，如果指定了排序器，则按照指定的排序器来进行排序；具体排序规则可以通过在<code>int compare()</code>方法中进行指定</p>
+<h3 id="Java里有哪些并发库"><a href="#Java里有哪些并发库" class="headerlink" title="Java里有哪些并发库"></a>Java里有哪些并发库</h3><h3 id="ConcurrentHashMap是什么？"><a href="#ConcurrentHashMap是什么？" class="headerlink" title="ConcurrentHashMap是什么？"></a>ConcurrentHashMap是什么？</h3><p>ConcurrentHashMap是util.cconcurrent包中一员，由Segment数组结构和HashEntry数组结构组成。Segment是一种可重入锁ReentrantLock，在ConcurrentHashMap里扮演锁的角色，HashEntry则用于存储键值对数据</p>
+<h4 id="HashEntry类"><a href="#HashEntry类" class="headerlink" title="HashEntry类"></a>HashEntry类</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">class</span> <span class="title class_">HashEntry</span>&lt;K,V&gt; &#123;</span><br><span class="line">       <span class="keyword">final</span> K key;                       <span class="comment">// 声明 key 为 final 型</span></span><br><span class="line">       <span class="keyword">final</span> <span class="type">int</span> hash;                   <span class="comment">// 声明 hash 值为 final 型</span></span><br><span class="line">       <span class="keyword">volatile</span> V value;                 <span class="comment">// 声明 value 为 volatile 型</span></span><br><span class="line">       <span class="keyword">final</span> HashEntry&lt;K,V&gt; next;      <span class="comment">// 声明 next 为 final 型</span></span><br><span class="line"></span><br><span class="line">       HashEntry(K key, <span class="type">int</span> hash, HashEntry&lt;K,V&gt; next, V value) &#123;</span><br><span class="line">           <span class="built_in">this</span>.key = key;</span><br><span class="line">           <span class="built_in">this</span>.hash = hash;</span><br><span class="line">           <span class="built_in">this</span>.next = next;</span><br><span class="line">           <span class="built_in">this</span>.value = value;</span><br><span class="line">       &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Spring基础"><a href="#Spring基础" class="headerlink" title="Spring基础"></a>Spring基础</h2><h3 id="什么是Spring-AOP？"><a href="#什么是Spring-AOP？" class="headerlink" title="什么是Spring AOP？"></a>什么是Spring AOP？</h3><h3 id="Spring-AOP实现机制"><a href="#Spring-AOP实现机制" class="headerlink" title="Spring AOP实现机制"></a>Spring AOP实现机制</h3><h3 id="什么是Spring-IOC-x2F-控制反转"><a href="#什么是Spring-IOC-x2F-控制反转" class="headerlink" title="什么是Spring IOC&#x2F;控制反转"></a>什么是Spring IOC&#x2F;控制反转</h3><h3 id="Hibernate，iBatis和JPA？"><a href="#Hibernate，iBatis和JPA？" class="headerlink" title="Hibernate，iBatis和JPA？"></a>Hibernate，iBatis和JPA？</h3><h3 id="Spring依赖注入"><a href="#Spring依赖注入" class="headerlink" title="Spring依赖注入"></a>Spring依赖注入</h3><p>平常的java开发中，程序员在某个类中需要依赖其它类的方法，则通常是new一个依赖类再调用类实例的方法，这种开发存在的问题是new的类实例不好统一管理，spring提出了依赖注入的思想，即依赖类不由程序员实例化，而是通过spring容器帮我们new指定实例并且将实例注入到需要该对象的类中。依赖注入的另一种说法是“控制反转”，通俗的理解是：平常我们new一个实例，这个实例的控制权是我们程序员，而控制反转是指new实例工作不由我们程序员来做而是交给spring容器来做。</p>
+<h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2><h3 id="mySQL索引结构原理"><a href="#mySQL索引结构原理" class="headerlink" title="mySQL索引结构原理"></a>mySQL索引结构原理</h3><p>索引是对记录按照多个字段进行排序的一种方式。对表中某个字段建立索引会创建另一种数据结构，其中保存着字段的值，每个值又指向与它相关的记录。这种索引的数据结构是经过排序的，因而可以对其执行二分查找。<br>索引的缺点是占用额外的磁盘空间，因为索引保存在MyISAM数据库中，所以如果为同一表中的很多字段都建立索引，那这个文件可能会很快膨胀到文件系统规定的上限。<br><strong>唯一索引</strong><br>索引值必须唯一<br>创建索引： create unique index 索引名 on 表名(列名); alter table 表名 add unique index 索引名 (列名);<br>删除索引： drop index 索引名 on 表名; alter table 表名 drop index 索引名;<br><strong>主键</strong><br>主键是唯一索引的一种，主键要求建表时指定，一般用auto_increment列，关键字是primary key<br>主键创建：creat table test2 (id int not null primary key auto_increment);<br><strong>全文索引</strong><br>InnoDB不支持，MyISAM支持性能比较好，一般在 CHAR、VARCHAR 或 TEXT 列上创建。 Create table 表名( id int not null primary key anto_increment, title varchar(100),FULLTEXT(title) )type&#x3D;MyISAM;<br><strong>单列索引与多列索引</strong></p>
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1>]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>backend</tag>
+        <tag>Spring</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Nginx学习总结</title>
+    <url>/2017/01/10/backup-Nginx-Learning/</url>
+    <content><![CDATA[<h1 id="Nginx是什么"><a href="#Nginx是什么" class="headerlink" title="Nginx是什么"></a>Nginx是什么</h1><h1 id="Nginx框架"><a href="#Nginx框架" class="headerlink" title="Nginx框架"></a>Nginx框架</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
+<li><a href="http://www.runoob.com/linux/nginx-install-setup.html">Nginx 安装配置</a></li>
+<li><a href="http://wiki.jikexueyuan.com/project/nginx/nginx-framework.html">极客学院Nginx教程</a></li>
+<li><a href="http://tengine.taobao.org/book/chapter_02.html">腾讯Nginx平台初探教程</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>Nginx</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>看看别人怎么做前端项目的</title>
+    <url>/2016/12/03/backup-20161212-Fontend-Integration-Plan/</url>
+    <content><![CDATA[<p>Mark一下，慢慢来看看别人家项目都咋做滴～<br>原文地址 <a href="https://github.com/fouber/blog">https://github.com/fouber/blog</a></p>
+<ul>
+<li>系列专题<ul>
+<li><a href="https://github.com/fouber/blog/issues/10">前端工程——基础篇</a></li>
+</ul>
+</li>
+<li>工程杂谈<ul>
+<li><a href="https://github.com/fouber/blog/issues/1">浅谈前端集成解决方案</a></li>
+<li><a href="https://github.com/fouber/blog/issues/3">前端工程与性能优化</a></li>
+<li><a href="https://github.com/fouber/blog/issues/2">前端开发体系建设日记</a></li>
+<li><a href="https://github.com/fouber/blog/issues/4">前端开发体与模块化框架</a></li>
+<li><a href="https://github.com/fouber/blog/issues/6">大公司里怎样开发和部署前端代码？</a></li>
+<li><a href="https://github.com/fouber/blog/issues/7">如何进行前端自动化测试？</a></li>
+<li><a href="https://github.com/fouber/blog/issues/5">md5戳计算过程</a></li>
+</ul>
+</li>
+<li>示例项目<ul>
+<li><a href="https://github.com/fouber/static-resource-management-system-demo">php版静态资源管理系统示例</a></li>
+<li><a href="https://github.com/fouber/fis-php-md.js">模块化开发组合php版静态资源管理示例</a></li>
+<li><a href="https://github.com/fouber/fis-java-jsp">java版静态资源管理系统示例</a></li>
+<li><a href="https://github.com/fouber/static-resource-digest-project">静态资源缓存控制演示项目</a></li>
+</ul>
+</li>
+<li>业界实践<ul>
+<li><a href="http://tech.meituan.com/frontend-component-practice.html">前端组件化开发实践</a> by 美团</li>
+<li><a href="https://github.com/xufei/blog/issues/19">2015前端组件化框架之路</a> by <a href="http://weibo.com/sharpmaster">@民工精髓</a></li>
+<li><a href="http://fex.baidu.com/blog/2014/03/fis-module/">前端工程之模块化</a> by <a href="http://weibo.com/u/1916384703">@沈洪顺</a></li>
+<li>前端xss防火墙系列文章 by <a href="https://github.com/zjcqoo">@ＥtherＤream</a><ul>
+<li><a href="http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-1/">内联事件拦截</a></li>
+<li><a href="http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-2/">可疑模块拦截</a></li>
+<li><a href="http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-3/">无懈可击的钩子</a></li>
+<li><a href="http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-4/">天衣无缝的防护</a></li>
+<li><a href="http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-5">整装待发</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>经典图书<ul>
+<li>《<a href="http://book.douban.com/subject/2084131/">High Performance Web Sites</a>》（<a href="http://book.douban.com/subject/3132277/">高性能网站建设指南</a>）</li>
+<li>《<a href="http://book.douban.com/subject/3686503/">Even Faster Web Sites</a>》（<a href="http://book.douban.com/subject/4719162/">高性能网站建设进阶指南</a>）</li>
+<li>《<a href="http://book.douban.com/subject/21866396/">High Performance Browser Networking</a>》（<a href="http://book.douban.com/subject/25856314/">Web性能权威指南</a>）</li>
+</ul>
+</li>
+<li>经典文章<ul>
+<li><a href="https://developer.yahoo.com/performance/rules.html">Best Practices for Speeding Up Your Web Site（雅虎35条）</a></li>
+<li><a href="http://v.youku.com/v_show/id_XMjI5OTUxMjE2.html">Facebook静态网页资源的管理和优化</a> [<a href="http://velocity.oreilly.com.cn/2010/ppts/VelocityChina2010Dec7StaticResource.pdf">PDF</a>] by <a href="http://weibo.com/weixiaoliang9">@David Wei</a></li>
+<li><a href="http://v.youku.com/v_show/id_XMzUwOTQzMzA4.html">Facebook移动互联网应用的性能优化</a> [<a href="http://velocity.oreilly.com.cn/2011/ppts/MobilePerformanceVelocity2011_DavidWei.pdf">PDF</a>] by <a href="http://weibo.com/weixiaoliang9">@David Wei</a></li>
+<li><a href="https://developers.google.com/speed/docs/insights/rules?csw=1">PageSpeed Insights规则</a></li>
+<li><a href="https://developers.google.com/speed/docs/insights/mobile">Mobile Analysis in PageSpeed Insights</a></li>
+<li>Optimizing the Critical Rendering Path for Instant Mobile Websites [<a href="https://docs.google.com/presentation/d/1IRHyU7_crIiCjl0Gvue0WY3eY_eYvFQvSfwQouW9368/present?slide=id.p19">slides</a>,<a href="https://www.youtube.com/watch?v=YV1nKLWoARQ">video</a>]</li>
+<li>Instant Mobile Websites: Techniques and Best Practices [<a href="http://storage.googleapis.com/io-2013/presentations/239-%20Instant%20Mobile%20Websites-%20Techniques%20and%20Best%20Practices.pdf">slides</a>, <a href="https://www.youtube.com/watch?v=Bzw8-ZLpwtw">video</a>]</li>
+<li><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/">Critical Rendering Path（关键呈现路径）</a></li>
+<li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/?hl=zh-cn">Optimizing Content Efficienc（优化内容效率）</a></li>
+<li><a href="https://developers.google.com/web/fundamentals/performance/rendering/?hl=zh-cn">Rendering（渲染性能）</a></li>
+<li><a href="http://taligarsiel.com/Projects/howbrowserswork1.htm">How browsers work</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>fontend</tag>
+        <tag>project</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WebSocket学习</title>
+    <url>/2016/11/23/backup-WebSocket-Learning/</url>
+    <content><![CDATA[<h1 id="啥是Websocket"><a href="#啥是Websocket" class="headerlink" title="啥是Websocket"></a>啥是Websocket</h1><p>我们可以先从<strong>RealTime</strong>开始唠起，关于Real Time的实现，主要还是基于Ajax的拉取和Comet的推送</p>
+<h1 id="打开连接-握手"><a href="#打开连接-握手" class="headerlink" title="打开连接-握手"></a>打开连接-握手</h1><h1 id="如何写代码？"><a href="#如何写代码？" class="headerlink" title="如何写代码？"></a>如何写代码？</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
+<li><a href="https://github.com/abbshr/abbshr.github.io/issues/22">学习WebSocket协议—从顶层到底层的实现原理</a></li>
+<li><a href="https://www.zhihu.com/question/20215561">知乎:WebSocket 是什么原理？为什么可以实现持久连接？</a></li>
+<li><a href="https://spring.io/guides/gs/messaging-stomp-websocket/">Spring: Using WebSocket to build an interactive web application</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>WebSocket</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Distribute System Summary</title>
+    <url>/2016/10/10/backup-Distribute-System-Summary/</url>
+    <content><![CDATA[<h1 id="分布式系统的一些个人总结"><a href="#分布式系统的一些个人总结" class="headerlink" title="分布式系统的一些个人总结"></a>分布式系统的一些个人总结</h1><p><a href="https://atticuslv.gitbooks.io/distribute-system/content/">gitbook链接</a></p>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>分布式系统</tag>
       </tags>
   </entry>
   <entry>
@@ -425,6 +926,66 @@
       </categories>
       <tags>
         <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java中Comparable和Comparator比较</title>
+    <url>/2016/08/12/backup-Java-Comparable-and-Comparator/</url>
+    <content><![CDATA[<p>总结Java中Comparable和Comparator两个接口</p>
+<h1 id="Comparable接口"><a href="#Comparable接口" class="headerlink" title="Comparable接口"></a>Comparable接口</h1><p>Comparable是排序接口，实现该接口的类支持“排序”，可以通过<strong>Collections.sort</strong>或者<strong>Arrays类</strong>来进行排序。<br></p>
+<h2 id="接口定义"><a href="#接口定义" class="headerlink" title="接口定义"></a>接口定义</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">Comparable</span>&lt;T&gt;&#123;</span><br><span class="line">  <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">compareTo</span><span class="params">(T o)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>返回负数， 表示小于<br></li>
+<li>返回零，表示等于<br></li>
+<li>返回正数， 表示大于<br></li>
+</ul>
+<h1 id="Comparator接口"><a href="#Comparator接口" class="headerlink" title="Comparator接口"></a>Comparator接口</h1><p><strong>Comparator</strong>是比较器接口<br><br>我们可以实现<strong>Comparator</strong>类来新建一个比较器，然后通过比较器来进行对类排序。<br></p>
+<h2 id="接口定义-1"><a href="#接口定义-1" class="headerlink" title="接口定义"></a>接口定义</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">Comparator</span>&lt;T&gt; &#123;</span><br><span class="line">  <span class="type">int</span> <span class="title function_">compare</span><span class="params">(T o1, T o2)</span>;</span><br><span class="line">  <span class="type">boolean</span> <span class="title function_">equals</span><span class="params">(Object obj)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>若一个类实现了Comparator接口，则必须实现compareTo函数，但可以不实现equals函数，因为任何类默认都是已经实现了equals方法的。<br></p>
+<ul>
+<li>返回负数， 表示小于<br></li>
+<li>返回零，表示等于<br></li>
+<li>返回正数， 表示大于<br></li>
+</ul>
+<h1 id="两者区别"><a href="#两者区别" class="headerlink" title="两者区别"></a>两者区别</h1><ol>
+<li>Comparable是排序接口，是一个对象就已经支持自比较所需要实现的接口。若一个类实现了Comparable接口，就意味着“该类支持排序”。比如，String，Integer，在用Collections类的sort方法排序时若不指定Comparator，就以自然顺序排序。</li>
+<li>Comparator是比较器，当这个对象不支持自比较或者自比较方法不能满足要求时使用。我们若需要控制某个类的次序，可以建立一个“该类的比较器”来进行排序。<br></li>
+</ol>
+<p>所以Comparable相当于“内部比较器”，而Comparator相当于“外部比较器”。</p>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构相关问题总结</title>
+    <url>/2016/05/19/backup-Interview-Data-Structure/</url>
+    <content><![CDATA[<p>我们来总结一下数据结构相关的一些知识，这里包括最普遍的链表、二叉树问题。</p>
+<h1 id="基本问题"><a href="#基本问题" class="headerlink" title="基本问题"></a>基本问题</h1><h2 id="二叉树"><a href="#二叉树" class="headerlink" title="二叉树"></a>二叉树</h2><p>二叉树是每个节点最多有两个分支的树结构，通常分支被称作<strong>左子树</strong>和<strong>右子树</strong>。二叉树的分支具有左右次序，不能颠倒。<br>二叉树的第i层最多有$2^{i-1}$个节点；深度为k的二叉树最多共有$2{k+1}-1$个节点</p>
+<h3 id="满二叉树"><a href="#满二叉树" class="headerlink" title="满二叉树"></a>满二叉树</h3><p>每一层的节点数都是最大节点数，即深度为k有$2^k-1$个节点的二叉树</p>
+<h3 id="完全二叉树"><a href="#完全二叉树" class="headerlink" title="完全二叉树"></a>完全二叉树</h3><p>除最后一层外，其余层都是满的，并且最后一层或者是满的，或者是在右边缺少若干节点，即为完全二叉树。深度为k的<a href="#%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91">完全二叉树</a>，至少有$2^{k-1}$个节点，至多有$2^k-1$个节点。</p>
+<h3 id="访问二叉树的方法"><a href="#访问二叉树的方法" class="headerlink" title="访问二叉树的方法"></a>访问二叉树的方法</h3><h3 id="红黑树"><a href="#红黑树" class="headerlink" title="红黑树"></a>红黑树</h3><p>红黑树是一种自平衡二叉查找树，它可以在$O(logn)$时间内做查找、插入和删除等操作。</p>
+<p><strong>红黑树的性质</strong></p>
+<p>红黑树，是通过红黑两种颜色域保证树的高度近似平衡，它的每个节点是一个五元组：color(颜色)，key(数据)，left(左孩子)，right(右孩子)和p(父节点)。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">红黑树定义</span><br><span class="line">性质1. 节点是红色或黑色</span><br><span class="line">性质2. 根是黑色</span><br><span class="line">性质3. 所有叶子都是黑色（叶子都是NIL节点）</span><br><span class="line">性质4. 如果一个节点是红的，则它的两个儿子都是黑的</span><br><span class="line">性质5. 从任一节点到其叶子的所有简单路径都包含相同数目的黑色节点</span><br></pre></td></tr></table></figure>
+<img src="/2016/05/19/backup-Interview-Data-Structure/red-black-tree.jpg" class="" title="red-black-tree">
+<p>一个关键性质：<br>从根到叶子的最长可能路径不多于最短的可能路径的两倍长</p>
+<p><strong>红黑树的基本操作</strong><br>红黑树上的查找操作与普通二叉查找树上的查找操作相同，但是红黑树上的插入操作和删除操作会导致不再符合红黑树的性质。恢复红黑树的性质需要少量（%O(logn)%）颜色变更和不超过三次树旋转（插入操作是两次）。虽然插入和删除很复杂，但操作时间仍可以保持为%O(logn)%次。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">插入操作：</span><br><span class="line">(1) 查找插入的位置，时间复杂度为O(n)</span><br><span class="line">(2) 将新节点的color赋值为红色</span><br><span class="line">(3) 自下而上重新调整该树为红黑树</span><br></pre></td></tr></table></figure>
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
+<li><a href="https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsaj/dsaj.pdf">数据结构与算法（Java 描述）</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%8F%89%E6%A0%91">Wikipedia二叉树</a></li>
+<li><a href="http://dongxicheng.org/structure/red-black-tree/">红黑树</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术资料</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
       </tags>
   </entry>
   <entry>
@@ -577,557 +1138,5 @@
       <tags>
         <tag>算法</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>熵</title>
-    <url>/2017/04/27/backup-2017-4-27-%E7%86%B5/</url>
-    <content><![CDATA[<p>今天拜读了阮一峰大神的新博客，<a href="http://www.ruanyifeng.com/blog/2017/04/entropy.html">熵：宇宙的终极规则</a>，很有感触。文中有提到一本书-《熵：一种新的世界观》，改日拜读一下。</p>
-<p>简单的说来，<strong>熵是那些在能量转换过程中浪费掉的、无法再利用的能量</strong>。</p>
-<p>这里引用阮大神的图和一句话</p>
-<img src="/2017/04/27/backup-2017-4-27-%E7%86%B5/bg2017042408.jpg" class="" title="entropy">
-
-<p><strong>如果不施加外力影响，事务永远向着更加混乱的状态发展</strong>，比如上图里那个由整齐到混乱的房间。</p>
-<p>由此我联系到平时工作生活，如果工作不持续的施加外力（持续不断学习新技术、新能力），最终自己掌握的会变的碎片化；如果生活中不持续的去打理（比如整理房间，比如陶冶情操），自己也会慢慢变得无趣。</p>
-<p>好可怕，谁都逃不掉 <strong>熵</strong> 这个圈圈</p>
-]]></content>
-      <categories>
-        <category>读后感</category>
-      </categories>
-      <tags>
-        <tag>熵</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java需要掌握的基本知识</title>
-    <url>/2017/01/17/backup-Interview-Java/</url>
-    <content><![CDATA[<h1 id="Java需要掌握的基本知识总结"><a href="#Java需要掌握的基本知识总结" class="headerlink" title="Java需要掌握的基本知识总结"></a>Java需要掌握的基本知识总结</h1><h2 id="Java基础"><a href="#Java基础" class="headerlink" title="Java基础"></a>Java基础</h2><h3 id="什么是多态？"><a href="#什么是多态？" class="headerlink" title="什么是多态？"></a>什么是多态？</h3><h3 id="final、finally和finalize区别？"><a href="#final、finally和finalize区别？" class="headerlink" title="final、finally和finalize区别？"></a>final、finally和finalize区别？</h3><h3 id="GC的基本原理？-老年代和新生代一些概念？什么时候会回收？"><a href="#GC的基本原理？-老年代和新生代一些概念？什么时候会回收？" class="headerlink" title="GC的基本原理？ 老年代和新生代一些概念？什么时候会回收？"></a>GC的基本原理？ 老年代和新生代一些概念？什么时候会回收？</h3><h3 id="abstract和interface区别？"><a href="#abstract和interface区别？" class="headerlink" title="abstract和interface区别？"></a>abstract和interface区别？</h3><h3 id="Java只能单继承，不能多重继承？"><a href="#Java只能单继承，不能多重继承？" class="headerlink" title="Java只能单继承，不能多重继承？"></a>Java只能单继承，不能多重继承？</h3><p>可以创造一个描述这类行为的接口</p>
-<h3 id="Overload和Override区别"><a href="#Overload和Override区别" class="headerlink" title="Overload和Override区别"></a>Overload和Override区别</h3><h3 id="ArrayList和Vector区别"><a href="#ArrayList和Vector区别" class="headerlink" title="ArrayList和Vector区别"></a>ArrayList和Vector区别</h3><h3 id="HashMap与Hashtable区别"><a href="#HashMap与Hashtable区别" class="headerlink" title="HashMap与Hashtable区别"></a>HashMap与Hashtable区别</h3><h4 id="HashMap"><a href="#HashMap" class="headerlink" title="HashMap"></a>HashMap</h4><p>HashMap是基于哈希表的Map接口实现，允许使用null值和null键，它不保证映射的顺序，不是同步的，如果多个线程同时访问一个HashMap，而其中至少一个线程从结构上（添加或者删除一个或多个映射关系的操作）修改了，则必须保持外部同步，以防止对映射进行恶意的非同步访问。<br>HashMap实际上是数组和链表结合的数据结构</p>
-<img src="/2017/01/17/backup-Interview-Java/hashmap1.jpg" class="" title="hashmap">
-<p>HashMap底层是一个数组结构，数组中每一项又是一个链表，当新建一个HashMap时，就会初始化一个数组。JDK中HashMap源码：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="title function_">HashMap</span><span class="params">(<span class="type">int</span> initialCapacity, <span class="type">float</span> loadFactor)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (initialCapacity &lt; <span class="number">0</span>)</span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">IllegalArgumentException</span>(<span class="string">&quot;Illegal initial capacity: &quot;</span> +</span><br><span class="line">                                               initialCapacity);</span><br><span class="line">        <span class="keyword">if</span> (initialCapacity &gt; MAXIMUM_CAPACITY)</span><br><span class="line">            initialCapacity = MAXIMUM_CAPACITY;</span><br><span class="line">        <span class="keyword">if</span> (loadFactor &lt;= <span class="number">0</span> || Float.isNaN(loadFactor))</span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">IllegalArgumentException</span>(<span class="string">&quot;Illegal load factor: &quot;</span> +</span><br><span class="line">                                               loadFactor);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// Find a power of 2 &gt;= initialCapacity</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">capacity</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">while</span> (capacity &lt; initialCapacity)</span><br><span class="line">            capacity &lt;&lt;= <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">        <span class="built_in">this</span>.loadFactor = loadFactor;</span><br><span class="line">        threshold = (<span class="type">int</span>)Math.min(capacity * loadFactor, MAXIMUM_CAPACITY + <span class="number">1</span>);</span><br><span class="line">        table = <span class="keyword">new</span> <span class="title class_">Entry</span>[capacity];</span><br><span class="line">        useAltHashing = sun.misc.VM.isBooted() &amp;&amp;</span><br><span class="line">                (capacity &gt;= Holder.ALTERNATIVE_HASHING_THRESHOLD);</span><br><span class="line">        init();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>可以注意到<code>table = new Entry[capacity];</code>在构造函数中，它创建了一个Entry数组，其大小为capacity，我们再来看下Entry的源码：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="keyword">class</span> <span class="title class_">Entry</span>&lt;K,V&gt; <span class="keyword">implements</span> <span class="title class_">Map</span>.Entry&lt;K,V&gt; &#123;</span><br><span class="line">    <span class="keyword">final</span> K key;</span><br><span class="line">    V value;</span><br><span class="line">    Entry&lt;K,V&gt; next;</span><br><span class="line">    <span class="keyword">final</span> <span class="type">int</span> hash;</span><br><span class="line">    ……</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><code>Entry</code>是一个static类，其中包含了<code>key</code>和<code>value</code>键值对，另外还包含了一个next的Entry指针。Entry 就是数组中的元素，每个 Entry 其实就是一个 key-value 对，它持有一个指向下一个元素的引用，这就构成了链表。</p>
-<p>简单总结，HashMap在底层将<code>key-value</code>对当成一个整理进行处理，这个整体就是一个 Entry 对象。HashMap 底层采用一个 Entry[] 数组来保存所有的 key-value 对，当需要存储一个 Entry 对象时，会根据 hash 算法来决定其在数组中的存储位置，在根据 equals 方法决定其在该数组位置上的链表中的存储位置；当需要取出一个Entry 时，也会根据 hash 算法找到其在数组中的存储位置，再根据 equals 方法从该位置上的链表中取出该Entry。</p>
-<p><strong>HashMap的resize</strong></p>
-<p>当HashMap中的元素越来越多时</p>
-<h4 id="Hashtable"><a href="#Hashtable" class="headerlink" title="Hashtable"></a>Hashtable</h4><h3 id="集合类接口有哪些-具体实现有哪些类？"><a href="#集合类接口有哪些-具体实现有哪些类？" class="headerlink" title="集合类接口有哪些?具体实现有哪些类？"></a>集合类接口有哪些?具体实现有哪些类？</h3><p>总共有两大接口：Collection和Map。一个是元素集合，一个是键值对集合。<br>[I] - interface<br>[C] - class</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Collection</span><br><span class="line">├── List[I]</span><br><span class="line">|   ├── ArrayList[C]</span><br><span class="line">|   ├── LinkedList[C]</span><br><span class="line">|   ├── Vector[C]</span><br><span class="line">|   ├── Stack[C]</span><br><span class="line">├── Set[I]</span><br><span class="line">|   ├── HashSet[C]</span><br><span class="line">|   ├── SortedSet[I]</span><br><span class="line">|   ├── TreeSet[C]</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Map</span><br><span class="line">├── SortedMap[I]</span><br><span class="line">├── TreeMap[C]</span><br><span class="line">├── Hashtable[C]</span><br><span class="line">├── HashMap[C]</span><br><span class="line">├── LinkedHashMap[C]</span><br><span class="line">├── WeakHashMap[C]</span><br></pre></td></tr></table></figure>
-<h3 id="TreeMap如何实现Key排序"><a href="#TreeMap如何实现Key排序" class="headerlink" title="TreeMap如何实现Key排序"></a>TreeMap如何实现Key排序</h3><p>TreeMap是一个有序的key-value集合，它是通过红黑树实现的，该映射根据其键的自然顺序进行排序，或者根据创建映射时提供的Comparator进行排序，具体取决于使用的构造方法。它继承于AbstractMap，所以它是一个key-value集合。<br>大致结构是这样的：</p>
-<img src="/2017/01/17/backup-Interview-Java/tree-map.jpg" class="" title="tree-map">
-
-<p>TreeMap如果不指定排序器，默认将按照key值进行升序排序，如果指定了排序器，则按照指定的排序器进行排序，如果指定了排序器，则按照指定的排序器来进行排序；具体排序规则可以通过在<code>int compare()</code>方法中进行指定</p>
-<h3 id="Java里有哪些并发库"><a href="#Java里有哪些并发库" class="headerlink" title="Java里有哪些并发库"></a>Java里有哪些并发库</h3><h3 id="ConcurrentHashMap是什么？"><a href="#ConcurrentHashMap是什么？" class="headerlink" title="ConcurrentHashMap是什么？"></a>ConcurrentHashMap是什么？</h3><p>ConcurrentHashMap是util.cconcurrent包中一员，由Segment数组结构和HashEntry数组结构组成。Segment是一种可重入锁ReentrantLock，在ConcurrentHashMap里扮演锁的角色，HashEntry则用于存储键值对数据</p>
-<h4 id="HashEntry类"><a href="#HashEntry类" class="headerlink" title="HashEntry类"></a>HashEntry类</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">class</span> <span class="title class_">HashEntry</span>&lt;K,V&gt; &#123;</span><br><span class="line">       <span class="keyword">final</span> K key;                       <span class="comment">// 声明 key 为 final 型</span></span><br><span class="line">       <span class="keyword">final</span> <span class="type">int</span> hash;                   <span class="comment">// 声明 hash 值为 final 型</span></span><br><span class="line">       <span class="keyword">volatile</span> V value;                 <span class="comment">// 声明 value 为 volatile 型</span></span><br><span class="line">       <span class="keyword">final</span> HashEntry&lt;K,V&gt; next;      <span class="comment">// 声明 next 为 final 型</span></span><br><span class="line"></span><br><span class="line">       HashEntry(K key, <span class="type">int</span> hash, HashEntry&lt;K,V&gt; next, V value) &#123;</span><br><span class="line">           <span class="built_in">this</span>.key = key;</span><br><span class="line">           <span class="built_in">this</span>.hash = hash;</span><br><span class="line">           <span class="built_in">this</span>.next = next;</span><br><span class="line">           <span class="built_in">this</span>.value = value;</span><br><span class="line">       &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="Spring基础"><a href="#Spring基础" class="headerlink" title="Spring基础"></a>Spring基础</h2><h3 id="什么是Spring-AOP？"><a href="#什么是Spring-AOP？" class="headerlink" title="什么是Spring AOP？"></a>什么是Spring AOP？</h3><h3 id="Spring-AOP实现机制"><a href="#Spring-AOP实现机制" class="headerlink" title="Spring AOP实现机制"></a>Spring AOP实现机制</h3><h3 id="什么是Spring-IOC-x2F-控制反转"><a href="#什么是Spring-IOC-x2F-控制反转" class="headerlink" title="什么是Spring IOC&#x2F;控制反转"></a>什么是Spring IOC&#x2F;控制反转</h3><h3 id="Hibernate，iBatis和JPA？"><a href="#Hibernate，iBatis和JPA？" class="headerlink" title="Hibernate，iBatis和JPA？"></a>Hibernate，iBatis和JPA？</h3><h3 id="Spring依赖注入"><a href="#Spring依赖注入" class="headerlink" title="Spring依赖注入"></a>Spring依赖注入</h3><p>平常的java开发中，程序员在某个类中需要依赖其它类的方法，则通常是new一个依赖类再调用类实例的方法，这种开发存在的问题是new的类实例不好统一管理，spring提出了依赖注入的思想，即依赖类不由程序员实例化，而是通过spring容器帮我们new指定实例并且将实例注入到需要该对象的类中。依赖注入的另一种说法是“控制反转”，通俗的理解是：平常我们new一个实例，这个实例的控制权是我们程序员，而控制反转是指new实例工作不由我们程序员来做而是交给spring容器来做。</p>
-<h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2><h3 id="mySQL索引结构原理"><a href="#mySQL索引结构原理" class="headerlink" title="mySQL索引结构原理"></a>mySQL索引结构原理</h3><p>索引是对记录按照多个字段进行排序的一种方式。对表中某个字段建立索引会创建另一种数据结构，其中保存着字段的值，每个值又指向与它相关的记录。这种索引的数据结构是经过排序的，因而可以对其执行二分查找。<br>索引的缺点是占用额外的磁盘空间，因为索引保存在MyISAM数据库中，所以如果为同一表中的很多字段都建立索引，那这个文件可能会很快膨胀到文件系统规定的上限。<br><strong>唯一索引</strong><br>索引值必须唯一<br>创建索引： create unique index 索引名 on 表名(列名); alter table 表名 add unique index 索引名 (列名);<br>删除索引： drop index 索引名 on 表名; alter table 表名 drop index 索引名;<br><strong>主键</strong><br>主键是唯一索引的一种，主键要求建表时指定，一般用auto_increment列，关键字是primary key<br>主键创建：creat table test2 (id int not null primary key auto_increment);<br><strong>全文索引</strong><br>InnoDB不支持，MyISAM支持性能比较好，一般在 CHAR、VARCHAR 或 TEXT 列上创建。 Create table 表名( id int not null primary key anto_increment, title varchar(100),FULLTEXT(title) )type&#x3D;MyISAM;<br><strong>单列索引与多列索引</strong></p>
-<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1>]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>backend</tag>
-        <tag>Spring</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构相关问题总结</title>
-    <url>/2016/05/19/backup-Interview-Data-Structure/</url>
-    <content><![CDATA[<p>我们来总结一下数据结构相关的一些知识，这里包括最普遍的链表、二叉树问题。</p>
-<h1 id="基本问题"><a href="#基本问题" class="headerlink" title="基本问题"></a>基本问题</h1><h2 id="二叉树"><a href="#二叉树" class="headerlink" title="二叉树"></a>二叉树</h2><p>二叉树是每个节点最多有两个分支的树结构，通常分支被称作<strong>左子树</strong>和<strong>右子树</strong>。二叉树的分支具有左右次序，不能颠倒。<br>二叉树的第i层最多有$2^{i-1}$个节点；深度为k的二叉树最多共有$2{k+1}-1$个节点</p>
-<h3 id="满二叉树"><a href="#满二叉树" class="headerlink" title="满二叉树"></a>满二叉树</h3><p>每一层的节点数都是最大节点数，即深度为k有$2^k-1$个节点的二叉树</p>
-<h3 id="完全二叉树"><a href="#完全二叉树" class="headerlink" title="完全二叉树"></a>完全二叉树</h3><p>除最后一层外，其余层都是满的，并且最后一层或者是满的，或者是在右边缺少若干节点，即为完全二叉树。深度为k的<a href="#%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91">完全二叉树</a>，至少有$2^{k-1}$个节点，至多有$2^k-1$个节点。</p>
-<h3 id="访问二叉树的方法"><a href="#访问二叉树的方法" class="headerlink" title="访问二叉树的方法"></a>访问二叉树的方法</h3><h3 id="红黑树"><a href="#红黑树" class="headerlink" title="红黑树"></a>红黑树</h3><p>红黑树是一种自平衡二叉查找树，它可以在$O(logn)$时间内做查找、插入和删除等操作。</p>
-<p><strong>红黑树的性质</strong></p>
-<p>红黑树，是通过红黑两种颜色域保证树的高度近似平衡，它的每个节点是一个五元组：color(颜色)，key(数据)，left(左孩子)，right(右孩子)和p(父节点)。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">红黑树定义</span><br><span class="line">性质1. 节点是红色或黑色</span><br><span class="line">性质2. 根是黑色</span><br><span class="line">性质3. 所有叶子都是黑色（叶子都是NIL节点）</span><br><span class="line">性质4. 如果一个节点是红的，则它的两个儿子都是黑的</span><br><span class="line">性质5. 从任一节点到其叶子的所有简单路径都包含相同数目的黑色节点</span><br></pre></td></tr></table></figure>
-<img src="/2016/05/19/backup-Interview-Data-Structure/red-black-tree.jpg" class="" title="red-black-tree">
-<p>一个关键性质：<br>从根到叶子的最长可能路径不多于最短的可能路径的两倍长</p>
-<p><strong>红黑树的基本操作</strong><br>红黑树上的查找操作与普通二叉查找树上的查找操作相同，但是红黑树上的插入操作和删除操作会导致不再符合红黑树的性质。恢复红黑树的性质需要少量（%O(logn)%）颜色变更和不超过三次树旋转（插入操作是两次）。虽然插入和删除很复杂，但操作时间仍可以保持为%O(logn)%次。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">插入操作：</span><br><span class="line">(1) 查找插入的位置，时间复杂度为O(n)</span><br><span class="line">(2) 将新节点的color赋值为红色</span><br><span class="line">(3) 自下而上重新调整该树为红黑树</span><br></pre></td></tr></table></figure>
-<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
-<li><a href="https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsaj/dsaj.pdf">数据结构与算法（Java 描述）</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%8F%89%E6%A0%91">Wikipedia二叉树</a></li>
-<li><a href="http://dongxicheng.org/structure/red-black-tree/">红黑树</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java中Comparable和Comparator比较</title>
-    <url>/2016/08/12/backup-Java-Comparable-and-Comparator/</url>
-    <content><![CDATA[<p>总结Java中Comparable和Comparator两个接口</p>
-<h1 id="Comparable接口"><a href="#Comparable接口" class="headerlink" title="Comparable接口"></a>Comparable接口</h1><p>Comparable是排序接口，实现该接口的类支持“排序”，可以通过<strong>Collections.sort</strong>或者<strong>Arrays类</strong>来进行排序。<br></p>
-<h2 id="接口定义"><a href="#接口定义" class="headerlink" title="接口定义"></a>接口定义</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">Comparable</span>&lt;T&gt;&#123;</span><br><span class="line">  <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">compareTo</span><span class="params">(T o)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li>返回负数， 表示小于<br></li>
-<li>返回零，表示等于<br></li>
-<li>返回正数， 表示大于<br></li>
-</ul>
-<h1 id="Comparator接口"><a href="#Comparator接口" class="headerlink" title="Comparator接口"></a>Comparator接口</h1><p><strong>Comparator</strong>是比较器接口<br><br>我们可以实现<strong>Comparator</strong>类来新建一个比较器，然后通过比较器来进行对类排序。<br></p>
-<h2 id="接口定义-1"><a href="#接口定义-1" class="headerlink" title="接口定义"></a>接口定义</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">Comparator</span>&lt;T&gt; &#123;</span><br><span class="line">  <span class="type">int</span> <span class="title function_">compare</span><span class="params">(T o1, T o2)</span>;</span><br><span class="line">  <span class="type">boolean</span> <span class="title function_">equals</span><span class="params">(Object obj)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>若一个类实现了Comparator接口，则必须实现compareTo函数，但可以不实现equals函数，因为任何类默认都是已经实现了equals方法的。<br></p>
-<ul>
-<li>返回负数， 表示小于<br></li>
-<li>返回零，表示等于<br></li>
-<li>返回正数， 表示大于<br></li>
-</ul>
-<h1 id="两者区别"><a href="#两者区别" class="headerlink" title="两者区别"></a>两者区别</h1><ol>
-<li>Comparable是排序接口，是一个对象就已经支持自比较所需要实现的接口。若一个类实现了Comparable接口，就意味着“该类支持排序”。比如，String，Integer，在用Collections类的sort方法排序时若不指定Comparator，就以自然顺序排序。</li>
-<li>Comparator是比较器，当这个对象不支持自比较或者自比较方法不能满足要求时使用。我们若需要控制某个类的次序，可以建立一个“该类的比较器”来进行排序。<br></li>
-</ol>
-<p>所以Comparable相当于“内部比较器”，而Comparator相当于“外部比较器”。</p>
-]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>微服务学习</title>
-    <url>/2017/04/24/backup-Micro-Services/</url>
-    <content><![CDATA[<p>总结微服务相关的一些学习知识，从基本概念到开发、部署涉及到的一些技术和名字。</p>
-<h1 id="啥是微服务"><a href="#啥是微服务" class="headerlink" title="啥是微服务"></a>啥是微服务</h1><p>简单的说，微服务是将一个大型的单块架构拆分为多个细粒度服务的架构。这里我查到了微服务需要的四大要求：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- 根据业务模块划分服务种类</span><br><span class="line">- 每个服务可独立部署且相互隔离</span><br><span class="line">- 服务之间通过轻量级API进行通信</span><br><span class="line">- 服务需保证良好的高可用性(24小时)</span><br></pre></td></tr></table></figure>
-<p>四大特点：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- 服务颗粒化</span><br><span class="line">- 责任单一化</span><br><span class="line">- 运行隔离化</span><br><span class="line">- 管理自动化</span><br></pre></td></tr></table></figure>
-<p>在听qcon时候，有听到过高并发情况下要慎用微服务，有空要仔细搜索下为啥这么说。</p>
-<h1 id="微服务架构"><a href="#微服务架构" class="headerlink" title="微服务架构"></a>微服务架构</h1><h2 id="服务颗粒化"><a href="#服务颗粒化" class="headerlink" title="服务颗粒化"></a>服务颗粒化</h2><p>究竟多小或者说怎样算微服务，我们主要是根据以下几个方面来考量：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">根据子系统切分(粗粒度)</span><br><span class="line">根据业务模块切分</span><br><span class="line">根据API切分(细粒度)</span><br></pre></td></tr></table></figure>
-<h2 id="责任单一化"><a href="#责任单一化" class="headerlink" title="责任单一化"></a>责任单一化</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">一个微服务只做一件事情</span><br><span class="line">一个微服务应该只有一个引起它变化的原因</span><br><span class="line">只要是一件事情，尽管它再复杂，也不要拆分</span><br></pre></td></tr></table></figure>
-<h2 id="运行隔离化"><a href="#运行隔离化" class="headerlink" title="运行隔离化"></a>运行隔离化</h2><p>隔离化主要从<code>部署</code>和<code>运行</code>两个方面来看<br><strong>独立部署</strong><br>部署A服务的时候，不会影响B服务的运行<br><strong>独立运行</strong><br>A服务崩溃了，不会影响B服务的运行</p>
-<h2 id="管理自动化"><a href="#管理自动化" class="headerlink" title="管理自动化"></a>管理自动化</h2><p>微服务多了，如何管理它们呢<br><strong>自动化部署</strong><br>自动地服务升降级，不会影响整个系统的运行状态<br><strong>监控与告警</strong><br>监控每个微服务的运行状态，及时发出告警</p>
-<h2 id="什么时候用微服务呢"><a href="#什么时候用微服务呢" class="headerlink" title="什么时候用微服务呢"></a>什么时候用微服务呢</h2><p>我们可以考虑几种现实存在的情况</p>
-<ol>
-<li>比如传统的单体结构，随着时间推移，项目变的越来越大，很难维护</li>
-<li>项目里不止是一种开发语言，考虑到要同时存在java、go、pythen。。。balabala。。。</li>
-<li>感觉到经典的一些架构模式太重的时候，比如以前经常说的SOA</li>
-<li>修改一个Bug需要平滑升级时候</li>
-<li>想对系统进行细粒度监控的时候</li>
-</ol>
-<h2 id="要设计一个轻量级的微服务架构时考虑啥呢？"><a href="#要设计一个轻量级的微服务架构时考虑啥呢？" class="headerlink" title="要设计一个轻量级的微服务架构时考虑啥呢？"></a>要设计一个轻量级的微服务架构时考虑啥呢？</h2><p>引用<a href="http://www.infoq.com/cn/presentations/building-lightweight-micro-service-architecture">InfoQ分享 - 快速搭建轻量级微服务架构</a>上看到的一个技术分享视频的例子</p>
-<h3 id="服务拆分"><a href="#服务拆分" class="headerlink" title="服务拆分"></a>服务拆分</h3>
-<ul>
-<li>根据业务功能拆分服务种类</li>
-<li>每个服务可独立部署和运行</li>
-<li>每个服务独享或共享数据库</li>
-<li>每个服务拥有一组API接口</li>
-</ul>
-<h3 id="服务注册"><a href="#服务注册" class="headerlink" title="服务注册"></a>服务注册</h3><img src="/2017/04/24/backup-Micro-Services/microservice-2.jpg" class="" title="microservice-2">
-<p>当服务启动时，将配置信息注册到服务注册表中，服务注册表需具备高可用性。</p>
-<h3 id="请求路由"><a href="#请求路由" class="headerlink" title="请求路由"></a>请求路由</h3><img src="/2017/04/24/backup-Micro-Services/microservice-3.jpg" class="" title="microservice-3">
-<p>请求需要经过服务网关路由到具体的服务中，服务网关需要能够自动发现可用的服务(服务发现)，服务网关需要具备高可用性且不能成为单点故障。</p>
-<h3 id="一个轻量级的微服务架构设计图"><a href="#一个轻量级的微服务架构设计图" class="headerlink" title="一个轻量级的微服务架构设计图"></a>一个轻量级的微服务架构设计图</h3><img src="/2017/04/24/backup-Micro-Services/microservice-4.jpg" class="" title="microservice-4">
-<h2 id="微服务架构的技术选型"><a href="#微服务架构的技术选型" class="headerlink" title="微服务架构的技术选型"></a>微服务架构的技术选型</h2><p>微服务开发框架： Spring Boot<br>微服务容器： Docker<br>微服务注册表： ZooKeeper<br>微服务网关： Node.js<br>微服务自动化部署： Jenkins<br>具体的一些设计理念我们可以去参考<a href="http://www.infoq.com/cn/presentations/building-lightweight-micro-service-architecture">InfoQ分享 - 快速搭建轻量级微服务架构</a>，PPT里的解释和具体做法很清楚。</p>
-<h1 id="一些名词概念"><a href="#一些名词概念" class="headerlink" title="一些名词概念"></a>一些名词概念</h1><h2 id="CI-Continuous-Integration-持续集成"><a href="#CI-Continuous-Integration-持续集成" class="headerlink" title="CI - Continuous Integration 持续集成"></a>CI - Continuous Integration 持续集成</h2><img src="/2017/04/24/backup-Micro-Services/bg2015092301.png" class="" title="CI">
-
-<p>概念：频繁（一天多次）将代码集成到主干。<br>持续集成的目的，是让产品可以快速迭代，同时还能保持高质量。它的核心措施是，在代码继承到主干之前，必须通过自动化测试，只要有一个测试失败，就不能集成。</p>
-<ul>
-<li>快速发现错误</li>
-<li>防止分支大幅偏离主干</li>
-</ul>
-<h2 id="CD-Continuous-Delivery-持续交付-x2F-Continuous-Deployment-持续部署"><a href="#CD-Continuous-Delivery-持续交付-x2F-Continuous-Deployment-持续部署" class="headerlink" title="CD - Continuous Delivery 持续交付 &#x2F; Continuous Deployment 持续部署"></a>CD - Continuous Delivery 持续交付 &#x2F; Continuous Deployment 持续部署</h2><img src="/2017/04/24/backup-Micro-Services/bg2015092302.jpg" class="" title="CD">
-
-<p>持续交付是指，频繁地将软件的新版本，交给质量团队或者用户评审。如果评审通过，代码进入生产阶段。持续交付强调的是，不管怎么更新，软件是随时随地可以交付的。</p>
-<p>持续部署是持续交付的下一步，在代码通过评审以后，自动部署到生产环境。持续部署强调的是，代码在任何时刻都是可部署的，可以进入生产阶段。持续部署的前提是能自动化完成测试、构建、部署等步骤。</p>
-<h2 id="SOA-Service-Oriented-Architecture"><a href="#SOA-Service-Oriented-Architecture" class="headerlink" title="SOA - Service Oriented Architecture"></a>SOA - Service Oriented Architecture</h2><p>面向服务的架构，通过网络与其他组件通信来为其提供服务的应用组件。其目的在于创建具有弹性的分布式应用，有效消除各类复杂的中央组件。</p>
-<h1 id="微服务要面临的挑战"><a href="#微服务要面临的挑战" class="headerlink" title="微服务要面临的挑战"></a>微服务要面临的挑战</h1><ol>
-<li>运维要求较高<br>系统监控、高可用性、自动化技术</li>
-<li>分布式复杂性<br>网络延迟、系统容错、分布式事务</li>
-<li>部署依赖较强<br>服务依赖、多版本问题</li>
-<li>通信成本较高<br>无状态性、进程间调用</li>
-</ol>
-<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ul>
-<li><a href="https://martinfowler.com/microservices/">Matin Fowler的网站</a></li>
-<li><a href="http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html">持续集成是什么？</a> - 阮一峰</li>
-<li><a href="https://www.redhat.com/cms/managed-files/mi-microservices-architecture-design-whitepaper-inc0336100lw-201602-a4-zh.pdf">redhat白皮书 成功构建微服务架构</a></li>
-<li><a href="http://www.infoq.com/cn/presentations/building-lightweight-micro-service-architecture">InfoQ分享 - 快速搭建轻量级微服务架构</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>微服务</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Roadmap to become a Web Developer</title>
-    <url>/2017/04/12/backup-Web-Learning-Roadmap-2017/</url>
-    <content><![CDATA[<p>原文地址</p>
-<blockquote>
-<p><a href="https://github.com/kamranahmedse/developer-roadmap/blob/master/README.md">Roadmap to becoming a web developer in 2017</a></p>
-</blockquote>
-<h2 id="🚀-Introduction"><a href="#🚀-Introduction" class="headerlink" title="🚀 Introduction"></a>🚀 Introduction</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/introduction.png" class="" title="introduction">
-
-<h2 id="🎨-Front-end-Roadmap"><a href="#🎨-Front-end-Roadmap" class="headerlink" title="🎨 Front-end Roadmap"></a>🎨 Front-end Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/fontend.png" class="" title="fontend">
-
-<h2 id="👽-Back-end-Roadmap"><a href="#👽-Back-end-Roadmap" class="headerlink" title="👽 Back-end Roadmap"></a>👽 Back-end Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/backend.png" class="" title="backend">
-
-<h2 id="👷-DevOps-Roadmap"><a href="#👷-DevOps-Roadmap" class="headerlink" title="👷 DevOps Roadmap"></a>👷 DevOps Roadmap</h2><img src="/2017/04/12/backup-Web-Learning-Roadmap-2017/devops.png" class="" title="devops">
-]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>fontend</tag>
-        <tag>backend</tag>
-        <tag>Roadmap</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Restful API总结</title>
-    <url>/2017/04/24/backup-Restful-API/</url>
-    <content><![CDATA[<h2 id="Restful是什么"><a href="#Restful是什么" class="headerlink" title="Restful是什么"></a>Restful是什么</h2><p>**网站即软件</p>
-<h2 id="Restful-API如何设计"><a href="#Restful-API如何设计" class="headerlink" title="Restful API如何设计"></a>Restful API如何设计</h2><p>我们先有个目标，一套优秀的Restful API应该是什么样子呢？</p>
-<ul>
-<li>尽可能的遵守有关WEB规范和常见约定</li>
-<li>调用接口简单明了，可读性强，没有歧义</li>
-<li>不同API风格保持一致，调用规则，传入参数和返回数据有统一的标准</li>
-<li>能够为客户端提供简单灵活的数据访问方式</li>
-<li>有一定的容错性和防止非法参数功能</li>
-<li>高效，安全可靠，容易扩展</li>
-</ul>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ol>
-<li><a href="http://www.macode.net/restful-service-api-design-best-practise/">RESTful Service API 设计最佳工程实践和常见问题解决方案</a> - Jeffrey Li</li>
-<li><a href="http://www.ruanyifeng.com/blog/2014/05/restful_api.html">RESTful API 设计指南</a> - 阮一峰</li>
-<li><a href="http://www.ruanyifeng.com/blog/2011/09/restful">理解RESTful架构</a> - 阮一峰</li>
-</ol>
-]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>backend</tag>
-        <tag>restful API</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO写作命令记录</title>
-    <url>/2020/08/08/hexo-writing/</url>
-    <content><![CDATA[<h1 id="HEXO写作命令记录"><a href="#HEXO写作命令记录" class="headerlink" title="HEXO写作命令记录"></a>HEXO写作命令记录</h1><h2 id="Create-New-Post"><a href="#Create-New-Post" class="headerlink" title="Create New Post"></a>Create New Post</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new &#x27;[post_name]&#x27;</span><br><span class="line">hexo n &#x27;[post_name]&#x27;</span><br></pre></td></tr></table></figure>
-
-<h2 id="Create-New-Page"><a href="#Create-New-Page" class="headerlink" title="Create New Page"></a>Create New Page</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n page &#x27;&#x27;</span><br></pre></td></tr></table></figure>
-
-<h2 id="Define-Custom-Page-x2F-Post-Template"><a href="#Define-Custom-Page-x2F-Post-Template" class="headerlink" title="Define Custom Page&#x2F;Post Template"></a>Define Custom Page&#x2F;Post Template</h2><ol>
-<li>Create a new markdown file in the root folder <strong>&#x2F;scaffolders</strong>, such as <strong>sprint.md</strong>.</li>
-<li>Use blow commands</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n sprint &#x27;[post_name]&#x27;</span><br></pre></td></tr></table></figure>
-
-<h2 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-
-<h2 id="Generate-Static-Files"><a href="#Generate-Static-Files" class="headerlink" title="Generate Static Files"></a>Generate Static Files</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-
-<h2 id="Deploy-to-remote-server-x2F-git"><a href="#Deploy-to-remote-server-x2F-git" class="headerlink" title="Deploy to remote server&#x2F;git"></a>Deploy to remote server&#x2F;git</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-
-<h2 id="Insert-a-picture"><a href="#Insert-a-picture" class="headerlink" title="Insert a picture"></a>Insert a picture</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![picture&#x27;s name](picture&#x27;s relative path)</span><br></pre></td></tr></table></figure>
-
-<h2 id="Insert-a-Read-More"><a href="#Insert-a-Read-More" class="headerlink" title="Insert a Read More"></a>Insert a Read More</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!-- more --&gt;</span><br></pre></td></tr></table></figure>
-
-<h2 id="Top-articles"><a href="#Top-articles" class="headerlink" title="Top articles"></a>Top articles</h2><p>need to install plugin</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure>
-
-<p>write <strong>top</strong> attribute in the article</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">top: true</span><br><span class="line"></span><br><span class="line">top: 10 # when number is large, the article is the toppest article</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Nginx学习总结</title>
-    <url>/2017/01/10/backup-Nginx-Learning/</url>
-    <content><![CDATA[<h1 id="Nginx是什么"><a href="#Nginx是什么" class="headerlink" title="Nginx是什么"></a>Nginx是什么</h1><h1 id="Nginx框架"><a href="#Nginx框架" class="headerlink" title="Nginx框架"></a>Nginx框架</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
-<li><a href="http://www.runoob.com/linux/nginx-install-setup.html">Nginx 安装配置</a></li>
-<li><a href="http://wiki.jikexueyuan.com/project/nginx/nginx-framework.html">极客学院Nginx教程</a></li>
-<li><a href="http://tengine.taobao.org/book/chapter_02.html">腾讯Nginx平台初探教程</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>Nginx</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WebSocket学习</title>
-    <url>/2016/11/23/backup-WebSocket-Learning/</url>
-    <content><![CDATA[<h1 id="啥是Websocket"><a href="#啥是Websocket" class="headerlink" title="啥是Websocket"></a>啥是Websocket</h1><p>我们可以先从<strong>RealTime</strong>开始唠起，关于Real Time的实现，主要还是基于Ajax的拉取和Comet的推送</p>
-<h1 id="打开连接-握手"><a href="#打开连接-握手" class="headerlink" title="打开连接-握手"></a>打开连接-握手</h1><h1 id="如何写代码？"><a href="#如何写代码？" class="headerlink" title="如何写代码？"></a>如何写代码？</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol>
-<li><a href="https://github.com/abbshr/abbshr.github.io/issues/22">学习WebSocket协议—从顶层到底层的实现原理</a></li>
-<li><a href="https://www.zhihu.com/question/20215561">知乎:WebSocket 是什么原理？为什么可以实现持久连接？</a></li>
-<li><a href="https://spring.io/guides/gs/messaging-stomp-websocket/">Spring: Using WebSocket to build an interactive web application</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>WebSocket</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2020年8月知识收集</title>
-    <url>/2020/08/10/202008knowledge/</url>
-    <content><![CDATA[<h1 id="机架效果器"><a href="#机架效果器" class="headerlink" title="机架效果器"></a>机架效果器</h1><p><a href="https://www.zhihu.com/question/263981174">https://www.zhihu.com/question/263981174</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Materials collection of Kubernetes</title>
-    <url>/2022/06/19/kubernetes-related-study-materials/</url>
-    <content><![CDATA[<h1 id="TL-amp-DL"><a href="#TL-amp-DL" class="headerlink" title="TL&amp;DL"></a>TL&amp;DL</h1><p>工作中收集一些Kubernetes相关的技术资料</p>
-<h1 id="Collection"><a href="#Collection" class="headerlink" title="Collection"></a>Collection</h1><ul>
-<li><a href="https://kubernetes.io/">https://kubernetes.io/官网</a></li>
-<li><a href="https://ebpf.io/">eBPF</a></li>
-</ul>
-<h1 id="Command"><a href="#Command" class="headerlink" title="Command"></a>Command</h1><h2 id="kubectl"><a href="#kubectl" class="headerlink" title="kubectl"></a>kubectl</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">get       #显示一个或多个资源</span><br><span class="line">describe  #显示资源详情</span><br><span class="line">create    #从文件或标准输入创建资源</span><br><span class="line">update   #从文件或标准输入更新资源</span><br><span class="line">delete   #通过文件名、标准输入、资源名或者 label 删除资源</span><br><span class="line">log       #输出 pod 中一个容器的日志</span><br><span class="line">rolling-update  #对指定的 RC 执行滚动升级</span><br><span class="line">exec  #在容器内部执行命令</span><br><span class="line">port-forward #将本地端口转发到 Pod</span><br><span class="line">proxy   #为 Kubernetes API server 启动代理服务器</span><br><span class="line">run     #在集群中使用指定镜像启动容器</span><br><span class="line">expose   #将 SVC 或 pod 暴露为新的 kubernetes service</span><br><span class="line">label     #更新资源的 label</span><br><span class="line">config   #修改 kubernetes 配置文件</span><br><span class="line">cluster-info #显示集群信息</span><br><span class="line">api-versions #以”组/版本”的格式输出服务端支持的 API 版本</span><br><span class="line">version       #输出服务端和客户端的版本信息</span><br><span class="line">help         #显示各个命令的帮助信息</span><br><span class="line">ingress-nginx  #管理 ingress 服务的插件(官方安装和使用方式)</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>kubernetes</tag>
-        <tag>k8s</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>maven pom文件多版本管理revision</title>
-    <url>/2022/06/16/maven-pom-revision/</url>
-    <content><![CDATA[<p>maven工程中，对多个子module及相应的pom版本进行管理是很头疼的事，利用<strong>flatten-maven-plugin</strong> 插件将pom版本统一管理起来，在变更的时候只需要改</p>
-<span id="more"></span>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;revision&gt;1.0.0-SNAPSHOT&lt;/revision&gt;</span><br></pre></td></tr></table></figure>
-
-<h1 id="使用姿势"><a href="#使用姿势" class="headerlink" title="使用姿势"></a>使用姿势</h1><p>使用${revision}对maven工程中多个pom里的版本号进行关联</p>
-<h2 id="父pom"><a href="#父pom" class="headerlink" title="父pom"></a>父pom</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;project&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">  &lt;parent&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;apache&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;18&lt;/version&gt;</span><br><span class="line">  &lt;/parent&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;ci-parent&lt;/artifactId&gt;</span><br><span class="line">  &lt;name&gt;First CI Friendly&lt;/name&gt;</span><br><span class="line">  &lt;version&gt;$&#123;revision&#125;&lt;/version&gt;</span><br><span class="line">  ...</span><br><span class="line">  &lt;properties&gt;</span><br><span class="line">    &lt;revision&gt;1.0.0-SNAPSHOT&lt;/revision&gt;</span><br><span class="line">  &lt;/properties&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>
-
-<p>注意revision在properties中声明</p>
-<p>在build中使用相关插件</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;build&gt;</span><br><span class="line">  &lt;plugins&gt;</span><br><span class="line">    &lt;plugin&gt;</span><br><span class="line">      &lt;groupId&gt;org.codehaus.mojo&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;flatten-maven-plugin&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;1.1.0&lt;/version&gt;</span><br><span class="line">      &lt;configuration&gt;</span><br><span class="line">          &lt;!-- 是否更新pom文件，此处还有更高级的用法 --&gt;</span><br><span class="line">        &lt;updatePomFile&gt;true&lt;/updatePomFile&gt;</span><br><span class="line">        &lt;flattenMode&gt;resolveCiFriendliesOnly&lt;/flattenMode&gt;</span><br><span class="line">      &lt;/configuration&gt;</span><br><span class="line">      &lt;executions&gt;</span><br><span class="line">        &lt;execution&gt;</span><br><span class="line">          &lt;id&gt;flatten&lt;/id&gt;</span><br><span class="line">          &lt;phase&gt;process-resources&lt;/phase&gt;</span><br><span class="line">          &lt;goals&gt;</span><br><span class="line">            &lt;goal&gt;flatten&lt;/goal&gt;</span><br><span class="line">          &lt;/goals&gt;</span><br><span class="line">        &lt;/execution&gt;</span><br><span class="line">        &lt;execution&gt;</span><br><span class="line">          &lt;id&gt;flatten.clean&lt;/id&gt;</span><br><span class="line">          &lt;phase&gt;clean&lt;/phase&gt;</span><br><span class="line">          &lt;goals&gt;</span><br><span class="line">            &lt;goal&gt;clean&lt;/goal&gt;</span><br><span class="line">          &lt;/goals&gt;</span><br><span class="line">        &lt;/execution&gt;</span><br><span class="line">      &lt;/executions&gt;</span><br><span class="line">    &lt;/plugin&gt;</span><br><span class="line">  &lt;/plugins&gt;</span><br><span class="line">  &lt;/build&gt;</span><br></pre></td></tr></table></figure>
-<h2 id="子pom"><a href="#子pom" class="headerlink" title="子pom"></a>子pom</h2><p>在parent的声明version中直接使用${revision}即可</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;project&gt;</span><br><span class="line">  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">  &lt;parent&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;ci-parent&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;$&#123;revision&#125;&lt;/version&gt;</span><br><span class="line">  &lt;/parent&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;ci-child&lt;/artifactId&gt;</span><br><span class="line">   ...</span><br><span class="line">  &lt;dependencies&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">      &lt;groupId&gt;org.apache.maven.ci&lt;/groupId&gt;</span><br><span class="line">      &lt;artifactId&gt;child2&lt;/artifactId&gt;</span><br><span class="line">      &lt;version&gt;$&#123;project.version&#125;&lt;/version&gt;</span><br><span class="line">    &lt;/dependency&gt;</span><br><span class="line">  &lt;/dependencies&gt;</span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure>
-
-<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.cnblogs.com/ElEGenT/p/12938773.html">https://www.cnblogs.com/ElEGenT/p/12938773.html</a></p>
-]]></content>
-      <tags>
-        <tag>maven</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java Reactive Programming Collection</title>
-    <url>/2022/06/19/Java-Reactive-Programming-Collection/</url>
-    <content><![CDATA[<h1 id="TL-amp-DR"><a href="#TL-amp-DR" class="headerlink" title="TL&amp;DR"></a>TL&amp;DR</h1><p>Collection of reactive components in java language.</p>
-<p>Including:</p>
-<ul>
-<li>framework</li>
-<li>ORM(database related)</li>
-<li>utilities</li>
-</ul>
-<h1 id="Collection-Detail"><a href="#Collection-Detail" class="headerlink" title="Collection Detail"></a>Collection Detail</h1><ul>
-<li>Framework<ul>
-<li><a href="https://projectreactor.io/">Project Reactor</a></li>
-<li><a href="https://github.com/reactor/reactor-netty">reactor-netty</a></li>
-</ul>
-</li>
-<li>ORM(databse related)<ul>
-<li><a href="https://r2dbc.io/">r2dbc</a><ul>
-<li><a href="https://github.com/mirromutth/r2dbc-mysql">r2dbc-mysql</a></li>
-<li><a href="https://github.com/pgjdbc/r2dbc-postgresql">r2dbc-postgresql</a></li>
-</ul>
-</li>
-<li></li>
-</ul>
-</li>
-<li>Web<ul>
-<li><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html">Spring Webflux</a></li>
-</ul>
-</li>
-<li>Message<ul>
-<li><a href="https://projectreactor.io/docs/kafka/release/reference/">reactor-kafka</a></li>
-</ul>
-</li>
-<li>Tutorials<ul>
-<li><a href="https://www.baeldung.com/spring-data-mongodb-reactive">Spring Data Reactive Repositories with MongoDB</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-        <tag>reactive</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Docker容器没有vim</title>
-    <url>/2021/07/17/Docker%E5%AE%B9%E5%99%A8%E6%B2%A1%E6%9C%89vim/</url>
-    <content><![CDATA[<p>docker进入容器后，发现没有vim功能，记录解决办法如下：</p>
-<ol>
-<li>执行</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt-get update</span><br></pre></td></tr></table></figure>
-
-<ol start="2">
-<li>安装vim</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt-get install vim</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>docker</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>mysql修改root密码，修复caching_sha2_password无法连接问题</title>
-    <url>/2021/07/17/mysql%E4%BF%AE%E6%94%B9root%E5%AF%86%E7%A0%81%EF%BC%8C%E4%BF%AE%E5%A4%8Dcaching-sha2-password%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p>通过Sequel连接mysql时发现无法连接，报错为：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MySQL said: Authentication plugin &#x27;caching_sha2_password&#x27; cannot be loaded: dlopen(/usr/local/lib/pl.....</span><br></pre></td></tr></table></figure>
-
-<p>原因是mysql8默认为<strong>caching_sha2_password</strong>加密方式，而sequel只支持<strong>mysql_native_password</strong></p>
-<h1 id="修复方式"><a href="#修复方式" class="headerlink" title="修复方式"></a>修复方式</h1><p>可以直接使用sql server来连接，在安装时选择支持全部的加密方式</p>
-<p>本文因项目需要，手动改mysql的加密方式</p>
-<ol>
-<li><p>加入mysql</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mysql -uroot -p</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>查看当前信息</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">use mysql;</span><br><span class="line">select Host, User, plugin from user;</span><br></pre></td></tr></table></figure>
-<p>可以看到</p>
-</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+-----------+------------------+-----------------------+</span><br><span class="line">| Host      | User             | plugin                |</span><br><span class="line">+-----------+------------------+-----------------------+</span><br><span class="line">| %         | root             | caching_sha2_password |</span><br><span class="line">| localhost | mysql.infoschema | caching_sha2_password |</span><br><span class="line">| localhost | mysql.session    | caching_sha2_password |</span><br><span class="line">| localhost | mysql.sys        | caching_sha2_password |</span><br><span class="line">| localhost | root             | mysql_native_password |</span><br><span class="line">+-----------+------------------+-----------------------+</span><br></pre></td></tr></table></figure>
-<p>只修改root@localhost是不够的，root@%也需要修改<br>3. 修改加密方式</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">alter user &#x27;root&#x27;@&#x27;localhost&#x27; identified with mysql_native_password by &#x27;12345678&#x27;;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">alter user &#x27;root&#x27;@&#x27;%&#x27; identified with mysql_native_password by &#x27;12345678&#x27;;</span><br></pre></td></tr></table></figure>
-
-<ol start="4">
-<li>刷新<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">flush privileges;</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>mysql</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>awesome blog</title>
-    <url>/2022/06/21/awesome-blog/</url>
-    <content><![CDATA[<h1 id="Awesome-Blog-Collection"><a href="#Awesome-Blog-Collection" class="headerlink" title="Awesome Blog Collection"></a>Awesome Blog Collection</h1><p>收集牛逼官方、技术大佬们的技术博客</p>
-<h3 id="个人技术博客"><a href="#个人技术博客" class="headerlink" title="个人技术博客"></a>个人技术博客</h3><ul>
-<li><p><a href="https://www.brendangregg.com/">Brendan Gregg: 内核性能</a></p>
-</li>
-<li><p><a href="https://www.cncf.io/blog/">CNCF官方博客</a>  </p>
-<p>Cloud Native Computing Foundation</p>
-</li>
-<li><p><a href="https://thorstenball.com/">Thorsten Ball个人博客</a></p>
-</li>
-<li><p><a href="https://www.kamilgrzybek.com/">Kamil Grzybek个人博客</a> </p>
-<p>  Modular Monolith System Architecture</p>
-</li>
-<li><p><a href="https://jimmysong.io/">JimmySong云原生博客</a></p>
-</li>
-</ul>
-<h3 id="技术公司博客"><a href="#技术公司博客" class="headerlink" title="技术公司博客"></a>技术公司博客</h3><ul>
-<li><a href="https://tech.meituan.com/">美团</a></li>
-<li><a href="https://shopify.engineering/">Shopify</a></li>
-<li><a href="https://netflixtechblog.com/">Netflix</a></li>
-<li><a href="https://tech.facebook.com/">Facebook&#x2F;Meta</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2023 Study List</title>
-    <url>/2023/01/30/2023-Study-List/</url>
-    <content><![CDATA[<h1 id="计算机基础"><a href="#计算机基础" class="headerlink" title="计算机基础"></a>计算机基础</h1><ul>
-<li><input disabled="" type="checkbox"> 计算机原理</li>
-<li><input disabled="" type="checkbox"> 数据库原理<ul>
-<li><input disabled="" type="checkbox"> mysql</li>
-<li><input disabled="" type="checkbox"> redis</li>
-</ul>
-</li>
-<li><input disabled="" type="checkbox"> Kernel</li>
-</ul>
-<h1 id="前沿技术"><a href="#前沿技术" class="headerlink" title="前沿技术"></a>前沿技术</h1><ul>
-<li><input disabled="" type="checkbox"> Kubernetes</li>
-<li><input disabled="" type="checkbox"> Istio</li>
-<li><input disabled="" type="checkbox"> Quarkus</li>
-<li><input disabled="" type="checkbox"> OpenResty</li>
-</ul>
-<h1 id="Programming"><a href="#Programming" class="headerlink" title="Programming"></a>Programming</h1><ul>
-<li><input disabled="" type="checkbox"> Go</li>
-<li><input disabled="" type="checkbox"> LUA</li>
-</ul>
-<h1 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h1><ul>
-<li><input disabled="" type="checkbox"> guitar 乐理</li>
-<li><input disabled="" type="checkbox"> guitar - Canon</li>
-</ul>
-<h1 id="Books"><a href="#Books" class="headerlink" title="Books"></a>Books</h1><ul>
-<li><input checked="" disabled="" type="checkbox"> 人类简史</li>
-<li><input disabled="" type="checkbox"> 国富论</li>
-<li><input disabled="" type="checkbox"> 遥远的救世主</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>学习计划</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用Istio和SpringBoot进行RPC调用</title>
-    <url>/2022/06/24/Use-Istio-and-SpringBoot-to-do-RPC-Remote-Procedure-Call/</url>
-    <content><![CDATA[<h1 id="TL-amp-DR"><a href="#TL-amp-DR" class="headerlink" title="TL&amp;DR"></a>TL&amp;DR</h1><p>Kubernetes相关的云原生技术非常火热，相关的service mesh和istio前沿技术也流行起来。</p>
-<p>尝试使用Istio和SpringBoot结合的方式来做内部服务间的rpc调用。</p>
-<h2 id="术语"><a href="#术语" class="headerlink" title="术语"></a>术语</h2><ul>
-<li>rpc： remote procedure call</li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术资料</category>
-      </categories>
-      <tags>
-        <tag>istio</tag>
-        <tag>springboot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MQTT</title>
-    <url>/2023/01/31/MQTT/</url>
-    <content><![CDATA[<h1 id="MQTT相关资料"><a href="#MQTT相关资料" class="headerlink" title="MQTT相关资料"></a>MQTT相关资料</h1><ul>
-<li>MQTT: <a href="http://mqtt.org/">http://mqtt.org/</a></li>
-<li>Hands-On Internet of Things with MQTT: <a href="https://learning.oreilly.com/library/view/hands-on-internet-of/9781789341782">https://learning.oreilly.com/library/view/hands-on-internet-of/9781789341782</a></li>
-<li>初识 MQTT 为什么 MQTT 是最适合物联网的网络协议 <a href="https://www.ibm.com/developerworks/cn/iot/iot-mqtt-why-good-for-iot/index.html">https://www.ibm.com/developerworks/cn/iot/iot-mqtt-why-good-for-iot/index.html</a></li>
-<li>MQTT协议中文: <a href="https://mcxiaoke.gitbooks.io/mqtt-cn/content/">https://mcxiaoke.gitbooks.io/mqtt-cn/content/</a></li>
-<li>MQTT 5: <a href="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html">https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html</a></li>
-<li>Eclipse Mosquitto: open source message broker that implements the MQTT protocol versions 3.1 and 3.1.1 <a href="https://mosquitto.org/">https://mosquitto.org/</a></li>
-<li>Eclipse Paho: open-source client implementations of MQTT and MQTT-SN messaging protocols <a href="https://www.eclipse.org/paho/">https://www.eclipse.org/paho/</a></li>
-<li>HiveMQ: MQTT based messaging platform designed for the fast, efficient and reliable movement of data to and from connected IoT devices <a href="https://www.hivemq.com/">https://www.hivemq.com/</a></li>
-<li>Reactor Netty: <a href="https://github.com/reactor/reactor-netty">https://github.com/reactor/reactor-netty</a></li>
-<li>Open-source IoT Platform: <a href="https://github.com/actorcloud/ActorCloud">https://github.com/actorcloud/ActorCloud</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术资料</category>
-        <category>读后感</category>
-      </categories>
   </entry>
 </search>
