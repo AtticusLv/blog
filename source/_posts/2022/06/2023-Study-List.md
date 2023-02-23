@@ -1,9 +1,10 @@
 ---
-title: 2023 Study List
+title: 2023学习清单
 date: 2023-01-30 14:55:11
 tags:
-- 学习计划
+- 学习
 categories:
+  - Plan
 top: 10
 ---
 # 计算机基础
@@ -17,6 +18,7 @@ top: 10
 - [ ] Istio
 - [ ] Quarkus
 - [ ] OpenResty
+- [ ] Serverless
 
 # Programming
 - [ ] Go
@@ -28,4 +30,6 @@ top: 10
 - [x] 人类简史
 - [ ] 国富论
 - [ ] 遥远的救世主
+- [ ] 西游记
+- [ ] 资本论
 
